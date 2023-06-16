@@ -3,7 +3,7 @@ import type { Context } from './context';
 import { transformer } from '$lib/trpc/transformer';
 
 const t = initTRPC.context<Context>().create({
-	transformer,
+  transformer,
 });
 
 export const router = t.router;
