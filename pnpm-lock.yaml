@@ -24,8 +24,8 @@ dependencies:
     specifier: 4.3.2
     version: 4.3.2
   dotenv:
-    specifier: 16.3.0
-    version: 16.3.0
+    specifier: 16.3.1
+    version: 16.3.1
   kysely:
     specifier: 0.25.0
     version: 0.25.0
@@ -926,8 +926,8 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /dotenv@16.3.0:
-    resolution: {integrity: sha512-tHB+hmf8MRCkT3VVivGiG8kq9HiGTmQ3FzOKgztfpJQH1IWuZTOvKSJmHNnQPowecAmkCJhLrxdPhOr06LLqIQ==}
+  /dotenv@16.3.1:
+    resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
     engines: {node: '>=12'}
 
   /electron-to-chromium@1.4.432:
@@ -1434,7 +1434,7 @@ packages:
         optional: true
     dependencies:
       chalk: 4.1.2
-      dotenv: 16.3.0
+      dotenv: 16.3.1
       kysely: 0.25.0
       micromatch: 4.0.5
       minimist: 1.2.8
