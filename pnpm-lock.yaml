@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@planetscale/database':
-    specifier: 1.7.0
-    version: 1.7.0
+    specifier: 1.8.0
+    version: 1.8.0
   '@sveltejs/kit':
     specifier: 1.21.0
     version: 1.21.0(svelte@4.0.1)(vite@4.3.9)
@@ -31,7 +31,7 @@ dependencies:
     version: 0.25.0
   kysely-planetscale:
     specifier: 1.3.0
-    version: 1.3.0(@planetscale/database@1.7.0)(kysely@0.25.0)
+    version: 1.3.0(@planetscale/database@1.8.0)(kysely@0.25.0)
   svelte:
     specifier: 4.0.1
     version: 4.0.1
@@ -417,8 +417,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@planetscale/database@1.7.0:
-    resolution: {integrity: sha512-lWR6biXChUyQnxsT4RT1CIeR3ZJvwTQXiQ+158MnY3VjLwjHEGakDzdH9kwUGPk6CHvu6UeqRXp1DgUOVHJFTw==}
+  /@planetscale/database@1.8.0:
+    resolution: {integrity: sha512-+zk04eXRiaJGaRnJZkCxXbBtBvQDQJXCoxqlXhLY3HzAovXfsBnh6DjXRujPRQQ7GKtT8/tOlyvZ9h6ReM+GLQ==}
     engines: {node: '>=16'}
     dev: false
 
@@ -1487,13 +1487,13 @@ packages:
       mysql2: 3.4.2
     dev: true
 
-  /kysely-planetscale@1.3.0(@planetscale/database@1.7.0)(kysely@0.25.0):
+  /kysely-planetscale@1.3.0(@planetscale/database@1.8.0)(kysely@0.25.0):
     resolution: {integrity: sha512-lAldOF+Yg2raVvRfyXjBqlZ63ONpNZRpfWUK9WrtEdVUIYJxOhbgzihYaRtb4lHVFNyAZyuSCvatEsK7hszcJg==}
     peerDependencies:
       '@planetscale/database': '*'
       kysely: '*'
     dependencies:
-      '@planetscale/database': 1.7.0
+      '@planetscale/database': 1.8.0
       date-fns: 2.30.0
       kysely: 0.25.0
     dev: false
