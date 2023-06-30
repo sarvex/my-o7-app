@@ -68,8 +68,8 @@ devDependencies:
     specifier: 4.2.1
     version: 4.2.1(eslint-config-prettier@8.8.0)(eslint@8.43.0)(prettier@2.8.8)
   eslint-plugin-svelte:
-    specifier: 2.32.1
-    version: 2.32.1(eslint@8.43.0)(svelte@4.0.1)
+    specifier: 2.32.2
+    version: 2.32.2(eslint@8.43.0)(svelte@4.0.1)
   kysely-codegen:
     specifier: 0.10.1
     version: 0.10.1(kysely@0.25.0)(mysql2@3.4.3)
@@ -92,8 +92,8 @@ devDependencies:
     specifier: 0.3.0
     version: 0.3.0(prettier-plugin-svelte@2.10.1)(prettier@2.8.8)
   prisma:
-    specifier: 4.16.1
-    version: 4.16.1
+    specifier: 4.16.2
+    version: 4.16.2
   svelte-check:
     specifier: 3.4.4
     version: 3.4.4(postcss-load-config@4.0.1)(postcss@8.4.24)(svelte@4.0.1)
@@ -425,8 +425,8 @@ packages:
   /@polka/url@1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
 
-  /@prisma/engines@4.16.1:
-    resolution: {integrity: sha512-gpZG0kGGxfemgvK/LghHdBIz+crHkZjzszja94xp4oytpsXrgt/Ice82MvPsWMleVIniKuARrowtsIsim0PFJQ==}
+  /@prisma/engines@4.16.2:
+    resolution: {integrity: sha512-vx1nxVvN4QeT/cepQce68deh/Turxy5Mr+4L4zClFuK1GlxN3+ivxfuv+ej/gvidWn1cE1uAhW7ALLNlYbRUAw==}
     requiresBuild: true
     dev: true
 
@@ -1037,8 +1037,8 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: true
 
-  /eslint-plugin-svelte@2.32.1(eslint@8.43.0)(svelte@4.0.1):
-    resolution: {integrity: sha512-8rrB4oLXf1R3DakipKRnM6AI5saXcroWwz4z+/biGdNMFvIDKsPLxrgdRRYDouNEOxyXt3X9qRRM22dhWvqKsw==}
+  /eslint-plugin-svelte@2.32.2(eslint@8.43.0)(svelte@4.0.1):
+    resolution: {integrity: sha512-Jgbop2fNZsoxxkklZAIbDNhwAPynvnCtUXLsEC6O2qax7N/pfe2cNqT0ZoBbubXKJitQQDEyVDQ1rZs4ZWcrTA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0
@@ -1963,13 +1963,13 @@ packages:
     hasBin: true
     dev: true
 
-  /prisma@4.16.1:
-    resolution: {integrity: sha512-C2Xm7yxHxjFjjscBEW4tmoraPHH/Vyu/A0XABdbaFtoiOZARsxvOM7rwc2iZ0qVxbh0bGBGBWZUSXO/52/nHBQ==}
+  /prisma@4.16.2:
+    resolution: {integrity: sha512-SYCsBvDf0/7XSJyf2cHTLjLeTLVXYfqp7pG5eEVafFLeT0u/hLFz/9W196nDRGUOo1JfPatAEb+uEnTQImQC1g==}
     engines: {node: '>=14.17'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@prisma/engines': 4.16.1
+      '@prisma/engines': 4.16.2
     dev: true
 
   /punycode@2.3.0:
