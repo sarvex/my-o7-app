@@ -36,16 +36,16 @@ dependencies:
     specifier: 4.1.1
     version: 4.1.1
   trpc-svelte-query:
-    specifier: 1.0.2
-    version: 1.0.2(@sveltejs/kit@1.22.3)(@tanstack/svelte-query@4.29.25)(@trpc/client@10.35.0)(@trpc/server@10.35.0)(svelte@4.1.1)
+    specifier: 1.0.3
+    version: 1.0.3(@sveltejs/kit@1.22.3)(@tanstack/svelte-query@4.29.25)(@trpc/client@10.35.0)(@trpc/server@10.35.0)(svelte@4.1.1)
   zod:
     specifier: 3.21.4
     version: 3.21.4
 
 devDependencies:
   '@cloudflare/workers-types':
-    specifier: 4.20230717.0
-    version: 4.20230717.0
+    specifier: 4.20230717.1
+    version: 4.20230717.1
   '@sveltejs/adapter-cloudflare':
     specifier: 2.3.1
     version: 2.3.1(@sveltejs/kit@1.22.3)
@@ -68,8 +68,8 @@ devDependencies:
     specifier: 5.0.0
     version: 5.0.0(eslint-config-prettier@8.8.0)(eslint@8.45.0)(prettier@3.0.0)
   eslint-plugin-svelte:
-    specifier: 2.32.3
-    version: 2.32.3(eslint@8.45.0)(svelte@4.1.1)
+    specifier: 2.32.4
+    version: 2.32.4(eslint@8.45.0)(svelte@4.1.1)
   kysely-codegen:
     specifier: 0.10.1
     version: 0.10.1(kysely@0.26.1)(mysql2@3.5.2)
@@ -136,8 +136,8 @@ packages:
       regenerator-runtime: 0.13.11
     dev: false
 
-  /@cloudflare/workers-types@4.20230717.0:
-    resolution: {integrity: sha512-OJWM1s0n9Il+GjfHvZhEcUGC+qY9IsijMtzRBDRpwSUR2jTy1WdjS9+SEh7sJlNQX2WzHQCgJMGjH2lI/Tf+tQ==}
+  /@cloudflare/workers-types@4.20230717.1:
+    resolution: {integrity: sha512-JmtYqsn/rc0gq83rlgItGsh/aJsTQh6ebJTDbq794kGOH7ym6MlpLtbCJj/Qz+hCPgdqoHDOLTlQQguARLi78A==}
     dev: true
 
   /@esbuild/android-arm64@0.18.11:
@@ -452,7 +452,7 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
-      '@cloudflare/workers-types': 4.20230717.0
+      '@cloudflare/workers-types': 4.20230717.1
       '@sveltejs/kit': 1.22.3(svelte@4.1.1)(vite@4.4.5)
       esbuild: 0.18.11
       worktop: 0.8.0-next.15
@@ -1102,8 +1102,8 @@ packages:
       synckit: 0.8.5
     dev: true
 
-  /eslint-plugin-svelte@2.32.3(eslint@8.45.0)(svelte@4.1.1):
-    resolution: {integrity: sha512-aps5wNCOxeEGyplHMvcxI9rcf0GSTWGrqC0hTjgtlNdEehUIDAcAoP4bSaXdWCF6a0pVXCcrOq/bzquM4E/Slw==}
+  /eslint-plugin-svelte@2.32.4(eslint@8.45.0)(svelte@4.1.1):
+    resolution: {integrity: sha512-VJ12i2Iogug1jvhwxSlognnfGj76P5gks/V4pUD4SCSVQOp14u47MNP0zAG8AQR3LT0Fi1iUvIFnY4l9z5Rwbg==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0
@@ -1117,7 +1117,7 @@ packages:
       debug: 4.3.4
       eslint: 8.45.0
       esutils: 2.0.3
-      known-css-properties: 0.27.0
+      known-css-properties: 0.28.0
       postcss: 8.4.26
       postcss-load-config: 3.1.4(postcss@8.4.26)
       postcss-safe-parser: 6.0.0(postcss@8.4.26)
@@ -1587,8 +1587,8 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  /known-css-properties@0.27.0:
-    resolution: {integrity: sha512-uMCj6+hZYDoffuvAJjFAPz56E9uoowFHmTkqRtRq5WyC5Q6Cu/fTZKNQpX/RbzChBYLLl3lo8CjFZBAZXq9qFg==}
+  /known-css-properties@0.28.0:
+    resolution: {integrity: sha512-9pSL5XB4J+ifHP0e0jmmC98OGC1nL8/JjS+fi6mnTlIf//yt/MfVLtKg7S6nCtj/8KTcWX7nRlY0XywoYY1ISQ==}
     dev: true
 
   /kysely-codegen@0.10.1(kysely@0.26.1)(mysql2@3.5.2):
@@ -2573,13 +2573,13 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  /trpc-svelte-query@1.0.2(@sveltejs/kit@1.22.3)(@tanstack/svelte-query@4.29.25)(@trpc/client@10.35.0)(@trpc/server@10.35.0)(svelte@4.1.1):
-    resolution: {integrity: sha512-SU2SjKEyWht+uGpj28WkNe+82pERGdQKC1MdCPTBvPHhNg5HUFQWPRzAw6N7ycVxiP8p8Hxwa5SqLb4/ESPCSA==}
+  /trpc-svelte-query@1.0.3(@sveltejs/kit@1.22.3)(@tanstack/svelte-query@4.29.25)(@trpc/client@10.35.0)(@trpc/server@10.35.0)(svelte@4.1.1):
+    resolution: {integrity: sha512-CvLg2reyFFwBQrzYgVLbmuTdLb/PYsbfpNM/+qP0iBNy8J6OlWGWpJkVFv2MNZscRF/+v43BpqFIXHhAqA3BQA==}
     peerDependencies:
-      '@sveltejs/kit': ^1.21.0
-      '@tanstack/svelte-query': ^4.29.19
-      '@trpc/client': ^10.33.0
-      '@trpc/server': ^10.33.0
+      '@sveltejs/kit': ^1.22.3
+      '@tanstack/svelte-query': ^4.29.25
+      '@trpc/client': ^10.35.0
+      '@trpc/server': ^10.35.0
       svelte: '>=3 <5'
     dependencies:
       '@sveltejs/kit': 1.22.3(svelte@4.1.1)(vite@4.4.5)
