@@ -14,9 +14,9 @@
   "dependencies": {
     "kysely-planetscale": "1.4.0",
     "kysely": "0.26.1",
-    "svelte": "4.1.1",
+    "svelte": "4.1.2",
     "@trpc/server": "10.36.0",
-    "@sveltejs/kit": "1.22.3",
+    "@sveltejs/kit": "1.22.4",
     "zod": "3.21.4",
     "@trpc/client": "10.36.0",
     "@planetscale/database": "1.10.0",
@@ -26,7 +26,7 @@
     "dotenv": "16.3.1"
   },
   "devDependencies": {
-    "@sveltejs/adapter-cloudflare": "2.3.1",
+    "@sveltejs/adapter-cloudflare": "2.3.2",
     "typescript": "5.1.6",
     "svelte-preprocess": "5.0.4",
     "prettier": "3.0.0",
