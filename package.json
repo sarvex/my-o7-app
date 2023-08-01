@@ -30,7 +30,7 @@
     "typescript": "5.1.6",
     "svelte-preprocess": "5.0.4",
     "prettier": "3.0.0",
-    "@cloudflare/workers-types": "4.20230724.0",
+    "@cloudflare/workers-types": "4.20230801.0",
     "eslint": "8.46.0",
     "svelte-check": "3.4.6",
     "postcss-load-config": "4.0.1",
