@@ -39,8 +39,8 @@ dependencies:
     specifier: 1.0.3
     version: 1.0.3(@sveltejs/kit@1.22.6)(@tanstack/svelte-query@4.32.6)(@trpc/client@10.37.1)(@trpc/server@10.37.1)(svelte@4.2.0)
   zod:
-    specifier: 3.21.4
-    version: 3.21.4
+    specifier: 3.22.0
+    version: 3.22.0
 
 devDependencies:
   '@cloudflare/workers-types':
@@ -2767,6 +2767,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod@3.21.4:
-    resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
+  /zod@3.22.0:
+    resolution: {integrity: sha512-y5KZY/ssf5n7hCGDGGtcJO/EBJEm5Pa+QQvFBeyMOtnFYOSflalxIFFvdaYevPhePcmcKC4aTbFkCcXN7D0O8Q==}
     dev: false
