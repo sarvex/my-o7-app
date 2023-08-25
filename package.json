@@ -31,7 +31,7 @@
     "svelte-preprocess": "5.0.4",
     "prettier": "3.0.2",
     "@cloudflare/workers-types": "4.20230821.0",
-    "eslint": "8.47.0",
+    "eslint": "8.48.0",
     "svelte-check": "3.5.0",
     "postcss-load-config": "4.0.1",
     "postcss": "8.4.28",
