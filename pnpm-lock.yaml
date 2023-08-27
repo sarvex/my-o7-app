@@ -27,11 +27,11 @@ dependencies:
     specifier: 16.3.1
     version: 16.3.1
   kysely:
-    specifier: 0.26.2
-    version: 0.26.2
+    specifier: 0.26.3
+    version: 0.26.3
   kysely-planetscale:
     specifier: 1.4.0
-    version: 1.4.0(@planetscale/database@1.11.0)(kysely@0.26.2)
+    version: 1.4.0(@planetscale/database@1.11.0)(kysely@0.26.3)
   svelte:
     specifier: 4.2.0
     version: 4.2.0
@@ -72,7 +72,7 @@ devDependencies:
     version: 2.33.0(eslint@8.48.0)(svelte@4.2.0)
   kysely-codegen:
     specifier: 0.10.1
-    version: 0.10.1(kysely@0.26.2)(mysql2@3.6.0)
+    version: 0.10.1(kysely@0.26.3)(mysql2@3.6.0)
   mysql2:
     specifier: 3.6.0
     version: 3.6.0
@@ -1590,7 +1590,7 @@ packages:
     resolution: {integrity: sha512-9pSL5XB4J+ifHP0e0jmmC98OGC1nL8/JjS+fi6mnTlIf//yt/MfVLtKg7S6nCtj/8KTcWX7nRlY0XywoYY1ISQ==}
     dev: true
 
-  /kysely-codegen@0.10.1(kysely@0.26.2)(mysql2@3.6.0):
+  /kysely-codegen@0.10.1(kysely@0.26.3)(mysql2@3.6.0):
     resolution: {integrity: sha512-8Bslh952gN5gtucRv4jTZDFD18RBioS6M50zHfe5kwb5iSyEAunU4ZYMdHzkHraa4zxjg5/183XlOryBCXLRIw==}
     hasBin: true
     peerDependencies:
@@ -1608,13 +1608,13 @@ packages:
     dependencies:
       chalk: 4.1.2
       dotenv: 16.3.1
-      kysely: 0.26.2
+      kysely: 0.26.3
       micromatch: 4.0.5
       minimist: 1.2.8
       mysql2: 3.6.0
     dev: true
 
-  /kysely-planetscale@1.4.0(@planetscale/database@1.11.0)(kysely@0.26.2):
+  /kysely-planetscale@1.4.0(@planetscale/database@1.11.0)(kysely@0.26.3):
     resolution: {integrity: sha512-dM2xgOM50+IiOIrSCEn/6lgXcE7J752oNpV6NcIYNgG/AfYGMtWm2ZK7PyeIPy5JG1jZvQvqwTFbGK4HGH/hJw==}
     peerDependencies:
       '@planetscale/database': '*'
@@ -1622,11 +1622,11 @@ packages:
     dependencies:
       '@planetscale/database': 1.11.0
       date-fns: 2.30.0
-      kysely: 0.26.2
+      kysely: 0.26.3
     dev: false
 
-  /kysely@0.26.2:
-    resolution: {integrity: sha512-ew6xjKm99ik154goi03L6KKH1MWGFnZF3WpA76rgWxtkzx2SlMSIiVxdfp0GW4WoU43BTyxP6/6bfoQwmg9YYQ==}
+  /kysely@0.26.3:
+    resolution: {integrity: sha512-yWSgGi9bY13b/W06DD2OCDDHQmq1kwTGYlQ4wpZkMOJqMGCstVCFIvxCCVG4KfY1/3G0MhDAcZsip/Lw8/vJWw==}
     engines: {node: '>=14.0.0'}
 
   /levn@0.4.1:
