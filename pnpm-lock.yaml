@@ -44,8 +44,8 @@ dependencies:
 
 devDependencies:
   '@cloudflare/workers-types':
-    specifier: 4.20230904.0
-    version: 4.20230904.0
+    specifier: 4.20230914.0
+    version: 4.20230914.0
   '@sveltejs/adapter-cloudflare':
     specifier: 2.3.3
     version: 2.3.3(@sveltejs/kit@1.25.0)
@@ -136,8 +136,8 @@ packages:
       regenerator-runtime: 0.13.11
     dev: false
 
-  /@cloudflare/workers-types@4.20230904.0:
-    resolution: {integrity: sha512-IX4oJCe14ctblSPZBlW64BVZ9nYLUo6sD2I5gu3hX0ywByYWm1OuoKm9Xb/Zpbj8Ph18Z7Ryii6u2/ocnncXdA==}
+  /@cloudflare/workers-types@4.20230914.0:
+    resolution: {integrity: sha512-OVeN4lFVu1O0PJGZ2d0FwpK8lelFcr33qYOgCh77ErEYmEBO4adwnIxcIsdQbFbhF0ffN6joiVcljD4zakdaeQ==}
     dev: true
 
   /@esbuild/android-arm64@0.18.11:
@@ -452,7 +452,7 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
-      '@cloudflare/workers-types': 4.20230904.0
+      '@cloudflare/workers-types': 4.20230914.0
       '@sveltejs/kit': 1.25.0(svelte@4.2.0)(vite@4.4.9)
       esbuild: 0.18.11
       worktop: 0.8.0-next.15
