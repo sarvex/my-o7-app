@@ -42,7 +42,7 @@
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-svelte": "2.34.0",
     "kysely-codegen": "0.10.1",
-    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-prettier": "5.0.1",
     "mysql2": "3.6.1",
     "@typescript-eslint/parser": "6.7.5",
     "autoprefixer": "10.4.16",
