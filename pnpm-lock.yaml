@@ -92,8 +92,8 @@ devDependencies:
     specifier: 0.5.6
     version: 0.5.6(prettier-plugin-svelte@3.0.3)(prettier@3.0.3)
   prisma:
-    specifier: 5.4.2
-    version: 5.4.2
+    specifier: 5.5.2
+    version: 5.5.2
   svelte-check:
     specifier: 3.5.2
     version: 3.5.2(postcss-load-config@4.0.1)(postcss@8.4.31)(svelte@4.2.2)
@@ -446,8 +446,8 @@ packages:
   /@polka/url@1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
 
-  /@prisma/engines@5.4.2:
-    resolution: {integrity: sha512-fqeucJ3LH0e1eyFdT0zRx+oETLancu5+n4lhiYECyEz6H2RDskPJHJYHkVc0LhkU4Uv7fuEnppKU3nVKNzMh8g==}
+  /@prisma/engines@5.5.2:
+    resolution: {integrity: sha512-Be5hoNF8k+lkB3uEMiCHbhbfF6aj1GnrTBnn5iYFT7GEr3TsOEp1soviEcBR0tYCgHbxjcIxJMhdbvxALJhAqg==}
     requiresBuild: true
     dev: true
 
@@ -2214,13 +2214,13 @@ packages:
     hasBin: true
     dev: true
 
-  /prisma@5.4.2:
-    resolution: {integrity: sha512-GDMZwZy7mysB2oXU+angQqJ90iaPFdD0rHaZNkn+dio5NRkGLmMqmXs31//tg/qXT3iB0cTQwnGGQNuirhSTZg==}
+  /prisma@5.5.2:
+    resolution: {integrity: sha512-WQtG6fevOL053yoPl6dbHV+IWgKo25IRN4/pwAGqcWmg7CrtoCzvbDbN9fXUc7QS2KK0LimHIqLsaCOX/vHl8w==}
     engines: {node: '>=16.13'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@prisma/engines': 5.4.2
+      '@prisma/engines': 5.5.2
     dev: true
 
   /punycode@2.3.0:
