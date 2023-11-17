@@ -14,15 +14,15 @@
   "dependencies": {
     "kysely-planetscale": "1.4.0",
     "kysely": "0.26.3",
-    "svelte": "4.2.3",
-    "@trpc/server": "10.43.3",
-    "@sveltejs/kit": "1.27.5",
+    "svelte": "4.2.4",
+    "@trpc/server": "10.43.4",
+    "@sveltejs/kit": "1.27.6",
     "zod": "3.22.4",
-    "@trpc/client": "10.43.3",
+    "@trpc/client": "10.43.4",
     "@planetscale/database": "1.11.0",
     "trpc-svelte-query": "2.0.5",
     "devalue": "4.3.2",
-    "@tanstack/svelte-query": "5.8.2",
+    "@tanstack/svelte-query": "5.8.4",
     "dotenv": "16.3.1"
   },
   "devDependencies": {
