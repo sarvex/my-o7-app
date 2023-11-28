@@ -12,14 +12,14 @@ dependencies:
     specifier: 1.27.6
     version: 1.27.6(svelte@4.2.7)(vite@5.0.2)
   '@tanstack/svelte-query':
-    specifier: 5.8.4
-    version: 5.8.4(svelte@4.2.7)
+    specifier: 5.8.7
+    version: 5.8.7(svelte@4.2.7)
   '@trpc/client':
-    specifier: 10.44.0
-    version: 10.44.0(@trpc/server@10.44.0)
+    specifier: 10.44.1
+    version: 10.44.1(@trpc/server@10.44.1)
   '@trpc/server':
-    specifier: 10.44.0
-    version: 10.44.0
+    specifier: 10.44.1
+    version: 10.44.1
   devalue:
     specifier: 4.3.2
     version: 4.3.2
@@ -37,7 +37,7 @@ dependencies:
     version: 4.2.7
   trpc-svelte-query:
     specifier: 2.0.5
-    version: 2.0.5(@sveltejs/kit@1.27.6)(@tanstack/svelte-query@5.8.4)(@trpc/client@10.44.0)(@trpc/server@10.44.0)(svelte@4.2.7)
+    version: 2.0.5(@sveltejs/kit@1.27.6)(@tanstack/svelte-query@5.8.7)(@trpc/client@10.44.1)(@trpc/server@10.44.1)(svelte@4.2.7)
   zod:
     specifier: 3.22.4
     version: 3.22.4
@@ -72,10 +72,10 @@ devDependencies:
     version: 2.35.1(eslint@8.54.0)(svelte@4.2.7)
   kysely-codegen:
     specifier: 0.11.0
-    version: 0.11.0(kysely@0.26.3)(mysql2@3.6.4)
+    version: 0.11.0(kysely@0.26.3)(mysql2@3.6.5)
   mysql2:
-    specifier: 3.6.4
-    version: 3.6.4
+    specifier: 3.6.5
+    version: 3.6.5
   postcss:
     specifier: 8.4.31
     version: 8.4.31
@@ -86,17 +86,17 @@ devDependencies:
     specifier: 3.1.0
     version: 3.1.0
   prettier-plugin-svelte:
-    specifier: 3.1.1
-    version: 3.1.1(prettier@3.1.0)(svelte@4.2.7)
+    specifier: 3.1.2
+    version: 3.1.2(prettier@3.1.0)(svelte@4.2.7)
   prettier-plugin-tailwindcss:
     specifier: 0.5.7
-    version: 0.5.7(prettier-plugin-svelte@3.1.1)(prettier@3.1.0)
+    version: 0.5.7(prettier-plugin-svelte@3.1.2)(prettier@3.1.0)
   prisma:
     specifier: 5.6.0
     version: 5.6.0
   svelte-check:
-    specifier: 3.6.0
-    version: 3.6.0(postcss-load-config@4.0.2)(postcss@8.4.31)(svelte@4.2.7)
+    specifier: 3.6.2
+    version: 3.6.2(postcss-load-config@4.0.2)(postcss@8.4.31)(svelte@4.2.7)
   svelte-preprocess:
     specifier: 5.1.1
     version: 5.1.1(postcss-load-config@4.0.2)(postcss@8.4.31)(svelte@4.2.7)(typescript@5.3.2)
@@ -805,29 +805,29 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@tanstack/query-core@5.8.3:
-    resolution: {integrity: sha512-SWFMFtcHfttLYif6pevnnMYnBvxKf3C+MHMH7bevyYfpXpTMsLB9O6nNGBdWSoPwnZRXFNyNeVZOw25Wmdasow==}
+  /@tanstack/query-core@5.8.7:
+    resolution: {integrity: sha512-58xOSkxxZK4SGQ/uzX8MDZHLGZCkxlgkPxnfhxUOL2uchnNHyay2UVcR3mQNMgaMwH1e2l+0n+zfS7+UJ/MAJw==}
     dev: false
 
-  /@tanstack/svelte-query@5.8.4(svelte@4.2.7):
-    resolution: {integrity: sha512-fi2F26949letA+l8i51tqrBEdjsckWgkpeRgrx5DnVdY6oq8iKUEKwo3dMoUwirFVPCGaepxWGF5Ymzt3IzTaw==}
+  /@tanstack/svelte-query@5.8.7(svelte@4.2.7):
+    resolution: {integrity: sha512-KzilehNQQO4wxxucEy1NJMo0q/NZ0nhrq5TX5MNzklsu0QZ5x+Hn5x7DVox4uKazkCuro1S7PhGEAwFQnHTuwQ==}
     peerDependencies:
       svelte: '>=3 <5'
     dependencies:
-      '@tanstack/query-core': 5.8.3
+      '@tanstack/query-core': 5.8.7
       svelte: 4.2.7
     dev: false
 
-  /@trpc/client@10.44.0(@trpc/server@10.44.0):
-    resolution: {integrity: sha512-6PAL5rXMGTMlsKKGW9aBsij8XFBbLUbOCJ7jNVX3IripGqiQG3b/VJyTsHRWkss/oaz/sZMOn62amhfev1UVfg==}
+  /@trpc/client@10.44.1(@trpc/server@10.44.1):
+    resolution: {integrity: sha512-vTWsykNcgz1LnwePVl2fKZnhvzP9N3GaaLYPkfGINo314ZOS0OBqe9x0ytB2LLUnRVTAAZ2WoONzARd8nHiqrA==}
     peerDependencies:
-      '@trpc/server': 10.44.0
+      '@trpc/server': 10.44.1
     dependencies:
-      '@trpc/server': 10.44.0
+      '@trpc/server': 10.44.1
     dev: false
 
-  /@trpc/server@10.44.0:
-    resolution: {integrity: sha512-QBq/FnjyU6a7CAl9p2dv6kApn2i8MFuPt8uVLyGr0oa2aFv31rHaX0m+ibdsviE/3fOJIC8EUOfMYOJma5uK2w==}
+  /@trpc/server@10.44.1:
+    resolution: {integrity: sha512-mF7B+K6LjuboX8I1RZgKE5GA/fJhsJ8tKGK2UBt3Bwik7hepEPb4NJgNr7vO6BK5IYwPdBLRLTctRw6XZx0sRg==}
     engines: {node: '>=18.0.0'}
     dev: false
 
@@ -1980,7 +1980,7 @@ packages:
     resolution: {integrity: sha512-Ne7wqW7/9Cz54PDt4I3tcV+hAyat8ypyOGzYRJQfdxnnjeWsTxt1cy8pjvvKeI5kfXuyvULyeeAvwvvtAX3ayQ==}
     dev: true
 
-  /kysely-codegen@0.11.0(kysely@0.26.3)(mysql2@3.6.4):
+  /kysely-codegen@0.11.0(kysely@0.26.3)(mysql2@3.6.5):
     resolution: {integrity: sha512-8aklzXygjANshk5BoGSQ0BWukKIoPL4/k1iFWyteGUQ/VtB1GlyrELBZv1GglydjLGECSSVDpsOgEXyWQmuksg==}
     hasBin: true
     peerDependencies:
@@ -2005,7 +2005,7 @@ packages:
       kysely: 0.26.3
       micromatch: 4.0.5
       minimist: 1.2.8
-      mysql2: 3.6.4
+      mysql2: 3.6.5
     dev: true
 
   /kysely-planetscale@1.4.0(@planetscale/database@1.11.0)(kysely@0.26.3):
@@ -2161,8 +2161,8 @@ packages:
   /ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
 
-  /mysql2@3.6.4:
-    resolution: {integrity: sha512-x27dKYnowULCLFIdrtYKKNtUIIdfWSx5JR+UE94rJT09XPPnh4w4lJLHo97HAxdZ+3zlklRZOQN68WyLOeXu7w==}
+  /mysql2@3.6.5:
+    resolution: {integrity: sha512-pS/KqIb0xlXmtmqEuTvBXTmLoQ5LmAz5NW/r8UyQ1ldvnprNEj3P9GbmuQQ2J0A4LO+ynotGi6TbscPa8OUb+w==}
     engines: {node: '>= 8.0'}
     dependencies:
       denque: 2.1.0
@@ -2470,8 +2470,8 @@ packages:
       fast-diff: 1.3.0
     dev: true
 
-  /prettier-plugin-svelte@3.1.1(prettier@3.1.0)(svelte@4.2.7):
-    resolution: {integrity: sha512-jLzaHfToav527/I5h2BMQfN3G5gylrJm54zFFyoXvUtfscI47877ftacUb+Eyse/3bXrhY+MtkyiuvruiHc+kg==}
+  /prettier-plugin-svelte@3.1.2(prettier@3.1.0)(svelte@4.2.7):
+    resolution: {integrity: sha512-7xfMZtwgAWHMT0iZc8jN4o65zgbAQ3+O32V6W7pXrqNvKnHnkoyQCGCbKeUyXKZLbYE0YhFRnamfxfkEGxm8qA==}
     peerDependencies:
       prettier: ^3.0.0
       svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
@@ -2480,7 +2480,7 @@ packages:
       svelte: 4.2.7
     dev: true
 
-  /prettier-plugin-tailwindcss@0.5.7(prettier-plugin-svelte@3.1.1)(prettier@3.1.0):
+  /prettier-plugin-tailwindcss@0.5.7(prettier-plugin-svelte@3.1.2)(prettier@3.1.0):
     resolution: {integrity: sha512-4v6uESAgwCni6YF6DwJlRaDjg9Z+al5zM4JfngcazMy4WEf/XkPS5TEQjbD+DZ5iNuG6RrKQLa/HuX2SYzC3kQ==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
@@ -2533,7 +2533,7 @@ packages:
         optional: true
     dependencies:
       prettier: 3.1.0
-      prettier-plugin-svelte: 3.1.1(prettier@3.1.0)(svelte@4.2.7)
+      prettier-plugin-svelte: 3.1.2(prettier@3.1.0)(svelte@4.2.7)
     dev: true
 
   /prettier@3.1.0:
@@ -2813,8 +2813,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /svelte-check@3.6.0(postcss-load-config@4.0.2)(postcss@8.4.31)(svelte@4.2.7):
-    resolution: {integrity: sha512-8VfqhfuRJ1sKW+o8isH2kPi0RhjXH1nNsIbCFGyoUHG+ZxVxHYRKcb+S8eaL/1tyj3VGvWYx3Y5+oCUsJgnzcw==}
+  /svelte-check@3.6.2(postcss-load-config@4.0.2)(postcss@8.4.31)(svelte@4.2.7):
+    resolution: {integrity: sha512-E6iFh4aUCGJLRz6QZXH3gcN/VFfkzwtruWSRmlKrLWQTiO6VzLsivR6q02WYLGNAGecV3EocqZuCDrC2uttZ0g==}
     hasBin: true
     peerDependencies:
       svelte: ^3.55.0 || ^4.0.0-next.0 || ^4.0.0 || ^5.0.0-next.0
@@ -3010,7 +3010,7 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  /trpc-svelte-query@2.0.5(@sveltejs/kit@1.27.6)(@tanstack/svelte-query@5.8.4)(@trpc/client@10.44.0)(@trpc/server@10.44.0)(svelte@4.2.7):
+  /trpc-svelte-query@2.0.5(@sveltejs/kit@1.27.6)(@tanstack/svelte-query@5.8.7)(@trpc/client@10.44.1)(@trpc/server@10.44.1)(svelte@4.2.7):
     resolution: {integrity: sha512-Cli9UaKjeIZMEqUY4xarEiALr0CQD9RzMwuTxyzlkEcU2bkLgphT0CT3ngjRUIlgk3mpouKt6PhYP9A29URALw==}
     peerDependencies:
       '@sveltejs/kit': ^1.27.5
@@ -3020,9 +3020,9 @@ packages:
       svelte: '>=3 <5'
     dependencies:
       '@sveltejs/kit': 1.27.6(svelte@4.2.7)(vite@5.0.2)
-      '@tanstack/svelte-query': 5.8.4(svelte@4.2.7)
-      '@trpc/client': 10.44.0(@trpc/server@10.44.0)
-      '@trpc/server': 10.44.0
+      '@tanstack/svelte-query': 5.8.7(svelte@4.2.7)
+      '@trpc/client': 10.44.1(@trpc/server@10.44.1)
+      '@trpc/server': 10.44.1
       esm-env: 1.0.0
       svelte: 4.2.7
     dev: false
