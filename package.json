@@ -22,7 +22,7 @@
     "@planetscale/database": "1.13.0",
     "trpc-svelte-query": "2.0.5",
     "devalue": "4.3.2",
-    "@tanstack/svelte-query": "5.15.0",
+    "@tanstack/svelte-query": "5.15.5",
     "dotenv": "16.3.1"
   },
   "devDependencies": {
@@ -46,7 +46,7 @@
     "mysql2": "3.6.5",
     "@typescript-eslint/parser": "6.16.0",
     "autoprefixer": "10.4.16",
-    "prettier-plugin-tailwindcss": "0.5.9",
+    "prettier-plugin-tailwindcss": "0.5.10",
     "@typescript-eslint/eslint-plugin": "6.16.0"
   }
 }
