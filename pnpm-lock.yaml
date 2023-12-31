@@ -12,8 +12,8 @@ dependencies:
     specifier: 2.0.6
     version: 2.0.6(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.10)
   '@tanstack/svelte-query':
-    specifier: 5.15.0
-    version: 5.15.0(svelte@4.2.8)
+    specifier: 5.15.5
+    version: 5.15.5(svelte@4.2.8)
   '@trpc/client':
     specifier: 10.45.0
     version: 10.45.0(@trpc/server@10.45.0)
@@ -37,7 +37,7 @@ dependencies:
     version: 4.2.8
   trpc-svelte-query:
     specifier: 2.0.5
-    version: 2.0.5(@sveltejs/kit@2.0.6)(@tanstack/svelte-query@5.15.0)(@trpc/client@10.45.0)(@trpc/server@10.45.0)(svelte@4.2.8)
+    version: 2.0.5(@sveltejs/kit@2.0.6)(@tanstack/svelte-query@5.15.5)(@trpc/client@10.45.0)(@trpc/server@10.45.0)(svelte@4.2.8)
   zod:
     specifier: 3.22.4
     version: 3.22.4
@@ -89,8 +89,8 @@ devDependencies:
     specifier: 3.1.2
     version: 3.1.2(prettier@3.1.1)(svelte@4.2.8)
   prettier-plugin-tailwindcss:
-    specifier: 0.5.9
-    version: 0.5.9(prettier-plugin-svelte@3.1.2)(prettier@3.1.1)
+    specifier: 0.5.10
+    version: 0.5.10(prettier-plugin-svelte@3.1.2)(prettier@3.1.1)
   prisma:
     specifier: 5.7.1
     version: 5.7.1
@@ -636,16 +636,16 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@tanstack/query-core@5.14.2:
-    resolution: {integrity: sha512-QmoJvC72sSWs3hgGis8JdmlDvqLfYGWUK4UG6OR9Q6t28JMN9m2FDwKPqoSJ9YVocELCSjMt/FGjEiLfk8000Q==}
+  /@tanstack/query-core@5.15.5:
+    resolution: {integrity: sha512-GDwVfu8RPswqVu27+zuIkZINru6CN++zzBbBK+OnAgzxK8N4Obdi+sG2P0EO8rJAOw0fLyQTsO4GCZ1djwaUCg==}
     dev: false
 
-  /@tanstack/svelte-query@5.15.0(svelte@4.2.8):
-    resolution: {integrity: sha512-HlDg8uN9heF8ZJH6oJtZlBQjV++jdvyS3Rd4B+bp86RVxgrAjrr4LmKNqBhfOjNWHGmLTNEmzpdvg8QtzGZKhg==}
+  /@tanstack/svelte-query@5.15.5(svelte@4.2.8):
+    resolution: {integrity: sha512-rpJE0g8HNs20vpGuBwP5H1sy8MhxynxLpGdsUOS59MhxT+4uI0wTkzth3rLgBItpS8s9cWOfeFpKkVuqtErncw==}
     peerDependencies:
       svelte: ^3.54.0 || ^4.0.0 || ^5.0.0-next.0
     dependencies:
-      '@tanstack/query-core': 5.14.2
+      '@tanstack/query-core': 5.15.5
       svelte: 4.2.8
     dev: false
 
@@ -2310,8 +2310,8 @@ packages:
       svelte: 4.2.8
     dev: true
 
-  /prettier-plugin-tailwindcss@0.5.9(prettier-plugin-svelte@3.1.2)(prettier@3.1.1):
-    resolution: {integrity: sha512-9x3t1s2Cjbut2QiP+O0mDqV3gLXTe2CgRlQDgucopVkUdw26sQi53p/q4qvGxMLBDfk/dcTV57Aa/zYwz9l8Ew==}
+  /prettier-plugin-tailwindcss@0.5.10(prettier-plugin-svelte@3.1.2)(prettier@3.1.1):
+    resolution: {integrity: sha512-9UGSejqFxGG6brYjFfTYlJ8zs4L/lvZg1AngFfaC5Fs1otSskASv5IWKmjPu5MlABQUtTKtMArKyYr/hWpXSUg==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -2837,7 +2837,7 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  /trpc-svelte-query@2.0.5(@sveltejs/kit@2.0.6)(@tanstack/svelte-query@5.15.0)(@trpc/client@10.45.0)(@trpc/server@10.45.0)(svelte@4.2.8):
+  /trpc-svelte-query@2.0.5(@sveltejs/kit@2.0.6)(@tanstack/svelte-query@5.15.5)(@trpc/client@10.45.0)(@trpc/server@10.45.0)(svelte@4.2.8):
     resolution: {integrity: sha512-Cli9UaKjeIZMEqUY4xarEiALr0CQD9RzMwuTxyzlkEcU2bkLgphT0CT3ngjRUIlgk3mpouKt6PhYP9A29URALw==}
     peerDependencies:
       '@sveltejs/kit': ^1.27.5
@@ -2847,7 +2847,7 @@ packages:
       svelte: '>=3 <5'
     dependencies:
       '@sveltejs/kit': 2.0.6(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.10)
-      '@tanstack/svelte-query': 5.15.0(svelte@4.2.8)
+      '@tanstack/svelte-query': 5.15.5(svelte@4.2.8)
       '@trpc/client': 10.45.0(@trpc/server@10.45.0)
       '@trpc/server': 10.45.0
       esm-env: 1.0.0
