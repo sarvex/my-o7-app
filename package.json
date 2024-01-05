@@ -22,7 +22,7 @@
     "@planetscale/database": "1.13.0",
     "trpc-svelte-query": "2.0.5",
     "devalue": "4.3.2",
-    "@tanstack/svelte-query": "5.17.1",
+    "@tanstack/svelte-query": "5.17.4",
     "dotenv": "16.3.1"
   },
   "devDependencies": {
@@ -35,7 +35,7 @@
     "svelte-check": "3.6.2",
     "postcss-load-config": "5.0.2",
     "postcss": "8.4.33",
-    "tailwindcss": "3.4.0",
+    "tailwindcss": "3.4.1",
     "prisma": "5.7.1",
     "vite": "5.0.11",
     "prettier-plugin-svelte": "3.1.2",
@@ -46,7 +46,7 @@
     "mysql2": "3.6.5",
     "@typescript-eslint/parser": "6.16.0",
     "autoprefixer": "10.4.16",
-    "prettier-plugin-tailwindcss": "0.5.10",
+    "prettier-plugin-tailwindcss": "0.5.11",
     "@typescript-eslint/eslint-plugin": "6.16.0"
   }
 }
