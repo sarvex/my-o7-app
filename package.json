@@ -22,7 +22,7 @@
     "@planetscale/database": "1.13.0",
     "trpc-svelte-query": "2.0.5",
     "devalue": "4.3.2",
-    "@tanstack/svelte-query": "5.17.9",
+    "@tanstack/svelte-query": "5.17.10",
     "dotenv": "16.3.1"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "prettier": "3.1.1",
     "@cloudflare/workers-types": "4.20231218.0",
     "eslint": "8.56.0",
-    "svelte-check": "3.6.2",
+    "svelte-check": "3.6.3",
     "postcss-load-config": "5.0.2",
     "postcss": "8.4.33",
     "tailwindcss": "3.4.1",
