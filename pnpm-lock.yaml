@@ -71,8 +71,8 @@ devDependencies:
     specifier: 2.38.0
     version: 2.38.0(eslint@8.57.0)(svelte@4.2.15)
   kysely-codegen:
-    specifier: 0.12.0
-    version: 0.12.0(kysely-bun-worker@0.5.4)(kysely@0.27.3)(mysql2@3.9.7)
+    specifier: 0.15.0
+    version: 0.15.0(kysely@0.27.3)(mysql2@3.9.7)
   mysql2:
     specifier: 3.9.7
     version: 3.9.7
@@ -1060,10 +1060,6 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@subframe7536/type-utils@0.1.4:
-    resolution: {integrity: sha512-mbO9WxhDzqQ2hxJalWEvcSxUi6M1HCDEcvzcZJqIdzb4rrSxuCGlpqh94r5jT683I1ux06XtUHk5nEQEGnqGvQ==}
-    dev: true
-
   /@sveltejs/adapter-cloudflare@4.4.0(@sveltejs/kit@2.4.3)(wrangler@3.53.1):
     resolution: {integrity: sha512-sh2kSapbQq3QJFOYcva4MtdzZStoAq2Lr93heGFCR924/OywnW2/Ru7/sxByXW806kvLgStZO+hKZh3Va8WVjw==}
     peerDependencies:
@@ -1718,6 +1714,13 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       esutils: 2.0.3
+    dev: true
+
+  /dotenv-expand@11.0.6:
+    resolution: {integrity: sha512-8NHi73otpWsZGBSZwwknTXS5pqMOrk9+Ssrna8xCaxkzEpU9OTf9R5ArQGVw03//Zmk9MOwLPng9WwndvpAJ5g==}
+    engines: {node: '>=12'}
+    dependencies:
+      dotenv: 16.4.5
     dev: true
 
   /dotenv@16.4.5:
@@ -2436,40 +2439,42 @@ packages:
     resolution: {integrity: sha512-VSWXYUnsPu9+WYKkfmJyLKtIvaRJi1kXUqVmBACORXZQxT5oZDsoZ2vQP+bQFDnWtpI/4eq3MLoRMjI2fnLzTQ==}
     dev: true
 
-  /kysely-bun-worker@0.5.4(kysely@0.27.3):
-    resolution: {integrity: sha512-SnbfYFgyZloUCrEoM26XXSNHVAhBT1BOVqMlCy55cZ/tgVQNBdUk4qYd9bOQUu4DbOFRN8wVAN7zrcS6e2YbfA==}
-    peerDependencies:
-      kysely: ^0.26
-    dependencies:
-      kysely: 0.27.3
-      zen-mitt: 0.3.0
-    dev: true
-
-  /kysely-codegen@0.12.0(kysely-bun-worker@0.5.4)(kysely@0.27.3)(mysql2@3.9.7):
-    resolution: {integrity: sha512-jTlN99kIp+igPZOck1P+WB0ATjO9ET0cymou0pBE0kpQfwhYsUj8YeCWCa5OfDna2VlMMfVolDYbzQhqBk5tiA==}
+  /kysely-codegen@0.15.0(kysely@0.27.3)(mysql2@3.9.7):
+    resolution: {integrity: sha512-LPta2nQOyoEPDQ3w/Gsplc+2iyZPAsGvtWoS21VzOB0NDQ0B38Xy1gS8WlbGef542Zdw2eLJHxekud9DzVdNRw==}
     hasBin: true
     peerDependencies:
       '@libsql/kysely-libsql': ^0.3.0
+      '@tediousjs/connection-string': ^0.5.0
       better-sqlite3: '>=7.6.2'
-      kysely: '>=0.19.12'
+      kysely: ^0.27.0
       kysely-bun-worker: ^0.5.3
       mysql2: ^2.3.3 || ^3.0.0
       pg: ^8.8.0
+      tarn: ^3.0.0
+      tedious: ^16.6.0 || ^17.0.0
     peerDependenciesMeta:
       '@libsql/kysely-libsql':
         optional: true
+      '@tediousjs/connection-string':
+        optional: true
       better-sqlite3:
+        optional: true
+      kysely-bun-worker:
         optional: true
       mysql2:
         optional: true
       pg:
         optional: true
+      tarn:
+        optional: true
+      tedious:
+        optional: true
     dependencies:
       chalk: 4.1.2
       dotenv: 16.4.5
+      dotenv-expand: 11.0.6
       git-diff: 2.0.6
       kysely: 0.27.3
-      kysely-bun-worker: 0.5.4(kysely@0.27.3)
       micromatch: 4.0.5
       minimist: 1.2.8
       mysql2: 3.9.7
@@ -3122,7 +3127,7 @@ packages:
     resolution: {integrity: sha512-HFM8rkZ+i3zrV+4LQjwQ0W+ez98pApMGM3HUrN04j3CqzPOzl9nmP15Y8YXNm8QHGv/eacOVEjqhmWpkRV0NAw==}
     engines: {node: '>= 0.10'}
     dependencies:
-      resolve: 1.22.2
+      resolve: 1.22.8
     dev: true
 
   /regenerator-runtime@0.13.11:
@@ -3874,12 +3879,6 @@ packages:
       cookie: 0.5.0
       mustache: 4.2.0
       stacktracey: 2.1.8
-    dev: true
-
-  /zen-mitt@0.3.0:
-    resolution: {integrity: sha512-r+lWHLKUvsa3q3Cr89s8g0G2Yx9wgN2YbRXFRbA8/nVsbozCxtR6R8KAPqDsyRWXJldYUq49WbBEHXeuda/f9g==}
-    dependencies:
-      '@subframe7536/type-utils': 0.1.4
     dev: true
 
   /zod@3.22.4:
