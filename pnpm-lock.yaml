@@ -72,10 +72,10 @@ devDependencies:
     version: 2.39.0(eslint@9.3.0)(svelte@4.2.17)
   kysely-codegen:
     specifier: 0.15.0
-    version: 0.15.0(kysely@0.27.3)(mysql2@3.9.8)
+    version: 0.15.0(kysely@0.27.3)(mysql2@3.10.0)
   mysql2:
-    specifier: 3.9.8
-    version: 3.9.8
+    specifier: 3.10.0
+    version: 3.10.0
   postcss:
     specifier: 8.4.38
     version: 8.4.38
@@ -2263,7 +2263,7 @@ packages:
     resolution: {integrity: sha512-sBPIUGTNF0czz0mwGGUoKKJC8Q7On1GPbCSFPfyEsfHb2DyBG0Y4QtV+EVWpINSaiGKZblDNuF5AezxSgOhesQ==}
     dev: true
 
-  /kysely-codegen@0.15.0(kysely@0.27.3)(mysql2@3.9.8):
+  /kysely-codegen@0.15.0(kysely@0.27.3)(mysql2@3.10.0):
     resolution: {integrity: sha512-LPta2nQOyoEPDQ3w/Gsplc+2iyZPAsGvtWoS21VzOB0NDQ0B38Xy1gS8WlbGef542Zdw2eLJHxekud9DzVdNRw==}
     hasBin: true
     peerDependencies:
@@ -2301,7 +2301,7 @@ packages:
       kysely: 0.27.3
       micromatch: 4.0.5
       minimist: 1.2.8
-      mysql2: 3.9.8
+      mysql2: 3.10.0
     dev: true
 
   /kysely-planetscale@1.4.0(@planetscale/database@1.18.0)(kysely@0.27.3):
@@ -2502,8 +2502,8 @@ packages:
     hasBin: true
     dev: true
 
-  /mysql2@3.9.8:
-    resolution: {integrity: sha512-+5JKNjPuks1FNMoy9TYpl77f+5frbTklz7eb3XDwbpsERRLEeXiW2PDEkakYF50UuKU2qwfGnyXpKYvukv8mGA==}
+  /mysql2@3.10.0:
+    resolution: {integrity: sha512-qx0mfWYt1DpTPkw8mAcHW/OwqqyNqBLBHvY5IjN8+icIYTjt6znrgYJ+gxqNNRpVknb5Wc/gcCM4XjbCR0j5tw==}
     engines: {node: '>= 8.0'}
     dependencies:
       denque: 2.1.0
