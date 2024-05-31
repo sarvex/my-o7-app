@@ -44,8 +44,8 @@ dependencies:
 
 devDependencies:
   '@cloudflare/workers-types':
-    specifier: 4.20240524.0
-    version: 4.20240524.0
+    specifier: 4.20240529.0
+    version: 4.20240529.0
   '@sveltejs/adapter-cloudflare':
     specifier: 4.4.0
     version: 4.4.0(@sveltejs/kit@2.5.10)(wrangler@3.53.1)
@@ -188,8 +188,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20240524.0:
-    resolution: {integrity: sha512-GpSr4uE7y39DU9f0+wmrL76xd03wn0jy1ClITaa3ZZltKjirAV8TW1GzHrvvKyVGx6u3lekrFnB1HzVHsCYHDQ==}
+  /@cloudflare/workers-types@4.20240529.0:
+    resolution: {integrity: sha512-W5obfjAwCNdYk3feUHtDfUxtTU6WIq83k6gmrLLJv+HkgCkOTwwrDNs+3w1Qln0tMj+FQx/fbwxw3ZuHIoyzGg==}
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -897,11 +897,11 @@ packages:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^3.28.4
     dependencies:
-      '@cloudflare/workers-types': 4.20240524.0
+      '@cloudflare/workers-types': 4.20240529.0
       '@sveltejs/kit': 2.5.10(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.17)(vite@5.2.12)
       esbuild: 0.20.2
       worktop: 0.8.0-next.18
-      wrangler: 3.53.1(@cloudflare/workers-types@4.20240524.0)
+      wrangler: 3.53.1(@cloudflare/workers-types@4.20240529.0)
     dev: true
 
   /@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.17)(vite@5.2.12):
@@ -3614,7 +3614,7 @@ packages:
       regexparam: 3.0.0
     dev: true
 
-  /wrangler@3.53.1(@cloudflare/workers-types@4.20240524.0):
+  /wrangler@3.53.1(@cloudflare/workers-types@4.20240529.0):
     resolution: {integrity: sha512-bdMRQdHYdvowIwOhEMFkARIZUh56aDw7HLUZ/2JreBjj760osXE4Fc4L1TCkfRRBWgB6/LKF5LA4OcvORMYmHg==}
     engines: {node: '>=16.17.0'}
     hasBin: true
@@ -3625,7 +3625,7 @@ packages:
         optional: true
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.2
-      '@cloudflare/workers-types': 4.20240524.0
+      '@cloudflare/workers-types': 4.20240529.0
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
       '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
       blake3-wasm: 2.1.5
