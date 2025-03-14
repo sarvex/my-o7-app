@@ -44,8 +44,8 @@ dependencies:
 
 devDependencies:
   '@cloudflare/workers-types':
-    specifier: 4.20240725.0
-    version: 4.20240725.0
+    specifier: 4.20250313.0
+    version: 4.20250313.0
   '@sveltejs/adapter-cloudflare':
     specifier: 4.9.0
     version: 4.9.0(@sveltejs/kit@2.5.18)(wrangler@3.53.1)
@@ -188,8 +188,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20240725.0:
-    resolution: {integrity: sha512-L6T/Bg50zm9IIACQVQ0CdVcQL+2nLkRXdPz6BsXF3SlzgjyWR5ndVctAbfr/HLV7aKYxWnnEZsIORsTWb+FssA==}
+  /@cloudflare/workers-types@4.20250313.0:
+    resolution: {integrity: sha512-iqyzZwogC+3yL8h58vMhjYQUHUZA8XazE3Q+ofR59wDOnsPe/u9W6+aCl408N0iNBhMPvpJQQ3/lkz0iJN2fhA==}
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -1172,11 +1172,11 @@ packages:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^3.28.4
     dependencies:
-      '@cloudflare/workers-types': 4.20240725.0
+      '@cloudflare/workers-types': 4.20250313.0
       '@sveltejs/kit': 2.5.18(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.18)(vite@5.4.12)
       esbuild: 0.24.2
       worktop: 0.8.0-next.18
-      wrangler: 3.53.1(@cloudflare/workers-types@4.20240725.0)
+      wrangler: 3.53.1(@cloudflare/workers-types@4.20250313.0)
     dev: true
 
   /@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.18)(vite@5.4.12):
@@ -4052,7 +4052,7 @@ packages:
       regexparam: 3.0.0
     dev: true
 
-  /wrangler@3.53.1(@cloudflare/workers-types@4.20240725.0):
+  /wrangler@3.53.1(@cloudflare/workers-types@4.20250313.0):
     resolution: {integrity: sha512-bdMRQdHYdvowIwOhEMFkARIZUh56aDw7HLUZ/2JreBjj760osXE4Fc4L1TCkfRRBWgB6/LKF5LA4OcvORMYmHg==}
     engines: {node: '>=16.17.0'}
     hasBin: true
@@ -4063,11 +4063,11 @@ packages:
         optional: true
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.2
-      '@cloudflare/workers-types': 4.20240725.0
+      '@cloudflare/workers-types': 4.20250313.0
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
       '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
       blake3-wasm: 2.1.5
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       esbuild: 0.17.19
       miniflare: 3.20240419.0
       nanoid: 3.3.9
