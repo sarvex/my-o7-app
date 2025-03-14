@@ -72,10 +72,10 @@ devDependencies:
     version: 3.1.0(eslint@9.4.0)(svelte@4.2.18)
   kysely-codegen:
     specifier: 0.15.0
-    version: 0.15.0(kysely@0.27.4)(mysql2@3.10.3)
+    version: 0.15.0(kysely@0.27.4)(mysql2@3.13.0)
   mysql2:
-    specifier: 3.10.3
-    version: 3.10.3
+    specifier: 3.13.0
+    version: 3.13.0
   postcss:
     specifier: 8.4.40
     version: 8.4.40
@@ -2211,7 +2211,7 @@ packages:
     resolution: {integrity: sha512-a/RAk2BfKk+WFGhhOCAYqSiFLc34k8Mt/6NWRI4joER0EYUzXIcFivjjnoD3+XU1DggLn/tZc3DOAgke7l8a4A==}
     dev: true
 
-  /kysely-codegen@0.15.0(kysely@0.27.4)(mysql2@3.10.3):
+  /kysely-codegen@0.15.0(kysely@0.27.4)(mysql2@3.13.0):
     resolution: {integrity: sha512-LPta2nQOyoEPDQ3w/Gsplc+2iyZPAsGvtWoS21VzOB0NDQ0B38Xy1gS8WlbGef542Zdw2eLJHxekud9DzVdNRw==}
     hasBin: true
     peerDependencies:
@@ -2249,7 +2249,7 @@ packages:
       kysely: 0.27.4
       micromatch: 4.0.5
       minimist: 1.2.8
-      mysql2: 3.10.3
+      mysql2: 3.13.0
     dev: true
 
   /kysely-planetscale@1.4.0(@planetscale/database@1.18.0)(kysely@0.27.4):
@@ -2317,9 +2317,9 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /lru-cache@8.0.5:
-    resolution: {integrity: sha512-MhWWlVnuab1RG5/zMRRcVGXZLCXrZTgfwMikgzCegsPnG62yDQo5JnqKkrK4jO5iKqDAZGItAqN5CtKBCBWRUA==}
-    engines: {node: '>=16.14'}
+  /lru.min@1.1.2:
+    resolution: {integrity: sha512-Nv9KddBcQSlQopmBHXSsZVY5xsdlZkdH/Iey0BlcBYggMd4two7cZnKOK9vmy3nY0O5RGH99z1PCeTpPqszUYg==}
+    engines: {bun: '>=1.0.0', deno: '>=1.30.0', node: '>=8.0.0'}
     dev: true
 
   /magic-string@0.25.9:
@@ -2446,8 +2446,8 @@ packages:
     hasBin: true
     dev: true
 
-  /mysql2@3.10.3:
-    resolution: {integrity: sha512-k43gmH9i79rZD4hGPdj7pDuT0UBiFjs4UzXEy1cJrV0QqcSABomoLwvejqdbcXN+Vd7gi999CVM6o9vCPKq29g==}
+  /mysql2@3.13.0:
+    resolution: {integrity: sha512-M6DIQjTqKeqXH5HLbLMxwcK5XfXHw30u5ap6EZmu7QVmcF/gnh2wS/EOiQ4MTbXz/vQeoXrmycPlVRM00WSslg==}
     engines: {node: '>= 8.0'}
     dependencies:
       aws-ssl-profiles: 1.1.1
@@ -2455,7 +2455,7 @@ packages:
       generate-function: 2.3.1
       iconv-lite: 0.6.3
       long: 5.2.3
-      lru-cache: 8.0.5
+      lru.min: 1.1.2
       named-placeholders: 1.1.3
       seq-queue: 0.0.5
       sqlstring: 2.3.3
