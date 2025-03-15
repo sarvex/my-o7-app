@@ -30,8 +30,8 @@ dependencies:
     specifier: 0.27.6
     version: 0.27.6
   kysely-planetscale:
-    specifier: 1.4.0
-    version: 1.4.0(@planetscale/database@1.19.0)(kysely@0.27.6)
+    specifier: 1.6.0
+    version: 1.6.0(@planetscale/database@1.19.0)(kysely@0.27.6)
   svelte:
     specifier: 4.2.19
     version: 4.2.19
@@ -142,13 +142,6 @@ packages:
     resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==}
     engines: {node: '>=6.9.0'}
     dev: true
-
-  /@babel/runtime@7.22.5:
-    resolution: {integrity: sha512-ecjvYlnAaZ/KVneE/OdKYBYfgXV3Ptu6zQWmgEF7vwKhQnvVS6bjMD2XYgj+SNvQ1GfK/pjgokfPkC/2CO8CuA==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.13.11
-    dev: false
 
   /@cloudflare/kv-asset-handler@0.3.4:
     resolution: {integrity: sha512-YLPHc8yASwjNkmcDMQMY35yiWjoKAKnhUbPRszBRS0YgH+IXtsMp61j+yTcnCE3oO2DgP0U3iejLC8FTtKDC8Q==}
@@ -1990,11 +1983,8 @@ packages:
     resolution: {integrity: sha512-ND9qDTLc6diwj+Xe5cdAgVTbLVdXbtxTJRXRhli8Mowuaan+0EJOtdqJ0QCHNSSPyoXGx9HX2/VMnKeC34AChA==}
     dev: true
 
-  /date-fns@2.30.0:
-    resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==}
-    engines: {node: '>=0.11'}
-    dependencies:
-      '@babel/runtime': 7.22.5
+  /date-fns@3.6.0:
+    resolution: {integrity: sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==}
     dev: false
 
   /debug@4.3.4:
@@ -2808,14 +2798,14 @@ packages:
       - typescript
     dev: true
 
-  /kysely-planetscale@1.4.0(@planetscale/database@1.19.0)(kysely@0.27.6):
-    resolution: {integrity: sha512-dM2xgOM50+IiOIrSCEn/6lgXcE7J752oNpV6NcIYNgG/AfYGMtWm2ZK7PyeIPy5JG1jZvQvqwTFbGK4HGH/hJw==}
+  /kysely-planetscale@1.6.0(@planetscale/database@1.19.0)(kysely@0.27.6):
+    resolution: {integrity: sha512-5uJu4qqswf9VItbRjRhpkwEfm3CrnbRplpMeOQypRKqix5Ougn/JQRq7+o/UAfIWrHrop0yfYSAC+FY1tkFAFw==}
     peerDependencies:
       '@planetscale/database': '*'
       kysely: '*'
     dependencies:
       '@planetscale/database': 1.19.0
-      date-fns: 2.30.0
+      date-fns: 3.6.0
       kysely: 0.27.6
     dev: false
 
@@ -3460,10 +3450,6 @@ packages:
     dependencies:
       resolve: 1.22.8
     dev: true
-
-  /regenerator-runtime@0.13.11:
-    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
-    dev: false
 
   /regexparam@3.0.0:
     resolution: {integrity: sha512-RSYAtP31mvYLkAHrOlh25pCNQ5hWnT106VukGaaFfuJrZFkGRX5GhUAdPqpSDXxOhA2c4akmRuplv1mRqnBn6Q==}
