@@ -68,8 +68,8 @@ devDependencies:
     specifier: 5.2.3
     version: 5.2.3(eslint-config-prettier@10.1.1)(eslint@9.22.0)(prettier@3.5.3)
   eslint-plugin-svelte:
-    specifier: 3.2.0
-    version: 3.2.0(eslint@9.22.0)(svelte@5.23.1)
+    specifier: 3.3.0
+    version: 3.3.0(eslint@9.22.0)(svelte@5.23.1)
   kysely-codegen:
     specifier: 0.18.3
     version: 0.18.3(kysely@0.27.6)(mysql2@3.13.0)(typescript@5.8.2)
@@ -2107,8 +2107,8 @@ packages:
       synckit: 0.9.2
     dev: true
 
-  /eslint-plugin-svelte@3.2.0(eslint@9.22.0)(svelte@5.23.1):
-    resolution: {integrity: sha512-cxRkiF5XrydmLertOWoJ2LPqu0DItX3bbbJRFqzZ9MsRy3+3tPtQUsfsSuSxFTyDWWWAT1errzNhDLHehir9bw==}
+  /eslint-plugin-svelte@3.3.0(eslint@9.22.0)(svelte@5.23.1):
+    resolution: {integrity: sha512-pgGY5mT/ftZjG6xO4HltcQvne3rWUjStVDlvEZCR5cQKmZADbQp9kDmUc+fhIo1oO2HlXP25A+g4pkaoiBCxqg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.1 || ^9.0.0
