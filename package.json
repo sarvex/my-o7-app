@@ -43,7 +43,7 @@
     "eslint-plugin-svelte": "3.3.3",
     "kysely-codegen": "0.18.3",
     "eslint-plugin-prettier": "5.2.3",
-    "mysql2": "3.13.0",
+    "mysql2": "3.14.0",
     "@typescript-eslint/parser": "8.26.1",
     "autoprefixer": "10.4.21",
     "prettier-plugin-tailwindcss": "0.6.11",
