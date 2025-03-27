@@ -36,8 +36,8 @@ dependencies:
     specifier: 5.25.3
     version: 5.25.3
   trpc-svelte-query:
-    specifier: 2.1.0
-    version: 2.1.0(@sveltejs/kit@2.20.2)(@tanstack/svelte-query@5.69.0)(@trpc/client@11.0.0)(@trpc/server@11.0.0)(svelte@5.25.3)
+    specifier: 3.0.0
+    version: 3.0.0(@sveltejs/kit@2.20.2)(@tanstack/svelte-query@5.69.0)(@trpc/client@11.0.0)(@trpc/server@11.0.0)(svelte@5.25.3)
   zod:
     specifier: 3.24.2
     version: 3.24.2
@@ -2201,10 +2201,6 @@ packages:
       - supports-color
     dev: true
 
-  /esm-env@1.0.0:
-    resolution: {integrity: sha512-Cf6VksWPsTuW01vU9Mk/3vRue91Zevka5SjyNf3nEpokFRuqt/KjUQoGAwq9qMmhpLTHmXzSIrFRw8zxWzmFBA==}
-    dev: false
-
   /esm-env@1.2.2:
     resolution: {integrity: sha512-Epxrv+Nr/CaL4ZcFGPJIYLWFom+YeV1DqMLHJoEd9SYRxNbaFruBwfEX/kkHUJf55j2+TUbmDcmuilbP1TmXHA==}
 
@@ -3473,20 +3469,19 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  /trpc-svelte-query@2.1.0(@sveltejs/kit@2.20.2)(@tanstack/svelte-query@5.69.0)(@trpc/client@11.0.0)(@trpc/server@11.0.0)(svelte@5.25.3):
-    resolution: {integrity: sha512-hb1Bs8v8ios/J8Ry2q/509WP8F/x7CXIFoNYsfiM7JnzIRGGCFJ+lZQ7EIXtIXbG9vYAODDobdBsWTetwg3ddA==}
+  /trpc-svelte-query@3.0.0(@sveltejs/kit@2.20.2)(@tanstack/svelte-query@5.69.0)(@trpc/client@11.0.0)(@trpc/server@11.0.0)(svelte@5.25.3):
+    resolution: {integrity: sha512-eMBATyEA7UpAEMWNsUw4AQnS/gYC4fyEMsuqVdVbQPpldG79vFbfQWegGP6UIm6GBXSODivgyENAKRLfizYwmQ==}
     peerDependencies:
-      '@sveltejs/kit': ^2.5.2
-      '@tanstack/svelte-query': ^5.24.1
-      '@trpc/client': ^10.45.1
-      '@trpc/server': ^10.45.1
-      svelte: '>=3 <5'
+      '@sveltejs/kit': '>=2.20.0 <3'
+      '@tanstack/svelte-query': ^5.69.0
+      '@trpc/client': ^11.0.0
+      '@trpc/server': ^11.0.0
+      svelte: '>=3 <6'
     dependencies:
       '@sveltejs/kit': 2.20.2(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.25.3)(vite@6.2.3)
       '@tanstack/svelte-query': 5.69.0(svelte@5.25.3)
       '@trpc/client': 11.0.0(@trpc/server@11.0.0)(typescript@5.8.2)
       '@trpc/server': 11.0.0(typescript@5.8.2)
-      esm-env: 1.0.0
       svelte: 5.25.3
     dev: false
 
