@@ -15,11 +15,11 @@ dependencies:
     specifier: 5.71.5
     version: 5.71.5(svelte@5.25.6)
   '@trpc/client':
-    specifier: 11.0.1
-    version: 11.0.1(@trpc/server@11.0.1)(typescript@5.8.2)
+    specifier: 11.0.2
+    version: 11.0.2(@trpc/server@11.0.2)(typescript@5.8.2)
   '@trpc/server':
-    specifier: 11.0.1
-    version: 11.0.1(typescript@5.8.2)
+    specifier: 11.0.2
+    version: 11.0.2(typescript@5.8.2)
   devalue:
     specifier: 5.1.1
     version: 5.1.1
@@ -37,7 +37,7 @@ dependencies:
     version: 5.25.6
   trpc-svelte-query:
     specifier: 3.0.1
-    version: 3.0.1(@sveltejs/kit@2.20.3)(@tanstack/svelte-query@5.71.5)(@trpc/client@11.0.1)(@trpc/server@11.0.1)(svelte@5.25.6)
+    version: 3.0.1(@sveltejs/kit@2.20.3)(@tanstack/svelte-query@5.71.5)(@trpc/client@11.0.2)(@trpc/server@11.0.2)(svelte@5.25.6)
   zod:
     specifier: 3.24.2
     version: 3.24.2
@@ -68,8 +68,8 @@ devDependencies:
     specifier: 5.2.6
     version: 5.2.6(eslint-config-prettier@10.1.1)(eslint@9.23.0)(prettier@3.5.3)
   eslint-plugin-svelte:
-    specifier: 3.5.0
-    version: 3.5.0(eslint@9.23.0)(svelte@5.25.6)
+    specifier: 3.5.1
+    version: 3.5.1(eslint@9.23.0)(svelte@5.25.6)
   kysely-codegen:
     specifier: 0.18.3
     version: 0.18.3(kysely@0.27.6)(mysql2@3.14.0)(typescript@5.8.2)
@@ -101,8 +101,8 @@ devDependencies:
     specifier: 6.0.3
     version: 6.0.3(postcss-load-config@6.0.1)(postcss@8.5.3)(svelte@5.25.6)(typescript@5.8.2)
   tailwindcss:
-    specifier: 4.1.1
-    version: 4.1.1
+    specifier: 4.1.2
+    version: 4.1.2
   typescript:
     specifier: 5.8.2
     version: 5.8.2
@@ -1263,18 +1263,18 @@ packages:
       svelte: 5.25.6
     dev: false
 
-  /@trpc/client@11.0.1(@trpc/server@11.0.1)(typescript@5.8.2):
-    resolution: {integrity: sha512-HvOrvWAXbGBwt4om+NfuxrK4f+ik2aaNIXq7WLrJbEp7U+YXfh5++1a5p4JDaikrvSaObJ389DhYAGWz90xSGw==}
+  /@trpc/client@11.0.2(@trpc/server@11.0.2)(typescript@5.8.2):
+    resolution: {integrity: sha512-GlPEedbMTerkUfAJBsrwU6dg8N65lt3LBwrCoqR3MTZ64lRU/DQqyLjzpz5nRkEN0x4S2JmX0hASV9vc2KlSHA==}
     peerDependencies:
-      '@trpc/server': 11.0.1
+      '@trpc/server': 11.0.2
       typescript: '>=5.7.2'
     dependencies:
-      '@trpc/server': 11.0.1(typescript@5.8.2)
+      '@trpc/server': 11.0.2(typescript@5.8.2)
       typescript: 5.8.2
     dev: false
 
-  /@trpc/server@11.0.1(typescript@5.8.2):
-    resolution: {integrity: sha512-DZS3+bONLno4oJjHBMrS3xRPtoZsnmBImDH/Mmo1QhaFt3Xp/S0Riu7WU/oofsLTVj2m1UO5LlgLJFumvlSNoQ==}
+  /@trpc/server@11.0.2(typescript@5.8.2):
+    resolution: {integrity: sha512-PIcm8UWFyE0AnIYjxsyc1zfVa6X10m9Opm1SJ2ou9Vu8dlXO6rMtmafLUXJsMeQk/3ecxObFtEiZIX8TvB3eCg==}
     peerDependencies:
       typescript: '>=5.7.2'
     dependencies:
@@ -1821,16 +1821,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-compat-utils@0.6.4(eslint@9.23.0):
-    resolution: {integrity: sha512-/u+GQt8NMfXO8w17QendT4gvO5acfxQsAKirAt0LVxDnr2N8YLCVbregaNc/Yhp7NM128DwCaRvr8PLDfeNkQw==}
-    engines: {node: '>=12'}
-    peerDependencies:
-      eslint: '>=6.0.0'
-    dependencies:
-      eslint: 9.23.0
-      semver: 7.7.1
-    dev: true
-
   /eslint-config-prettier@10.1.1(eslint@9.23.0):
     resolution: {integrity: sha512-4EQQr6wXwS+ZJSzaR5ZCrYgLxqvUjdXctaEtBqHcbkW944B1NQyO4qpdHQbXBONfwxXdkAY81HH4+LUfrg+zPw==}
     hasBin: true
@@ -1861,8 +1851,8 @@ packages:
       synckit: 0.11.1
     dev: true
 
-  /eslint-plugin-svelte@3.5.0(eslint@9.23.0)(svelte@5.25.6):
-    resolution: {integrity: sha512-986WKRAFoS5KN/jc0Z06akYxfNs+obca486sf9Y+0VbjRUfqJZYX/HSQR/js3xd3enrFqDLg8MToWgDOvCQUqQ==}
+  /eslint-plugin-svelte@3.5.1(eslint@9.23.0)(svelte@5.25.6):
+    resolution: {integrity: sha512-Qn1slddZHfqYiDO6IN8/iN3YL+VuHlgYjm30FT+hh0Jf/TX0jeZMTJXQMajFm5f6f6hURi+XO8P+NPYD+T4jkg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.1 || ^9.0.0
@@ -1874,7 +1864,6 @@ packages:
       '@eslint-community/eslint-utils': 4.5.1(eslint@9.23.0)
       '@jridgewell/sourcemap-codec': 1.5.0
       eslint: 9.23.0
-      eslint-compat-utils: 0.6.4(eslint@9.23.0)
       esutils: 2.0.3
       known-css-properties: 0.35.0
       postcss: 8.5.3
@@ -3171,8 +3160,8 @@ packages:
       tslib: 2.8.1
     dev: true
 
-  /tailwindcss@4.1.1:
-    resolution: {integrity: sha512-QNbdmeS979Efzim2g/bEvfuh+fTcIdp1y7gA+sb6OYSW74rt7Cr7M78AKdf6HqWT3d5AiTb7SwTT3sLQxr4/qw==}
+  /tailwindcss@4.1.2:
+    resolution: {integrity: sha512-VCsK+fitIbQF7JlxXaibFhxrPq4E2hDcG8apzHUdWFMCQWD8uLdlHg4iSkZ53cgLCCcZ+FZK7vG8VjvLcnBgKw==}
     dev: true
 
   /to-regex-range@5.0.1:
@@ -3186,7 +3175,7 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  /trpc-svelte-query@3.0.1(@sveltejs/kit@2.20.3)(@tanstack/svelte-query@5.71.5)(@trpc/client@11.0.1)(@trpc/server@11.0.1)(svelte@5.25.6):
+  /trpc-svelte-query@3.0.1(@sveltejs/kit@2.20.3)(@tanstack/svelte-query@5.71.5)(@trpc/client@11.0.2)(@trpc/server@11.0.2)(svelte@5.25.6):
     resolution: {integrity: sha512-46v5gdItIE3A7gDoLqHqCEP6jEMOx2/fqo73kaIL2GRehHK8hmgb9bFsSZXyRNNkykbLdb++D5ceSrcu64lEKg==}
     peerDependencies:
       '@sveltejs/kit': '>=2.20.0 <3'
@@ -3197,8 +3186,8 @@ packages:
     dependencies:
       '@sveltejs/kit': 2.20.3(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.25.6)(vite@6.2.5)
       '@tanstack/svelte-query': 5.71.5(svelte@5.25.6)
-      '@trpc/client': 11.0.1(@trpc/server@11.0.1)(typescript@5.8.2)
-      '@trpc/server': 11.0.1(typescript@5.8.2)
+      '@trpc/client': 11.0.2(@trpc/server@11.0.2)(typescript@5.8.2)
+      '@trpc/server': 11.0.2(typescript@5.8.2)
       svelte: 5.25.6
     dev: false
 
