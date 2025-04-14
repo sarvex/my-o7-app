@@ -14,15 +14,15 @@
   "dependencies": {
     "kysely-planetscale": "1.6.0",
     "kysely": "0.28.0",
-    "svelte": "5.26.2",
+    "svelte": "5.26.3",
     "@trpc/server": "11.1.0",
-    "@sveltejs/kit": "2.20.5",
+    "@sveltejs/kit": "2.20.6",
     "zod": "3.24.2",
     "@trpc/client": "11.1.0",
     "@planetscale/database": "1.19.0",
     "trpc-svelte-query": "3.0.1",
     "devalue": "5.1.1",
-    "@tanstack/svelte-query": "5.74.0",
+    "@tanstack/svelte-query": "5.74.3",
     "dotenv": "16.5.0"
   },
   "devDependencies": {
@@ -35,7 +35,7 @@
     "svelte-check": "4.1.6",
     "postcss-load-config": "6.0.1",
     "postcss": "8.5.3",
-    "tailwindcss": "4.1.3",
+    "tailwindcss": "4.1.4",
     "prisma": "6.6.0",
     "vite": "6.2.6",
     "prettier-plugin-svelte": "3.3.3",
