@@ -14,7 +14,7 @@
   "dependencies": {
     "kysely-planetscale": "1.6.0",
     "kysely": "0.28.1",
-    "svelte": "5.28.1",
+    "svelte": "5.28.2",
     "@trpc/server": "11.1.0",
     "@sveltejs/kit": "2.20.7",
     "zod": "3.24.3",
