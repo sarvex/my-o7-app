@@ -72,10 +72,10 @@ devDependencies:
     version: 3.5.1(eslint@9.25.1)(svelte@5.28.2)
   kysely-codegen:
     specifier: 0.18.3
-    version: 0.18.3(kysely@0.28.2)(mysql2@3.14.0)(typescript@5.8.3)
+    version: 0.18.3(kysely@0.28.2)(mysql2@3.14.1)(typescript@5.8.3)
   mysql2:
-    specifier: 3.14.0
-    version: 3.14.0
+    specifier: 3.14.1
+    version: 3.14.1
   postcss:
     specifier: 8.5.3
     version: 8.5.3
@@ -2310,7 +2310,7 @@ packages:
     resolution: {integrity: sha512-a/RAk2BfKk+WFGhhOCAYqSiFLc34k8Mt/6NWRI4joER0EYUzXIcFivjjnoD3+XU1DggLn/tZc3DOAgke7l8a4A==}
     dev: true
 
-  /kysely-codegen@0.18.3(kysely@0.28.2)(mysql2@3.14.0)(typescript@5.8.3):
+  /kysely-codegen@0.18.3(kysely@0.28.2)(mysql2@3.14.1)(typescript@5.8.3):
     resolution: {integrity: sha512-u2PFL1i8kaD+Jhcd5aIGPLgDqNriWvfWKtA7+kkvR2zZxr3DkdvT/B3nJWObZ/uj+GeONq0TChvf6mf6RqqWuA==}
     hasBin: true
     peerDependencies:
@@ -2352,7 +2352,7 @@ packages:
       kysely: 0.28.2
       micromatch: 4.0.8
       minimist: 1.2.8
-      mysql2: 3.14.0
+      mysql2: 3.14.1
       pluralize: 8.0.0
       zod: 3.24.3
     transitivePeerDependencies:
@@ -2507,8 +2507,8 @@ packages:
     hasBin: true
     dev: true
 
-  /mysql2@3.14.0:
-    resolution: {integrity: sha512-8eMhmG6gt/hRkU1G+8KlGOdQi2w+CgtNoD1ksXZq9gQfkfDsX4LHaBwTe1SY0Imx//t2iZA03DFnyYKPinxSRw==}
+  /mysql2@3.14.1:
+    resolution: {integrity: sha512-7ytuPQJjQB8TNAYX/H2yhL+iQOnIBjAMam361R7UAL0lOVXWjtdrmoL9HYKqKoLp/8UUTRcvo1QPvK9KL7wA8w==}
     engines: {node: '>= 8.0'}
     dependencies:
       aws-ssl-profiles: 1.1.1
