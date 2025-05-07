@@ -47,8 +47,8 @@ devDependencies:
     specifier: 4.20250507.0
     version: 4.20250507.0
   '@sveltejs/adapter-cloudflare':
-    specifier: 7.0.2
-    version: 7.0.2(@sveltejs/kit@2.20.8)(wrangler@4.6.0)
+    specifier: 7.0.3
+    version: 7.0.3(@sveltejs/kit@2.20.8)(wrangler@4.6.0)
   '@typescript-eslint/eslint-plugin':
     specifier: 8.32.0
     version: 8.32.0(@typescript-eslint/parser@8.32.0)(eslint@9.26.0)(typescript@5.8.3)
@@ -1208,8 +1208,8 @@ packages:
     dependencies:
       acorn: 8.14.1
 
-  /@sveltejs/adapter-cloudflare@7.0.2(@sveltejs/kit@2.20.8)(wrangler@4.6.0):
-    resolution: {integrity: sha512-7Q7RaOx/w9O1FA6Ujmdt22PjtTCaA3h665xVnKaRFys1rPiXxHvpgOwLEwUeytRI5Wp1luFY7kmpl0Ub579ecg==}
+  /@sveltejs/adapter-cloudflare@7.0.3(@sveltejs/kit@2.20.8)(wrangler@4.6.0):
+    resolution: {integrity: sha512-hEbaEukbHuTUtq4a+CPb57YnyQdx+iWVuLZAmNzaJwGSsAgMafY+GY4UblsIACjSYpX5tZuhjBck+X5IoWLIWw==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^4.0.0
