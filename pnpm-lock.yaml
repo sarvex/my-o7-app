@@ -71,8 +71,8 @@ devDependencies:
     specifier: 3.5.1
     version: 3.5.1(eslint@9.26.0)(svelte@5.28.2)
   kysely-codegen:
-    specifier: 0.18.3
-    version: 0.18.3(kysely@0.28.2)(mysql2@3.14.1)(typescript@5.8.3)
+    specifier: 0.18.5
+    version: 0.18.5(kysely@0.28.2)(mysql2@3.14.1)(typescript@5.8.3)
   mysql2:
     specifier: 3.14.1
     version: 3.14.1
@@ -1825,8 +1825,8 @@ packages:
     engines: {node: '>=0.3.1'}
     dev: true
 
-  /dotenv-expand@12.0.1:
-    resolution: {integrity: sha512-LaKRbou8gt0RNID/9RoI+J2rvXsBRPMV7p+ElHlPhcSARbCPDYcYG2s1TIzAfWv4YSgyY5taidWzzs31lNV3yQ==}
+  /dotenv-expand@12.0.2:
+    resolution: {integrity: sha512-lXpXz2ZE1cea1gL4sz2Ipj8y4PiVjytYr3Ij0SWoms1PGxIv7m2CRKuRuCRtHdVuvM/hNJPMxt5PbhboNC4dPQ==}
     engines: {node: '>=12'}
     dependencies:
       dotenv: 16.5.0
@@ -2602,20 +2602,21 @@ packages:
     resolution: {integrity: sha512-a/RAk2BfKk+WFGhhOCAYqSiFLc34k8Mt/6NWRI4joER0EYUzXIcFivjjnoD3+XU1DggLn/tZc3DOAgke7l8a4A==}
     dev: true
 
-  /kysely-codegen@0.18.3(kysely@0.28.2)(mysql2@3.14.1)(typescript@5.8.3):
-    resolution: {integrity: sha512-u2PFL1i8kaD+Jhcd5aIGPLgDqNriWvfWKtA7+kkvR2zZxr3DkdvT/B3nJWObZ/uj+GeONq0TChvf6mf6RqqWuA==}
+  /kysely-codegen@0.18.5(kysely@0.28.2)(mysql2@3.14.1)(typescript@5.8.3):
+    resolution: {integrity: sha512-bj6DMsXcKo0PrrXUk/fdjFgNC6Pwq+HPBCqhNGuD57gwUJZdci2s2OqhNneQeYpAIWGot7/481WdzTyXrClY2Q==}
+    engines: {node: '>=20.0.0'}
     hasBin: true
     peerDependencies:
-      '@libsql/kysely-libsql': ^0.3.0 || ^0.4.1
-      '@tediousjs/connection-string': ^0.5.0
-      better-sqlite3: '>=7.6.2'
-      kysely: ^0.27.0
-      kysely-bun-sqlite: ^0.3.2
-      kysely-bun-worker: ^0.5.3
-      mysql2: ^2.3.3 || ^3.0.0
-      pg: ^8.8.0
-      tarn: ^3.0.0
-      tedious: ^18.0.0
+      '@libsql/kysely-libsql': '>=0.3.0 <0.5.0'
+      '@tediousjs/connection-string': '>=0.5.0 <0.6.0'
+      better-sqlite3: '>=7.6.2 <8.0.0'
+      kysely: '>=0.27.0 <1.0.0'
+      kysely-bun-sqlite: '>=0.3.2 <1.0.0'
+      kysely-bun-worker: '>=1.2.0 <2.0.0'
+      mysql2: '>=2.3.3 <4.0.0'
+      pg: '>=8.8.0 <9.0.0'
+      tarn: '>=3.0.0 <4.0.0'
+      tedious: '>=18.0.0 <20.0.0'
     peerDependenciesMeta:
       '@libsql/kysely-libsql':
         optional: true
@@ -2639,7 +2640,7 @@ packages:
       chalk: 4.1.2
       cosmiconfig: 9.0.0(typescript@5.8.3)
       dotenv: 16.5.0
-      dotenv-expand: 12.0.1
+      dotenv-expand: 12.0.2
       git-diff: 2.0.6
       kysely: 0.28.2
       micromatch: 4.0.8
