@@ -30,8 +30,8 @@ dependencies:
     specifier: 0.28.2
     version: 0.28.2
   kysely-planetscale:
-    specifier: 1.6.0
-    version: 1.6.0(@planetscale/database@1.19.0)(kysely@0.28.2)
+    specifier: 1.7.1
+    version: 1.7.1(@planetscale/database@1.19.0)(kysely@0.28.2)
   svelte:
     specifier: 5.30.1
     version: 5.30.1
@@ -2351,8 +2351,8 @@ packages:
       - typescript
     dev: true
 
-  /kysely-planetscale@1.6.0(@planetscale/database@1.19.0)(kysely@0.28.2):
-    resolution: {integrity: sha512-5uJu4qqswf9VItbRjRhpkwEfm3CrnbRplpMeOQypRKqix5Ougn/JQRq7+o/UAfIWrHrop0yfYSAC+FY1tkFAFw==}
+  /kysely-planetscale@1.7.1(@planetscale/database@1.19.0)(kysely@0.28.2):
+    resolution: {integrity: sha512-raPGGTp9uMRWFMiFzL5VDqk/QAtmhQxj4klgXUzkefOtCjyB0rYgEYsW0YODbGLQ43+IcOTU/kzBXohpK/IQJg==}
     peerDependencies:
       '@planetscale/database': '*'
       kysely: '*'
