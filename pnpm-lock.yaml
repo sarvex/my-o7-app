@@ -68,8 +68,8 @@ devDependencies:
     specifier: 5.4.0
     version: 5.4.0(eslint-config-prettier@10.1.5)(eslint@9.27.0)(prettier@3.5.3)
   eslint-plugin-svelte:
-    specifier: 3.7.0
-    version: 3.7.0(eslint@9.27.0)(svelte@5.30.1)
+    specifier: 3.8.0
+    version: 3.8.0(eslint@9.27.0)(svelte@5.30.1)
   kysely-codegen:
     specifier: 0.18.5
     version: 0.18.5(kysely@0.28.2)(mysql2@3.14.1)(typescript@5.8.3)
@@ -1838,8 +1838,8 @@ packages:
       synckit: 0.11.1
     dev: true
 
-  /eslint-plugin-svelte@3.7.0(eslint@9.27.0)(svelte@5.30.1):
-    resolution: {integrity: sha512-/MQ9gYLbA24AFUN0QwpzRqi4VCISaRyt8xa2t3iVnI5mWa38xuTXM+iz/8LxKCg34jX2PfPcEkZH7CUem/Eugw==}
+  /eslint-plugin-svelte@3.8.0(eslint@9.27.0)(svelte@5.30.1):
+    resolution: {integrity: sha512-pr/1BOlBhDHcZFAyAlOvh3ogMbolFlPd7qy0l+UCF/q6dw5Fm4166uj1UrLXdMYn+8YY+umNyTQhRqb3u0n0cQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.1 || ^9.0.0
@@ -1852,6 +1852,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.0
       eslint: 9.27.0
       esutils: 2.0.3
+      globals: 16.1.0
       known-css-properties: 0.36.0
       postcss: 8.5.3
       postcss-load-config: 3.1.4(postcss@8.5.3)
@@ -2132,6 +2133,11 @@ packages:
 
   /globals@14.0.0:
     resolution: {integrity: sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==}
+    engines: {node: '>=18'}
+    dev: true
+
+  /globals@16.1.0:
+    resolution: {integrity: sha512-aibexHNbb/jiUSObBgpHLj+sIuUmJnYcgXBlrfsiDZ9rt4aF2TFRbyLgZ2iFQuVZ1K5Mx3FVkbKRSgKrbK3K2g==}
     engines: {node: '>=18'}
     dev: true
 
