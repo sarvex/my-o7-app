@@ -36,11 +36,11 @@ dependencies:
     specifier: 5.32.1
     version: 5.32.1
   trpc-svelte-query:
-    specifier: 3.0.1
-    version: 3.0.1(@sveltejs/kit@2.21.1)(@tanstack/svelte-query@5.76.0)(@trpc/client@11.1.2)(@trpc/server@11.1.2)(svelte@5.32.1)
+    specifier: 3.0.3
+    version: 3.0.3(@sveltejs/kit@2.21.1)(@tanstack/svelte-query@5.76.0)(@trpc/client@11.1.2)(@trpc/server@11.1.2)(svelte@5.32.1)
   zod:
-    specifier: 3.25.7
-    version: 3.25.7
+    specifier: 3.25.17
+    version: 3.25.17
 
 devDependencies:
   '@cloudflare/workers-types':
@@ -2346,7 +2346,7 @@ packages:
       minimist: 1.2.8
       mysql2: 3.14.1
       pluralize: 8.0.0
-      zod: 3.25.7
+      zod: 3.25.17
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -3184,8 +3184,8 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  /trpc-svelte-query@3.0.1(@sveltejs/kit@2.21.1)(@tanstack/svelte-query@5.76.0)(@trpc/client@11.1.2)(@trpc/server@11.1.2)(svelte@5.32.1):
-    resolution: {integrity: sha512-46v5gdItIE3A7gDoLqHqCEP6jEMOx2/fqo73kaIL2GRehHK8hmgb9bFsSZXyRNNkykbLdb++D5ceSrcu64lEKg==}
+  /trpc-svelte-query@3.0.3(@sveltejs/kit@2.21.1)(@tanstack/svelte-query@5.76.0)(@trpc/client@11.1.2)(@trpc/server@11.1.2)(svelte@5.32.1):
+    resolution: {integrity: sha512-A6qu1f58LMi7wqn+bb0DVuE6qAKhMBgquvpG3kFa88rkFeh6dYdexXZcRsoiKqeX+yJnbxrhb/tzI0xVyn9dUg==}
     peerDependencies:
       '@sveltejs/kit': '>=2.20.0 <3'
       '@tanstack/svelte-query': ^5.69.0
@@ -3424,5 +3424,5 @@ packages:
     resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
     dev: true
 
-  /zod@3.25.7:
-    resolution: {integrity: sha512-YGdT1cVRmKkOg6Sq7vY7IkxdphySKnXhaUmFI4r4FcuFVNgpCb9tZfNwXbT6BPjD5oz0nubFsoo9pIqKrDcCvg==}
+  /zod@3.25.17:
+    resolution: {integrity: sha512-8hQzQ/kMOIFbwOgPrm9Sf9rtFHpFUMy4HvN0yEB0spw14aYi0uT5xG5CE2DB9cd51GWNsz+DNO7se1kztHMKnw==}
