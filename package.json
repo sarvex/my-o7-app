@@ -17,7 +17,7 @@
     "svelte": "5.33.14",
     "@trpc/server": "11.2.0",
     "@sveltejs/kit": "2.21.2",
-    "zod": "3.25.50",
+    "zod": "3.25.51",
     "@trpc/client": "11.2.0",
     "@planetscale/database": "1.19.0",
     "trpc-svelte-query": "3.0.3",
