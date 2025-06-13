@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.19.0
     version: 1.19.0
   '@sveltejs/kit':
-    specifier: 2.21.4
-    version: 2.21.4(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.34.1)(vite@6.3.5)
+    specifier: 2.21.5
+    version: 2.21.5(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.34.1)(vite@6.3.5)
   '@tanstack/svelte-query':
     specifier: 5.80.7
     version: 5.80.7(svelte@5.34.1)
@@ -37,10 +37,10 @@ dependencies:
     version: 5.34.1
   trpc-svelte-query:
     specifier: 3.0.3
-    version: 3.0.3(@sveltejs/kit@2.21.4)(@tanstack/svelte-query@5.80.7)(@trpc/client@11.3.1)(@trpc/server@11.3.1)(svelte@5.34.1)
+    version: 3.0.3(@sveltejs/kit@2.21.5)(@tanstack/svelte-query@5.80.7)(@trpc/client@11.3.1)(@trpc/server@11.3.1)(svelte@5.34.1)
   zod:
-    specifier: 3.25.63
-    version: 3.25.63
+    specifier: 3.25.64
+    version: 3.25.64
 
 devDependencies:
   '@cloudflare/workers-types':
@@ -48,7 +48,7 @@ devDependencies:
     version: 4.20250613.0
   '@sveltejs/adapter-cloudflare':
     specifier: 7.0.4
-    version: 7.0.4(@sveltejs/kit@2.21.4)(wrangler@4.6.0)
+    version: 7.0.4(@sveltejs/kit@2.21.5)(wrangler@4.6.0)
   '@typescript-eslint/eslint-plugin':
     specifier: 8.34.0
     version: 8.34.0(@typescript-eslint/parser@8.34.0)(eslint@9.28.0)(typescript@5.8.3)
@@ -1177,20 +1177,20 @@ packages:
     dependencies:
       acorn: 8.14.1
 
-  /@sveltejs/adapter-cloudflare@7.0.4(@sveltejs/kit@2.21.4)(wrangler@4.6.0):
+  /@sveltejs/adapter-cloudflare@7.0.4(@sveltejs/kit@2.21.5)(wrangler@4.6.0):
     resolution: {integrity: sha512-pYJDICmhatM9lofkjLR+nhAJ4prEPjmwmx+J7hBuMSfrrNEVk+THfAahuWNizcxae4mO1MQKjIRMLpVnKyNE5g==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^4.0.0
     dependencies:
       '@cloudflare/workers-types': 4.20250613.0
-      '@sveltejs/kit': 2.21.4(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.34.1)(vite@6.3.5)
+      '@sveltejs/kit': 2.21.5(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.34.1)(vite@6.3.5)
       worktop: 0.8.0-next.18
       wrangler: 4.6.0(@cloudflare/workers-types@4.20250613.0)
     dev: true
 
-  /@sveltejs/kit@2.21.4(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.34.1)(vite@6.3.5):
-    resolution: {integrity: sha512-683kl4BBnORaYn3vktH01HAHYep8FaiRA21LVY7d6uAX+1D/1gK4WYHRJq90vA01Cz/k6rU3n6vpf4fAn9ipkA==}
+  /@sveltejs/kit@2.21.5(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.34.1)(vite@6.3.5):
+    resolution: {integrity: sha512-P5m7yZtvD1Kx/Z6JcjgJtdMqef/tCGMDrd9B9S2q8j+FMnkeKTMxW1nidnjVzk4HEDRGf4IlBI94/niy6t3hLA==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -2372,7 +2372,7 @@ packages:
       minimist: 1.2.8
       mysql2: 3.14.1
       pluralize: 8.0.0
-      zod: 3.25.63
+      zod: 3.25.64
     transitivePeerDependencies:
       - typescript
     dev: true
@@ -3209,7 +3209,7 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  /trpc-svelte-query@3.0.3(@sveltejs/kit@2.21.4)(@tanstack/svelte-query@5.80.7)(@trpc/client@11.3.1)(@trpc/server@11.3.1)(svelte@5.34.1):
+  /trpc-svelte-query@3.0.3(@sveltejs/kit@2.21.5)(@tanstack/svelte-query@5.80.7)(@trpc/client@11.3.1)(@trpc/server@11.3.1)(svelte@5.34.1):
     resolution: {integrity: sha512-A6qu1f58LMi7wqn+bb0DVuE6qAKhMBgquvpG3kFa88rkFeh6dYdexXZcRsoiKqeX+yJnbxrhb/tzI0xVyn9dUg==}
     peerDependencies:
       '@sveltejs/kit': '>=2.20.0 <3'
@@ -3218,7 +3218,7 @@ packages:
       '@trpc/server': ^11.0.0
       svelte: '>=5 <6'
     dependencies:
-      '@sveltejs/kit': 2.21.4(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.34.1)(vite@6.3.5)
+      '@sveltejs/kit': 2.21.5(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.34.1)(vite@6.3.5)
       '@tanstack/svelte-query': 5.80.7(svelte@5.34.1)
       '@trpc/client': 11.3.1(@trpc/server@11.3.1)(typescript@5.8.3)
       '@trpc/server': 11.3.1(typescript@5.8.3)
@@ -3461,5 +3461,5 @@ packages:
     resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
     dev: true
 
-  /zod@3.25.63:
-    resolution: {integrity: sha512-3ttCkqhtpncYXfP0f6dsyabbYV/nEUW+Xlu89jiXbTBifUfjaSqXOG6JnQPLtqt87n7KAmnMqcjay6c0Wq0Vbw==}
+  /zod@3.25.64:
+    resolution: {integrity: sha512-hbP9FpSZf7pkS7hRVUrOjhwKJNyampPgtXKc3AN6DsWtoHsg2Sb4SQaS4Tcay380zSwd2VPo9G9180emBACp5g==}
