@@ -44,8 +44,8 @@ dependencies:
 
 devDependencies:
   '@cloudflare/workers-types':
-    specifier: 4.20250711.0
-    version: 4.20250711.0
+    specifier: 4.20250712.0
+    version: 4.20250712.0
   '@sveltejs/adapter-cloudflare':
     specifier: 7.0.5
     version: 7.0.5(@sveltejs/kit@2.22.5)(wrangler@4.6.0)
@@ -203,8 +203,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20250711.0:
-    resolution: {integrity: sha512-aocBpm0Mbbz6GIOLJDbPrl4gZZ2o2A1a7pjFWlt3j2T1xghP0h1V3LtWUhyk74bAY5qOEuGQyLgr+svY//yCrQ==}
+  /@cloudflare/workers-types@4.20250712.0:
+    resolution: {integrity: sha512-TW8csCl77NYejcdNNRejZxt+zkitQwtJVntD0ykk1Uw3fh6HgiKGnIHxqZedAqlkgdjcHR8rePWBVJIOwFXfaQ==}
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -1190,10 +1190,10 @@ packages:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^4.0.0
     dependencies:
-      '@cloudflare/workers-types': 4.20250711.0
+      '@cloudflare/workers-types': 4.20250712.0
       '@sveltejs/kit': 2.22.5(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.35.6)(vite@7.0.4)
       worktop: 0.8.0-next.18
-      wrangler: 4.6.0(@cloudflare/workers-types@4.20250711.0)
+      wrangler: 4.6.0(@cloudflare/workers-types@4.20250712.0)
     dev: true
 
   /@sveltejs/kit@2.22.5(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.35.6)(vite@7.0.4):
@@ -3410,7 +3410,7 @@ packages:
       regexparam: 3.0.0
     dev: true
 
-  /wrangler@4.6.0(@cloudflare/workers-types@4.20250711.0):
+  /wrangler@4.6.0(@cloudflare/workers-types@4.20250712.0):
     resolution: {integrity: sha512-2a2ZD0adlvxQ1H+nRKkuuD0dkgaYTOPlC7gBolItk5TfqOSliEV4m6DtZtKtJp33ioM+Uy6TlEWPpA2TrDveEQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -3422,7 +3422,7 @@ packages:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@cloudflare/unenv-preset': 2.3.1(unenv@2.0.0-rc.15)(workerd@1.20250321.0)
-      '@cloudflare/workers-types': 4.20250711.0
+      '@cloudflare/workers-types': 4.20250712.0
       blake3-wasm: 2.1.5
       esbuild: 0.24.2
       miniflare: 4.20250321.1
