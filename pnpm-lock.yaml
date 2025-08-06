@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.19.0
     version: 1.19.0
   '@sveltejs/kit':
-    specifier: 2.27.0
-    version: 2.27.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.37.3)(vite@7.0.6)
+    specifier: 2.27.1
+    version: 2.27.1(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.37.3)(vite@7.0.6)
   '@tanstack/svelte-query':
     specifier: 5.83.1
     version: 5.83.1(svelte@5.37.3)
@@ -37,10 +37,10 @@ dependencies:
     version: 5.37.3
   trpc-svelte-query:
     specifier: 3.0.3
-    version: 3.0.3(@sveltejs/kit@2.27.0)(@tanstack/svelte-query@5.83.1)(@trpc/client@11.4.4)(@trpc/server@11.4.4)(svelte@5.37.3)
+    version: 3.0.3(@sveltejs/kit@2.27.1)(@tanstack/svelte-query@5.83.1)(@trpc/client@11.4.4)(@trpc/server@11.4.4)(svelte@5.37.3)
   zod:
-    specifier: 4.0.14
-    version: 4.0.14
+    specifier: 4.0.15
+    version: 4.0.15
 
 devDependencies:
   '@cloudflare/workers-types':
@@ -48,7 +48,7 @@ devDependencies:
     version: 4.20250805.0
   '@sveltejs/adapter-cloudflare':
     specifier: 7.1.2
-    version: 7.1.2(@sveltejs/kit@2.27.0)(wrangler@4.6.0)
+    version: 7.1.2(@sveltejs/kit@2.27.1)(wrangler@4.6.0)
   '@typescript-eslint/eslint-plugin':
     specifier: 8.39.0
     version: 8.39.0(@typescript-eslint/parser@8.39.0)(eslint@9.32.0)(typescript@5.9.2)
@@ -1192,20 +1192,20 @@ packages:
     dependencies:
       acorn: 8.15.0
 
-  /@sveltejs/adapter-cloudflare@7.1.2(@sveltejs/kit@2.27.0)(wrangler@4.6.0):
+  /@sveltejs/adapter-cloudflare@7.1.2(@sveltejs/kit@2.27.1)(wrangler@4.6.0):
     resolution: {integrity: sha512-L/kKbK4fIuCVCuUsO7zjPa+OoJh50eAH3QRHE4jwMfFyjUdgGNPU0ItmL+4XKCzspaopTeMF/DO8RLQEF4Cn4g==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^4.0.0
     dependencies:
       '@cloudflare/workers-types': 4.20250805.0
-      '@sveltejs/kit': 2.27.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.37.3)(vite@7.0.6)
+      '@sveltejs/kit': 2.27.1(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.37.3)(vite@7.0.6)
       worktop: 0.8.0-next.18
       wrangler: 4.6.0(@cloudflare/workers-types@4.20250805.0)
     dev: true
 
-  /@sveltejs/kit@2.27.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.37.3)(vite@7.0.6):
-    resolution: {integrity: sha512-pEX1Z2Km8tqmkni+ykIIou+ojp/7gb3M9tpllN5nDWNo9zlI0dI8/hDKFyBwQvb4jYR+EyLriFtrmgJ6GvbnBA==}
+  /@sveltejs/kit@2.27.1(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.37.3)(vite@7.0.6):
+    resolution: {integrity: sha512-u5HbL9T4TgWZwXZM7hwdT0f5sDkGaNxsSrLYQoql+eiz2+9rcbbq4MiOAPoRtXG0dys5P5ixBmyQdqZedwZUlA==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -3440,7 +3440,7 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  /trpc-svelte-query@3.0.3(@sveltejs/kit@2.27.0)(@tanstack/svelte-query@5.83.1)(@trpc/client@11.4.4)(@trpc/server@11.4.4)(svelte@5.37.3):
+  /trpc-svelte-query@3.0.3(@sveltejs/kit@2.27.1)(@tanstack/svelte-query@5.83.1)(@trpc/client@11.4.4)(@trpc/server@11.4.4)(svelte@5.37.3):
     resolution: {integrity: sha512-A6qu1f58LMi7wqn+bb0DVuE6qAKhMBgquvpG3kFa88rkFeh6dYdexXZcRsoiKqeX+yJnbxrhb/tzI0xVyn9dUg==}
     peerDependencies:
       '@sveltejs/kit': '>=2.20.0 <3'
@@ -3449,7 +3449,7 @@ packages:
       '@trpc/server': ^11.0.0
       svelte: '>=5 <6'
     dependencies:
-      '@sveltejs/kit': 2.27.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.37.3)(vite@7.0.6)
+      '@sveltejs/kit': 2.27.1(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.37.3)(vite@7.0.6)
       '@tanstack/svelte-query': 5.83.1(svelte@5.37.3)
       '@trpc/client': 11.4.4(@trpc/server@11.4.4)(typescript@5.9.2)
       '@trpc/server': 11.4.4(typescript@5.9.2)
@@ -3703,6 +3703,6 @@ packages:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
     dev: true
 
-  /zod@4.0.14:
-    resolution: {integrity: sha512-nGFJTnJN6cM2v9kXL+SOBq3AtjQby3Mv5ySGFof5UGRHrRioSJ5iG680cYNjE/yWk671nROcpPj4hAS8nyLhSw==}
+  /zod@4.0.15:
+    resolution: {integrity: sha512-2IVHb9h4Mt6+UXkyMs0XbfICUh1eUrlJJAOupBHUhLRnKkruawyDddYRCs0Eizt900ntIMk9/4RksYl+FgSpcQ==}
     dev: false
