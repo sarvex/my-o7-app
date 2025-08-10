@@ -27,11 +27,11 @@ dependencies:
     specifier: 17.2.1
     version: 17.2.1
   kysely:
-    specifier: 0.28.4
-    version: 0.28.4
+    specifier: 0.28.5
+    version: 0.28.5
   kysely-planetscale:
     specifier: 1.7.1
-    version: 1.7.1(@planetscale/database@1.19.0)(kysely@0.28.4)
+    version: 1.7.1(@planetscale/database@1.19.0)(kysely@0.28.5)
   svelte:
     specifier: 5.38.0
     version: 5.38.0
@@ -72,7 +72,7 @@ devDependencies:
     version: 3.11.0(eslint@9.33.0)(svelte@5.38.0)
   kysely-codegen:
     specifier: 0.18.5
-    version: 0.18.5(kysely@0.28.4)(mysql2@3.14.3)(typescript@5.9.2)
+    version: 0.18.5(kysely@0.28.5)(mysql2@3.14.3)(typescript@5.9.2)
   mysql2:
     specifier: 3.14.3
     version: 3.14.3
@@ -2442,7 +2442,7 @@ packages:
     resolution: {integrity: sha512-JCDrsP4Z1Sb9JwG0aJ8Eo2r7k4Ou5MwmThS/6lcIe1ICyb7UBJKGRIUUdqc2ASdE/42lgz6zFUnzAIhtXnBVrQ==}
     dev: true
 
-  /kysely-codegen@0.18.5(kysely@0.28.4)(mysql2@3.14.3)(typescript@5.9.2):
+  /kysely-codegen@0.18.5(kysely@0.28.5)(mysql2@3.14.3)(typescript@5.9.2):
     resolution: {integrity: sha512-bj6DMsXcKo0PrrXUk/fdjFgNC6Pwq+HPBCqhNGuD57gwUJZdci2s2OqhNneQeYpAIWGot7/481WdzTyXrClY2Q==}
     engines: {node: '>=20.0.0'}
     hasBin: true
@@ -2482,7 +2482,7 @@ packages:
       dotenv: 16.6.1
       dotenv-expand: 12.0.2
       git-diff: 2.0.6
-      kysely: 0.28.4
+      kysely: 0.28.5
       micromatch: 4.0.8
       minimist: 1.2.8
       mysql2: 3.14.3
@@ -2492,7 +2492,7 @@ packages:
       - typescript
     dev: true
 
-  /kysely-planetscale@1.7.1(@planetscale/database@1.19.0)(kysely@0.28.4):
+  /kysely-planetscale@1.7.1(@planetscale/database@1.19.0)(kysely@0.28.5):
     resolution: {integrity: sha512-raPGGTp9uMRWFMiFzL5VDqk/QAtmhQxj4klgXUzkefOtCjyB0rYgEYsW0YODbGLQ43+IcOTU/kzBXohpK/IQJg==}
     peerDependencies:
       '@planetscale/database': '*'
@@ -2500,11 +2500,11 @@ packages:
     dependencies:
       '@planetscale/database': 1.19.0
       date-fns: 3.6.0
-      kysely: 0.28.4
+      kysely: 0.28.5
     dev: false
 
-  /kysely@0.28.4:
-    resolution: {integrity: sha512-pfQj8/Bo3KSzC1HIZB5MeeYRWcDmx1ZZv8H25LsyeygqXE+gfsbUAgPT1GSYZFctB1cdOVlv+OifuCls2mQSnw==}
+  /kysely@0.28.5:
+    resolution: {integrity: sha512-rlB0I/c6FBDWPcQoDtkxi9zIvpmnV5xoIalfCMSMCa7nuA6VGA3F54TW9mEgX4DVf10sXAWCF5fDbamI/5ZpKA==}
     engines: {node: '>=20.0.0'}
 
   /levn@0.4.1:
