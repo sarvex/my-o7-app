@@ -22,7 +22,7 @@
     "@planetscale/database": "1.19.0",
     "trpc-svelte-query": "3.0.3",
     "devalue": "5.4.1",
-    "@tanstack/svelte-query": "6.0.1",
+    "@tanstack/svelte-query": "6.0.3",
     "dotenv": "17.2.3"
   },
   "devDependencies": {
