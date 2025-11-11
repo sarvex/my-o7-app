@@ -14,7 +14,7 @@
   "dependencies": {
     "kysely-planetscale": "1.7.1",
     "kysely": "0.28.8",
-    "svelte": "5.43.5",
+    "svelte": "5.43.6",
     "@trpc/server": "11.7.1",
     "@sveltejs/kit": "2.48.4",
     "zod": "4.1.12",
@@ -32,7 +32,7 @@
     "prettier": "3.6.2",
     "@cloudflare/workers-types": "4.20251111.0",
     "eslint": "9.39.1",
-    "svelte-check": "4.3.3",
+    "svelte-check": "4.3.4",
     "postcss-load-config": "6.0.1",
     "postcss": "8.5.6",
     "tailwindcss": "4.1.17",
