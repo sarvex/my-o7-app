@@ -21,8 +21,8 @@ dependencies:
     specifier: 11.8.1
     version: 11.8.1(typescript@5.9.3)
   devalue:
-    specifier: 5.6.1
-    version: 5.6.1
+    specifier: 5.6.2
+    version: 5.6.2
   dotenv:
     specifier: 17.2.3
     version: 17.2.3
@@ -1940,9 +1940,6 @@ packages:
     dev: true
     optional: true
 
-  /devalue@5.6.1:
-    resolution: {integrity: sha512-jDwizj+IlEZBunHcOuuFVBnIMPAEHvTsJj0BcIp94xYguLRVBcXO853px/MyIJvbVzWdsGvrRweIUWJw8hBP7A==}
-
   /devalue@5.6.2:
     resolution: {integrity: sha512-nPRkjWzzDQlsejL1WVifk5rvcFi/y1onBRxjaFMjZeR9mFpqu2gmAZ9xUB9/IEanEP/vBtGeGganC/GO1fmufg==}
 
@@ -3539,7 +3536,7 @@ packages:
       aria-query: 5.3.2
       axobject-query: 4.1.0
       clsx: 2.1.1
-      devalue: 5.6.1
+      devalue: 5.6.2
       esm-env: 1.2.2
       esrap: 2.2.1
       is-reference: 3.0.3
