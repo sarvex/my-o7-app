@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.19.0
     version: 1.19.0
   '@sveltejs/kit':
-    specifier: 2.51.0
-    version: 2.51.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.51.1)(typescript@5.9.3)(vite@7.3.1)
+    specifier: 2.52.0
+    version: 2.52.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.51.1)(typescript@5.9.3)(vite@7.3.1)
   '@tanstack/svelte-query':
     specifier: 6.0.18
     version: 6.0.18(svelte@5.51.1)
@@ -37,7 +37,7 @@ dependencies:
     version: 5.51.1
   trpc-svelte-query:
     specifier: 3.0.3
-    version: 3.0.3(@sveltejs/kit@2.51.0)(@tanstack/svelte-query@6.0.18)(@trpc/client@11.10.0)(@trpc/server@11.10.0)(svelte@5.51.1)
+    version: 3.0.3(@sveltejs/kit@2.52.0)(@tanstack/svelte-query@6.0.18)(@trpc/client@11.10.0)(@trpc/server@11.10.0)(svelte@5.51.1)
   zod:
     specifier: 4.3.6
     version: 4.3.6
@@ -48,7 +48,7 @@ devDependencies:
     version: 4.20260214.0
   '@sveltejs/adapter-cloudflare':
     specifier: 7.2.7
-    version: 7.2.7(@sveltejs/kit@2.51.0)(wrangler@4.6.0)
+    version: 7.2.7(@sveltejs/kit@2.52.0)(wrangler@4.6.0)
   '@typescript-eslint/eslint-plugin':
     specifier: 8.55.0
     version: 8.55.0(@typescript-eslint/parser@8.55.0)(eslint@10.0.0)(typescript@5.9.3)
@@ -1281,20 +1281,20 @@ packages:
     dependencies:
       acorn: 8.15.0
 
-  /@sveltejs/adapter-cloudflare@7.2.7(@sveltejs/kit@2.51.0)(wrangler@4.6.0):
+  /@sveltejs/adapter-cloudflare@7.2.7(@sveltejs/kit@2.52.0)(wrangler@4.6.0):
     resolution: {integrity: sha512-Kj6GADGhuGZe/A+WnoEdNLdGzAl1Yz/TUpThNNuU9MO/rXrFYsu7/BjxteimyRl4Sx/ypftqKWGtbFl6utJ/0g==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^4.0.0
     dependencies:
       '@cloudflare/workers-types': 4.20260214.0
-      '@sveltejs/kit': 2.51.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.51.1)(typescript@5.9.3)(vite@7.3.1)
+      '@sveltejs/kit': 2.52.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.51.1)(typescript@5.9.3)(vite@7.3.1)
       worktop: 0.8.0-next.18
       wrangler: 4.6.0(@cloudflare/workers-types@4.20260214.0)
     dev: true
 
-  /@sveltejs/kit@2.51.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.51.1)(typescript@5.9.3)(vite@7.3.1):
-    resolution: {integrity: sha512-BkcfxVVYmfxHGYLugemb7TWW+y/MNZbxXHXJ141lyyi2ozq0Q4kbqoV0cBGlh7F0vNtCMvfr7UPnxIaBjcP9gg==}
+  /@sveltejs/kit@2.52.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.51.1)(typescript@5.9.3)(vite@7.3.1):
+    resolution: {integrity: sha512-zG+HmJuSF7eC0e7xt2htlOcEMAdEtlVdb7+gAr+ef08EhtwUsjLxcAwBgUCJY3/5p08OVOxVZti91WfXeuLvsg==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -3563,7 +3563,7 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  /trpc-svelte-query@3.0.3(@sveltejs/kit@2.51.0)(@tanstack/svelte-query@6.0.18)(@trpc/client@11.10.0)(@trpc/server@11.10.0)(svelte@5.51.1):
+  /trpc-svelte-query@3.0.3(@sveltejs/kit@2.52.0)(@tanstack/svelte-query@6.0.18)(@trpc/client@11.10.0)(@trpc/server@11.10.0)(svelte@5.51.1):
     resolution: {integrity: sha512-A6qu1f58LMi7wqn+bb0DVuE6qAKhMBgquvpG3kFa88rkFeh6dYdexXZcRsoiKqeX+yJnbxrhb/tzI0xVyn9dUg==}
     peerDependencies:
       '@sveltejs/kit': '>=2.20.0 <3'
@@ -3572,7 +3572,7 @@ packages:
       '@trpc/server': ^11.0.0
       svelte: '>=5 <6'
     dependencies:
-      '@sveltejs/kit': 2.51.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.51.1)(typescript@5.9.3)(vite@7.3.1)
+      '@sveltejs/kit': 2.52.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.51.1)(typescript@5.9.3)(vite@7.3.1)
       '@tanstack/svelte-query': 6.0.18(svelte@5.51.1)
       '@trpc/client': 11.10.0(@trpc/server@11.10.0)(typescript@5.9.3)
       '@trpc/server': 11.10.0(typescript@5.9.3)
