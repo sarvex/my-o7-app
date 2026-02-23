@@ -72,10 +72,10 @@ devDependencies:
     version: 3.15.0(eslint@10.0.1)(svelte@5.53.2)
   kysely-codegen:
     specifier: 0.20.0
-    version: 0.20.0(kysely@0.28.11)(mysql2@3.17.4)(typescript@5.9.3)
+    version: 0.20.0(kysely@0.28.11)(mysql2@3.18.0)(typescript@5.9.3)
   mysql2:
-    specifier: 3.17.4
-    version: 3.17.4
+    specifier: 3.18.0
+    version: 3.18.0(@types/node@25.3.0)
   postcss:
     specifier: 8.5.6
     version: 8.5.6
@@ -108,7 +108,7 @@ devDependencies:
     version: 5.9.3
   vite:
     specifier: 7.3.1
-    version: 7.3.1
+    version: 7.3.1(@types/node@25.3.0)
 
 packages:
 
@@ -1312,7 +1312,7 @@ packages:
       sirv: 3.0.1
       svelte: 5.53.2
       typescript: 5.9.3
-      vite: 7.3.1
+      vite: 7.3.1(@types/node@25.3.0)
 
   /@sveltejs/vite-plugin-svelte-inspector@2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.53.2)(vite@7.3.1):
     resolution: {integrity: sha512-gjr9ZFg1BSlIpfZ4PRewigrvYmHWbDrq2uvvPB1AmTWKuM+dI1JXQSUu2pIrYLb/QncyiIGkFDFKTwJ0XqQZZg==}
@@ -1325,7 +1325,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 3.0.1(svelte@5.53.2)(vite@7.3.1)
       debug: 4.4.3
       svelte: 5.53.2
-      vite: 7.3.1
+      vite: 7.3.1(@types/node@25.3.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -1343,7 +1343,7 @@ packages:
       magic-string: 0.30.17
       svelte: 5.53.2
       svelte-hmr: 0.15.3(svelte@5.53.2)
-      vite: 7.3.1
+      vite: 7.3.1(@types/node@25.3.0)
       vitefu: 0.2.5(vite@7.3.1)
     transitivePeerDependencies:
       - supports-color
@@ -1392,6 +1392,11 @@ packages:
   /@types/json-schema@7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
+
+  /@types/node@25.3.0:
+    resolution: {integrity: sha512-4K3bqJpXpqfg2XKGK9bpDTc6xO/xoUP/RBWS7AtRMug6zZFaRekiLzjVtAoZMquxoAbzBvy5nxQ7veS5eYzf8A==}
+    dependencies:
+      undici-types: 7.18.2
 
   /@types/react@19.2.6:
     resolution: {integrity: sha512-p/jUvulfgU7oKtj6Xpk8cA2Y1xKTtICGpJYeJXz2YVO2UcvjQgeRMLDGfDeqeRW2Ta+0QNFwcc8X3GH8SxZz6w==}
@@ -2470,7 +2475,7 @@ packages:
     resolution: {integrity: sha512-JCDrsP4Z1Sb9JwG0aJ8Eo2r7k4Ou5MwmThS/6lcIe1ICyb7UBJKGRIUUdqc2ASdE/42lgz6zFUnzAIhtXnBVrQ==}
     dev: true
 
-  /kysely-codegen@0.20.0(kysely@0.28.11)(mysql2@3.17.4)(typescript@5.9.3):
+  /kysely-codegen@0.20.0(kysely@0.28.11)(mysql2@3.18.0)(typescript@5.9.3):
     resolution: {integrity: sha512-LSi2KBG7uDmNCZ+XurLSA9LH7XFyyoQ6xb5DLJSInPTSYLVApjOP2KwO8mSaREWTtoX+C2AG2GTlYR0DLjTbcA==}
     engines: {node: '>=20.0.0'}
     hasBin: true
@@ -2513,7 +2518,7 @@ packages:
       kysely: 0.28.11
       micromatch: 4.0.8
       minimist: 1.2.8
-      mysql2: 3.17.4
+      mysql2: 3.18.0(@types/node@25.3.0)
       pluralize: 8.0.0
       zod: 4.3.6
     transitivePeerDependencies:
@@ -2675,10 +2680,13 @@ packages:
       sqlstring: 2.3.3
     dev: true
 
-  /mysql2@3.17.4:
-    resolution: {integrity: sha512-RnfuK5tyIuaiPMWOCTTl4vQX/mQXqSA8eoIbwvWccadvPGvh+BYWWVecInMS5s7wcLUkze8LqJzwB/+A4uwuAA==}
+  /mysql2@3.18.0(@types/node@25.3.0):
+    resolution: {integrity: sha512-3rupyOFks7Vq0jcjBpmg1gtgfGuCcmgrRJPEfpGzzrB/ydutupbjKkoDJGsGkrJRU6j44o2tb0McduL03/v/dQ==}
     engines: {node: '>= 8.0'}
+    peerDependencies:
+      '@types/node': '>= 8'
     dependencies:
+      '@types/node': 25.3.0
       aws-ssl-profiles: 1.1.2
       denque: 2.1.0
       generate-function: 2.3.1
@@ -3443,6 +3451,9 @@ packages:
     resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
     dev: true
 
+  /undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
+
   /undici@5.28.5:
     resolution: {integrity: sha512-zICwjrDrcrUE0pyyJc1I2QzBkLM8FINsgOrt6WjA+BgajVq9Nxu2PbFFXUrAggLfDXlZGZBVZYw7WNV5KiBiBA==}
     engines: {node: '>=14.0'}
@@ -3492,7 +3503,7 @@ packages:
       typescript: 5.9.3
     dev: true
 
-  /vite@7.3.1:
+  /vite@7.3.1(@types/node@25.3.0):
     resolution: {integrity: sha512-w+N7Hifpc3gRjZ63vYBXA56dvvRlNWRczTdmCBBa+CotUzAPf5b7YMdMR/8CQoeYE5LX3W4wj6RYTgonm1b9DA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
@@ -3532,6 +3543,7 @@ packages:
       yaml:
         optional: true
     dependencies:
+      '@types/node': 25.3.0
       esbuild: 0.27.1
       fdir: 6.5.0(picomatch@4.0.3)
       picomatch: 4.0.3
@@ -3549,7 +3561,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 7.3.1
+      vite: 7.3.1(@types/node@25.3.0)
 
   /which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
