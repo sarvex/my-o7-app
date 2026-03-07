@@ -95,8 +95,8 @@ devDependencies:
     specifier: 7.4.2
     version: 7.4.2(@types/react@19.2.6)(react-dom@19.2.0)(react@19.2.0)(typescript@5.9.3)
   svelte-check:
-    specifier: 4.4.4
-    version: 4.4.4(svelte@5.53.7)(typescript@5.9.3)
+    specifier: 4.4.5
+    version: 4.4.5(svelte@5.53.7)(typescript@5.9.3)
   svelte-preprocess:
     specifier: 6.0.3
     version: 6.0.3(postcss-load-config@6.0.1)(postcss@8.5.8)(svelte@5.53.7)(typescript@5.9.3)
@@ -3241,8 +3241,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /svelte-check@4.4.4(svelte@5.53.7)(typescript@5.9.3):
-    resolution: {integrity: sha512-F1pGqXc710Oi/wTI4d/x7d6lgPwwfx1U6w3Q35n4xsC2e8C/yN2sM1+mWxjlMcpAfWucjlq4vPi+P4FZ8a14sQ==}
+  /svelte-check@4.4.5(svelte@5.53.7)(typescript@5.9.3):
+    resolution: {integrity: sha512-1bSwIRCvvmSHrlK52fOlZmVtUZgil43jNL/2H18pRpa+eQjzGt6e3zayxhp1S7GajPFKNM/2PMCG+DZFHlG9fw==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
