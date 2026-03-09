@@ -14,7 +14,7 @@
   "dependencies": {
     "kysely-planetscale": "1.7.1",
     "kysely": "0.28.11",
-    "svelte": "5.53.7",
+    "svelte": "5.53.8",
     "@trpc/server": "11.12.0",
     "@sveltejs/kit": "2.53.4",
     "zod": "4.3.6",
@@ -43,7 +43,7 @@
     "eslint-plugin-svelte": "3.15.1",
     "kysely-codegen": "0.20.0",
     "eslint-plugin-prettier": "5.5.5",
-    "mysql2": "3.19.0",
+    "mysql2": "3.19.1",
     "@typescript-eslint/parser": "8.56.1",
     "autoprefixer": "10.4.27",
     "prettier-plugin-tailwindcss": "0.7.2",
