@@ -21,7 +21,7 @@
     "@trpc/client": "11.16.0",
     "@planetscale/database": "1.20.1",
     "trpc-svelte-query": "3.0.3",
-    "devalue": "5.6.4",
+    "devalue": "5.7.0",
     "@tanstack/svelte-query": "6.1.13",
     "dotenv": "17.4.1"
   },
