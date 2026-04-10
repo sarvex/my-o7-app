@@ -72,10 +72,10 @@ devDependencies:
     version: 3.17.0(eslint@10.2.0)(svelte@5.55.2)
   kysely-codegen:
     specifier: 0.20.0
-    version: 0.20.0(kysely@0.28.15)(mysql2@3.21.1)(typescript@6.0.2)
+    version: 0.20.0(kysely@0.28.15)(mysql2@3.22.0)(typescript@6.0.2)
   mysql2:
-    specifier: 3.21.1
-    version: 3.21.1(@types/node@25.3.0)
+    specifier: 3.22.0
+    version: 3.22.0(@types/node@25.3.0)
   postcss:
     specifier: 8.5.9
     version: 8.5.9
@@ -2387,7 +2387,7 @@ packages:
     resolution: {integrity: sha512-JCDrsP4Z1Sb9JwG0aJ8Eo2r7k4Ou5MwmThS/6lcIe1ICyb7UBJKGRIUUdqc2ASdE/42lgz6zFUnzAIhtXnBVrQ==}
     dev: true
 
-  /kysely-codegen@0.20.0(kysely@0.28.15)(mysql2@3.21.1)(typescript@6.0.2):
+  /kysely-codegen@0.20.0(kysely@0.28.15)(mysql2@3.22.0)(typescript@6.0.2):
     resolution: {integrity: sha512-LSi2KBG7uDmNCZ+XurLSA9LH7XFyyoQ6xb5DLJSInPTSYLVApjOP2KwO8mSaREWTtoX+C2AG2GTlYR0DLjTbcA==}
     engines: {node: '>=20.0.0'}
     hasBin: true
@@ -2430,7 +2430,7 @@ packages:
       kysely: 0.28.15
       micromatch: 4.0.8
       minimist: 1.2.8
-      mysql2: 3.21.1(@types/node@25.3.0)
+      mysql2: 3.22.0(@types/node@25.3.0)
       pluralize: 8.0.0
       zod: 4.3.6
     transitivePeerDependencies:
@@ -2682,8 +2682,8 @@ packages:
       sqlstring: 2.3.3
     dev: true
 
-  /mysql2@3.21.1(@types/node@25.3.0):
-    resolution: {integrity: sha512-vywGTUeqMwPQHJCWTWmmdIpcLfhU0UWIhOYbSWehqL+0Y/NTPGViM0wDtIgLuzqm5RqSygXKLJnxFGhQkhM1wg==}
+  /mysql2@3.22.0(@types/node@25.3.0):
+    resolution: {integrity: sha512-4jaJYBObj7FhD3lnZhqX1yDMuZN4mQNz+IolDySDXT7fbozMBpeGQNcuWXKUqo4ahkAEfkjUHPjnwuDI0/6VKw==}
     engines: {node: '>= 8.0'}
     peerDependencies:
       '@types/node': '>= 8'
