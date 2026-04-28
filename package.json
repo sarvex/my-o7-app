@@ -44,9 +44,9 @@
     "kysely-codegen": "0.20.0",
     "eslint-plugin-prettier": "5.5.5",
     "mysql2": "3.22.3",
-    "@typescript-eslint/parser": "8.59.0",
+    "@typescript-eslint/parser": "8.59.1",
     "autoprefixer": "10.5.0",
     "prettier-plugin-tailwindcss": "0.8.0",
-    "@typescript-eslint/eslint-plugin": "8.59.0"
+    "@typescript-eslint/eslint-plugin": "8.59.1"
   }
 }
