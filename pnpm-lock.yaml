@@ -44,8 +44,8 @@ dependencies:
 
 devDependencies:
   '@cloudflare/workers-types':
-    specifier: 4.20260429.1
-    version: 4.20260429.1
+    specifier: 4.20260430.1
+    version: 4.20260430.1
   '@sveltejs/adapter-cloudflare':
     specifier: 7.2.8
     version: 7.2.8(@sveltejs/kit@2.58.0)(wrangler@4.6.0)
@@ -211,8 +211,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20260429.1:
-    resolution: {integrity: sha512-WtwRki7i/RnkzXkJXhI9PmrmMpftpwDocRdeBQ29aHOOSCwV7nAlh163XRzjftnQGuW9nDEnu7Om+RJMn46N+Q==}
+  /@cloudflare/workers-types@4.20260430.1:
+    resolution: {integrity: sha512-Rguf/SdQNm1HG2yZi8m57K4qvVh2fic+Xny4UidY1pCgHagOAq7Cy0WIp1JKQx54T8lgOgOWFzIaCK4iwLpxlg==}
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -1198,10 +1198,10 @@ packages:
       '@sveltejs/kit': ^2.0.0
       wrangler: ^4.0.0
     dependencies:
-      '@cloudflare/workers-types': 4.20260429.1
+      '@cloudflare/workers-types': 4.20260430.1
       '@sveltejs/kit': 2.58.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.55.5)(typescript@6.0.3)(vite@8.0.10)
       worktop: 0.8.0-next.18
-      wrangler: 4.6.0(@cloudflare/workers-types@4.20260429.1)
+      wrangler: 4.6.0(@cloudflare/workers-types@4.20260430.1)
     dev: true
 
   /@sveltejs/kit@2.58.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.55.5)(typescript@6.0.3)(vite@8.0.10):
@@ -3571,7 +3571,7 @@ packages:
       regexparam: 3.0.0
     dev: true
 
-  /wrangler@4.6.0(@cloudflare/workers-types@4.20260429.1):
+  /wrangler@4.6.0(@cloudflare/workers-types@4.20260430.1):
     resolution: {integrity: sha512-2a2ZD0adlvxQ1H+nRKkuuD0dkgaYTOPlC7gBolItk5TfqOSliEV4m6DtZtKtJp33ioM+Uy6TlEWPpA2TrDveEQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -3583,7 +3583,7 @@ packages:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
       '@cloudflare/unenv-preset': 2.3.1(unenv@2.0.0-rc.15)(workerd@1.20250321.0)
-      '@cloudflare/workers-types': 4.20260429.1
+      '@cloudflare/workers-types': 4.20260430.1
       blake3-wasm: 2.1.5
       esbuild: 0.24.2
       miniflare: 4.20250321.1
