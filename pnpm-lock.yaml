@@ -21,8 +21,8 @@ dependencies:
     specifier: 11.17.0
     version: 11.17.0(typescript@6.0.3)
   devalue:
-    specifier: 5.7.1
-    version: 5.7.1
+    specifier: 5.8.0
+    version: 5.8.0
   dotenv:
     specifier: 17.4.2
     version: 17.4.2
@@ -1226,7 +1226,7 @@ packages:
       '@types/cookie': 0.6.0
       acorn: 8.16.0
       cookie: 0.6.0
-      devalue: 5.7.1
+      devalue: 5.8.0
       esm-env: 1.2.2
       kleur: 4.1.5
       magic-string: 0.30.17
@@ -1810,8 +1810,8 @@ packages:
     engines: {node: '>=8'}
     requiresBuild: true
 
-  /devalue@5.7.1:
-    resolution: {integrity: sha512-MUbZ586EgQqdRnC4yDrlod3BEdyvE4TapGYHMW2CiaW+KkkFmWEFqBUaLltEZCGi0iFXCEjRF0OjF0DV2QHjOA==}
+  /devalue@5.8.0:
+    resolution: {integrity: sha512-2zA9pFEsnp7vWBZbXF5JAgAq0fsUIt/1XPbRiAmRV3lp/2C3upzH+sADiyy66aFCihoLEsrQHxNM5w1gIDfsBg==}
 
   /diff@8.0.3:
     resolution: {integrity: sha512-qejHi7bcSD4hQAZE0tNAawRK1ZtafHDmMTMkrrIGgSLl7hTnQHmKCeB45xAcbfTqK2zowkM3j3bHt/4b/ARbYQ==}
@@ -3345,7 +3345,7 @@ packages:
       aria-query: 5.3.1
       axobject-query: 4.1.0
       clsx: 2.1.1
-      devalue: 5.7.1
+      devalue: 5.8.0
       esm-env: 1.2.2
       esrap: 2.2.4
       is-reference: 3.0.3
