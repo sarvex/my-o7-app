@@ -14,7 +14,7 @@
   "dependencies": {
     "kysely-planetscale": "1.7.1",
     "kysely": "0.29.2",
-    "svelte": "5.55.7",
+    "svelte": "5.55.8",
     "@trpc/server": "11.17.0",
     "@sveltejs/kit": "2.60.1",
     "zod": "4.4.3",
@@ -22,7 +22,7 @@
     "@planetscale/database": "1.20.1",
     "trpc-svelte-query": "3.0.3",
     "devalue": "5.8.1",
-    "@tanstack/svelte-query": "6.1.29",
+    "@tanstack/svelte-query": "6.1.30",
     "dotenv": "17.4.2"
   },
   "devDependencies": {
@@ -44,9 +44,9 @@
     "kysely-codegen": "0.20.0",
     "eslint-plugin-prettier": "5.5.5",
     "mysql2": "3.22.3",
-    "@typescript-eslint/parser": "8.59.3",
+    "@typescript-eslint/parser": "8.59.4",
     "autoprefixer": "10.5.0",
     "prettier-plugin-tailwindcss": "0.8.0",
-    "@typescript-eslint/eslint-plugin": "8.59.3"
+    "@typescript-eslint/eslint-plugin": "8.59.4"
   }
 }
