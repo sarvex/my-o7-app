@@ -16,7 +16,7 @@
     "kysely": "0.29.2",
     "svelte": "5.55.9",
     "@trpc/server": "11.17.0",
-    "@sveltejs/kit": "2.60.1",
+    "@sveltejs/kit": "2.61.0",
     "zod": "4.4.3",
     "@trpc/client": "11.17.0",
     "@planetscale/database": "1.20.1",
