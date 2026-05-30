@@ -68,8 +68,8 @@ devDependencies:
     specifier: 5.5.6
     version: 5.5.6(eslint-config-prettier@10.1.8)(eslint@10.4.1)(prettier@3.8.3)
   eslint-plugin-svelte:
-    specifier: 3.18.0
-    version: 3.18.0(eslint@10.4.1)(svelte@5.55.10)
+    specifier: 3.19.0
+    version: 3.19.0(eslint@10.4.1)(svelte@5.55.10)
   kysely-codegen:
     specifier: 0.20.0
     version: 0.20.0(kysely@0.29.2)(mysql2@3.22.4)(typescript@6.0.3)
@@ -1935,8 +1935,8 @@ packages:
       synckit: 0.11.13
     dev: true
 
-  /eslint-plugin-svelte@3.18.0(eslint@10.4.1)(svelte@5.55.10):
-    resolution: {integrity: sha512-vc3P37lrDronWDb2kPXiG8sqkuiMqitGXSSaflb7Y+jpDgNoAzW8i7tdqyJKpcLZmFIqZCD+je2oZRf9qyRyBw==}
+  /eslint-plugin-svelte@3.19.0(eslint@10.4.1)(svelte@5.55.10):
+    resolution: {integrity: sha512-t3rNaZeXz4d2gG4uJyMEYfJCFKf22+SWbSizIIXIWKu4wM+XPLiMWuSSr/C5821JmFeN9ogK+eExbG+z+twyxw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.1 || ^9.0.0 || ^10.0.0
@@ -1956,7 +1956,7 @@ packages:
       postcss-safe-parser: 7.0.1(postcss@8.5.15)
       semver: 7.7.3
       svelte: 5.55.10
-      svelte-eslint-parser: 1.4.0(svelte@5.55.10)
+      svelte-eslint-parser: 1.7.0(svelte@5.55.10)
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -3263,9 +3263,9 @@ packages:
       - picomatch
     dev: true
 
-  /svelte-eslint-parser@1.4.0(svelte@5.55.10):
-    resolution: {integrity: sha512-fjPzOfipR5S7gQ/JvI9r2H8y9gMGXO3JtmrylHLLyahEMquXI0lrebcjT+9/hNgDej0H7abTyox5HpHmW1PSWA==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0, pnpm: 10.18.3}
+  /svelte-eslint-parser@1.7.0(svelte@5.55.10):
+    resolution: {integrity: sha512-TU3DQx7IjUrrxKbET/U639xofp044xLXGGvFaLH9PKQOY5g5iRtmYy2rZB7gOeGRRTP7255AE8fUtIwsp/yOjQ==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0, pnpm: 10.34.1}
     peerDependencies:
       svelte: ^3.37.0 || ^4.0.0 || ^5.0.0
     peerDependenciesMeta:
@@ -3278,6 +3278,7 @@ packages:
       postcss: 8.5.15
       postcss-scss: 4.0.9(postcss@8.5.15)
       postcss-selector-parser: 7.1.0
+      semver: 7.7.3
       svelte: 5.55.10
     dev: true
 
