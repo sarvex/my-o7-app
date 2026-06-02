@@ -38,7 +38,7 @@
     "tailwindcss": "4.3.0",
     "prisma": "7.8.0",
     "vite": "8.0.14",
-    "prettier-plugin-svelte": "4.0.1",
+    "prettier-plugin-svelte": "4.1.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-svelte": "3.19.0",
     "kysely-codegen": "0.20.0",
