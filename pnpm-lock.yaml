@@ -101,8 +101,8 @@ devDependencies:
     specifier: 6.0.5
     version: 6.0.5(postcss-load-config@6.0.1)(postcss@8.5.15)(svelte@5.56.3)(typescript@6.0.3)
   tailwindcss:
-    specifier: 4.3.0
-    version: 4.3.0
+    specifier: 4.3.1
+    version: 4.3.1
   typescript:
     specifier: 6.0.3
     version: 6.0.3
@@ -3370,8 +3370,8 @@ packages:
       '@pkgr/core': 0.3.6
     dev: true
 
-  /tailwindcss@4.3.0:
-    resolution: {integrity: sha512-y6nxMGB1nMW9R6k96e5gdIFzcfL/gTJRNaqGes1YvkLnPVXzWgbqFF2yLC0T8G774n24cx3Pe8XrKoniCOAH+Q==}
+  /tailwindcss@4.3.1:
+    resolution: {integrity: sha512-hk+TB1m+K8CYNrP6rjQaq/Y+4Zylwpa87mLYBKCunwnnQ9p+fHb7kmSfGqyEJoxF/O6CDyABWVFEafNSYKll+Q==}
     dev: true
 
   /tinyglobby@0.2.17:
