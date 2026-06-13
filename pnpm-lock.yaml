@@ -51,25 +51,25 @@ devDependencies:
     version: 7.2.8(@sveltejs/kit@2.65.0)(wrangler@4.6.0)
   '@typescript-eslint/eslint-plugin':
     specifier: 8.61.0
-    version: 8.61.0(@typescript-eslint/parser@8.61.0)(eslint@10.4.1)(typescript@6.0.3)
+    version: 8.61.0(@typescript-eslint/parser@8.61.0)(eslint@10.5.0)(typescript@6.0.3)
   '@typescript-eslint/parser':
     specifier: 8.61.0
-    version: 8.61.0(eslint@10.4.1)(typescript@6.0.3)
+    version: 8.61.0(eslint@10.5.0)(typescript@6.0.3)
   autoprefixer:
     specifier: 10.5.0
     version: 10.5.0(postcss@8.5.15)
   eslint:
-    specifier: 10.4.1
-    version: 10.4.1
+    specifier: 10.5.0
+    version: 10.5.0
   eslint-config-prettier:
     specifier: 10.1.8
-    version: 10.1.8(eslint@10.4.1)
+    version: 10.1.8(eslint@10.5.0)
   eslint-plugin-prettier:
     specifier: 5.5.6
-    version: 5.5.6(eslint-config-prettier@10.1.8)(eslint@10.4.1)(prettier@3.8.4)
+    version: 5.5.6(eslint-config-prettier@10.1.8)(eslint@10.5.0)(prettier@3.8.4)
   eslint-plugin-svelte:
     specifier: 3.19.0
-    version: 3.19.0(eslint@10.4.1)(svelte@5.56.3)
+    version: 3.19.0(eslint@10.5.0)(svelte@5.56.3)
   kysely-codegen:
     specifier: 0.20.0
     version: 0.20.0(kysely@0.29.2)(mysql2@3.22.5)(typescript@6.0.3)
@@ -490,13 +490,13 @@ packages:
     dev: true
     optional: true
 
-  /@eslint-community/eslint-utils@4.9.1(eslint@10.4.1):
+  /@eslint-community/eslint-utils@4.9.1(eslint@10.5.0):
     resolution: {integrity: sha512-phrYmNiYppR7znFEdqgfWHXR6NCkZEK7hwWDHZUjit/2/U0r6XvkDl0SYnoM51Hq7FhCGdLDT6zxCCOY1hexsQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
     dependencies:
-      eslint: 10.4.1
+      eslint: 10.5.0
       eslint-visitor-keys: 3.4.3
     dev: true
 
@@ -1344,7 +1344,7 @@ packages:
   /@types/trusted-types@2.0.7:
     resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
 
-  /@typescript-eslint/eslint-plugin@8.61.0(@typescript-eslint/parser@8.61.0)(eslint@10.4.1)(typescript@6.0.3):
+  /@typescript-eslint/eslint-plugin@8.61.0(@typescript-eslint/parser@8.61.0)(eslint@10.5.0)(typescript@6.0.3):
     resolution: {integrity: sha512-bFNvl9ZczlVb+wR2Akszf3gHfKVj/8WanXaGJ3UstTA7brNKg0cNdk6X1Psu5V7MZ2oQtzZKOEzIUehaoxbDGw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
@@ -1353,12 +1353,12 @@ packages:
       typescript: '>=4.8.4 <6.1.0'
     dependencies:
       '@eslint-community/regexpp': 4.12.2
-      '@typescript-eslint/parser': 8.61.0(eslint@10.4.1)(typescript@6.0.3)
+      '@typescript-eslint/parser': 8.61.0(eslint@10.5.0)(typescript@6.0.3)
       '@typescript-eslint/scope-manager': 8.61.0
-      '@typescript-eslint/type-utils': 8.61.0(eslint@10.4.1)(typescript@6.0.3)
-      '@typescript-eslint/utils': 8.61.0(eslint@10.4.1)(typescript@6.0.3)
+      '@typescript-eslint/type-utils': 8.61.0(eslint@10.5.0)(typescript@6.0.3)
+      '@typescript-eslint/utils': 8.61.0(eslint@10.5.0)(typescript@6.0.3)
       '@typescript-eslint/visitor-keys': 8.61.0
-      eslint: 10.4.1
+      eslint: 10.5.0
       ignore: 7.0.5
       natural-compare: 1.4.0
       ts-api-utils: 2.5.0(typescript@6.0.3)
@@ -1367,7 +1367,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/parser@8.61.0(eslint@10.4.1)(typescript@6.0.3):
+  /@typescript-eslint/parser@8.61.0(eslint@10.5.0)(typescript@6.0.3):
     resolution: {integrity: sha512-5B7PfA2e1NQGCnDHd/0lW7W3gvp3d59Ryw54FYO8Uswxo9f6ikw3AZV+Xj/TvpImmpsiYyUqAfhC6kJID1jF6w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
@@ -1379,7 +1379,7 @@ packages:
       '@typescript-eslint/typescript-estree': 8.61.0(typescript@6.0.3)
       '@typescript-eslint/visitor-keys': 8.61.0
       debug: 4.4.3
-      eslint: 10.4.1
+      eslint: 10.5.0
       typescript: 6.0.3
     transitivePeerDependencies:
       - supports-color
@@ -1416,7 +1416,7 @@ packages:
       typescript: 6.0.3
     dev: true
 
-  /@typescript-eslint/type-utils@8.61.0(eslint@10.4.1)(typescript@6.0.3):
+  /@typescript-eslint/type-utils@8.61.0(eslint@10.5.0)(typescript@6.0.3):
     resolution: {integrity: sha512-TuBiQYIkd97yBfInHCTKVYMbX4kvEmpOEuixIuzCU9p8BGT1SfyyO0d0IfDMbPIHcjn/hWnusUX5e8v5Xg+X8A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
@@ -1425,9 +1425,9 @@ packages:
     dependencies:
       '@typescript-eslint/types': 8.61.0
       '@typescript-eslint/typescript-estree': 8.61.0(typescript@6.0.3)
-      '@typescript-eslint/utils': 8.61.0(eslint@10.4.1)(typescript@6.0.3)
+      '@typescript-eslint/utils': 8.61.0(eslint@10.5.0)(typescript@6.0.3)
       debug: 4.4.3
-      eslint: 10.4.1
+      eslint: 10.5.0
       ts-api-utils: 2.5.0(typescript@6.0.3)
       typescript: 6.0.3
     transitivePeerDependencies:
@@ -1459,18 +1459,18 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/utils@8.61.0(eslint@10.4.1)(typescript@6.0.3):
+  /@typescript-eslint/utils@8.61.0(eslint@10.5.0)(typescript@6.0.3):
     resolution: {integrity: sha512-3bzFt7ImFMW/jVYwJamDoe/dMOdFLSC6pom6rRjdh4SZJEYupyMzem8e7vKZLclLfpHjlwSAXOUxtKxGXUiLqA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
       typescript: '>=4.8.4 <6.1.0'
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@10.4.1)
+      '@eslint-community/eslint-utils': 4.9.1(eslint@10.5.0)
       '@typescript-eslint/scope-manager': 8.61.0
       '@typescript-eslint/types': 8.61.0
       '@typescript-eslint/typescript-estree': 8.61.0(typescript@6.0.3)
-      eslint: 10.4.1
+      eslint: 10.5.0
       typescript: 6.0.3
     transitivePeerDependencies:
       - supports-color
@@ -1910,16 +1910,16 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier@10.1.8(eslint@10.4.1):
+  /eslint-config-prettier@10.1.8(eslint@10.5.0):
     resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
-      eslint: 10.4.1
+      eslint: 10.5.0
     dev: true
 
-  /eslint-plugin-prettier@5.5.6(eslint-config-prettier@10.1.8)(eslint@10.4.1)(prettier@3.8.4):
+  /eslint-plugin-prettier@5.5.6(eslint-config-prettier@10.1.8)(eslint@10.5.0)(prettier@3.8.4):
     resolution: {integrity: sha512-ifetmTcxWfz+4qRW3pH/ujdTq2jQIj59AxJMIN26K5avYgU8dxycUETQonWiW+wPrYXA0j3Try0l1CnwVQtDqQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -1933,14 +1933,14 @@ packages:
       eslint-config-prettier:
         optional: true
     dependencies:
-      eslint: 10.4.1
-      eslint-config-prettier: 10.1.8(eslint@10.4.1)
+      eslint: 10.5.0
+      eslint-config-prettier: 10.1.8(eslint@10.5.0)
       prettier: 3.8.4
       prettier-linter-helpers: 1.0.1
       synckit: 0.11.13
     dev: true
 
-  /eslint-plugin-svelte@3.19.0(eslint@10.4.1)(svelte@5.56.3):
+  /eslint-plugin-svelte@3.19.0(eslint@10.5.0)(svelte@5.56.3):
     resolution: {integrity: sha512-t3rNaZeXz4d2gG4uJyMEYfJCFKf22+SWbSizIIXIWKu4wM+XPLiMWuSSr/C5821JmFeN9ogK+eExbG+z+twyxw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
@@ -1950,9 +1950,9 @@ packages:
       svelte:
         optional: true
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@10.4.1)
+      '@eslint-community/eslint-utils': 4.9.1(eslint@10.5.0)
       '@jridgewell/sourcemap-codec': 1.5.0
-      eslint: 10.4.1
+      eslint: 10.5.0
       esutils: 2.0.3
       globals: 16.1.0
       known-css-properties: 0.37.0
@@ -1999,8 +1999,8 @@ packages:
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     dev: true
 
-  /eslint@10.4.1:
-    resolution: {integrity: sha512-AyIKhnOBuOAdueD7RB3xB+YeAWScb9jHsJBgH2Hcde8InP5JYhqrRR6iTMHyTEwgENK54Cp44e4v8BwNhsuHuw==}
+  /eslint@10.5.0:
+    resolution: {integrity: sha512-1y+7C+vi12bUK1IpZeaV3gsH9fHLBmPvYmPx42pvT/E9yG0IC8g3PUZZgp0+JLJl7ZDK0flc2gc+Aw9dpCvIsQ==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     hasBin: true
     peerDependencies:
@@ -2009,7 +2009,7 @@ packages:
       jiti:
         optional: true
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@10.4.1)
+      '@eslint-community/eslint-utils': 4.9.1(eslint@10.5.0)
       '@eslint-community/regexpp': 4.12.2
       '@eslint/config-array': 0.23.5
       '@eslint/config-helpers': 0.6.0
