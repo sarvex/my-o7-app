@@ -22,14 +22,14 @@
     "@planetscale/database": "1.20.1",
     "trpc-svelte-query": "3.0.3",
     "devalue": "5.8.1",
-    "@tanstack/svelte-query": "6.1.35",
+    "@tanstack/svelte-query": "6.1.36",
     "dotenv": "17.4.2"
   },
   "devDependencies": {
     "@sveltejs/adapter-cloudflare": "7.2.9",
     "typescript": "6.0.3",
     "svelte-preprocess": "6.0.5",
-    "prettier": "3.9.0",
+    "prettier": "3.9.1",
     "@cloudflare/workers-types": "4.20260627.1",
     "eslint": "10.6.0",
     "svelte-check": "4.7.1",
