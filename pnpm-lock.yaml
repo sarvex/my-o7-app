@@ -72,10 +72,10 @@ devDependencies:
     version: 3.20.0(eslint@10.6.0)(svelte@5.56.4)
   kysely-codegen:
     specifier: 0.20.0
-    version: 0.20.0(kysely@0.29.3)(mysql2@3.22.5)(typescript@6.0.3)
+    version: 0.20.0(kysely@0.29.3)(mysql2@3.22.6)(typescript@6.0.3)
   mysql2:
-    specifier: 3.22.5
-    version: 3.22.5(@types/node@25.3.0)
+    specifier: 3.22.6
+    version: 3.22.6(@types/node@25.3.0)
   postcss:
     specifier: 8.5.16
     version: 8.5.16
@@ -95,8 +95,8 @@ devDependencies:
     specifier: 7.8.0
     version: 7.8.0(@types/react@19.2.6)(react-dom@19.2.0)(react@19.2.0)(typescript@6.0.3)
   svelte-check:
-    specifier: 4.7.1
-    version: 4.7.1(svelte@5.56.4)(typescript@6.0.3)
+    specifier: 4.7.2
+    version: 4.7.2(svelte@5.56.4)(typescript@6.0.3)
   svelte-preprocess:
     specifier: 6.0.5
     version: 6.0.5(postcss-load-config@6.0.1)(postcss@8.5.16)(svelte@5.56.4)(typescript@6.0.3)
@@ -2386,7 +2386,7 @@ packages:
     resolution: {integrity: sha512-JCDrsP4Z1Sb9JwG0aJ8Eo2r7k4Ou5MwmThS/6lcIe1ICyb7UBJKGRIUUdqc2ASdE/42lgz6zFUnzAIhtXnBVrQ==}
     dev: true
 
-  /kysely-codegen@0.20.0(kysely@0.29.3)(mysql2@3.22.5)(typescript@6.0.3):
+  /kysely-codegen@0.20.0(kysely@0.29.3)(mysql2@3.22.6)(typescript@6.0.3):
     resolution: {integrity: sha512-LSi2KBG7uDmNCZ+XurLSA9LH7XFyyoQ6xb5DLJSInPTSYLVApjOP2KwO8mSaREWTtoX+C2AG2GTlYR0DLjTbcA==}
     engines: {node: '>=20.0.0'}
     hasBin: true
@@ -2429,7 +2429,7 @@ packages:
       kysely: 0.29.3
       micromatch: 4.0.8
       minimist: 1.2.8
-      mysql2: 3.22.5(@types/node@25.3.0)
+      mysql2: 3.22.6(@types/node@25.3.0)
       pluralize: 8.0.0
       zod: 4.4.3
     transitivePeerDependencies:
@@ -2681,8 +2681,8 @@ packages:
       sqlstring: 2.3.3
     dev: true
 
-  /mysql2@3.22.5(@types/node@25.3.0):
-    resolution: {integrity: sha512-95uZ2TrPWAZdwpB3vvvDbmEMcNG8yIeNCyu6GUcr/QnWEE/wXm7+mhOCsdQfWQDTV7qYT/PDUZ4U4UPP4AsXqQ==}
+  /mysql2@3.22.6(@types/node@25.3.0):
+    resolution: {integrity: sha512-fPKmeDGUzvFP7bMD5SASlJ5zIgvCC4hbanTmhbUlEmhyrY1hR4Hi3xLOWgTd3luYjLVifx6uGvMNJ2m/LlqEpg==}
     engines: {node: '>= 8.0'}
     peerDependencies:
       '@types/node': '>= 8'
@@ -2695,7 +2695,7 @@ packages:
       long: 5.3.2
       lru.min: 1.1.4
       named-placeholders: 1.1.6
-      sql-escaper: 1.3.3
+      sql-escaper: 1.4.0
     dev: true
 
   /named-placeholders@1.1.6:
@@ -3221,8 +3221,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /sql-escaper@1.3.3:
-    resolution: {integrity: sha512-BsTCV265VpTp8tm1wyIm1xqQCS+Q9NHx2Sr+WcnUrgLrQ6yiDIvHYJV5gHxsj1lMBy2zm5twLaZao8Jd+S8JJw==}
+  /sql-escaper@1.4.0:
+    resolution: {integrity: sha512-Ti/Zx9J3aITMYUMFhCKbkplQjyi7Kk2SyYXp+rzrkyKZetIy19XbQtVZ+0ZR5aVm/178tIJ6+aVvBqXkH+Xs7w==}
     engines: {bun: '>=1.0.0', deno: '>=2.0.0', node: '>=12.0.0'}
     dev: true
 
@@ -3254,8 +3254,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /svelte-check@4.7.1(svelte@5.56.4)(typescript@6.0.3):
-    resolution: {integrity: sha512-FGUOmAqxXdN/H9Zm8slrqO7SLtFisXRB7rfOsHNJ3MLTD2po/+Stg8XyErkpumPHbuUiYTcqrEIzxpVWKTLqtg==}
+  /svelte-check@4.7.2(svelte@5.56.4)(typescript@6.0.3):
+    resolution: {integrity: sha512-GoS4XJdGswlq0rIT1vtFLzJY1bvHtY37McY9H9Gkm1Ggw/ICdZYn8J/Z8Yi0BEL0i3R4+jtaWVePjyppMlij/A==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
