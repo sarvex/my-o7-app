@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-cloudflare": "7.2.9",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "svelte-preprocess": "6.0.5",
     "prettier": "3.9.4",
     "@cloudflare/workers-types": "5.20260708.1",
