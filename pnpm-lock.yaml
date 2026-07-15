@@ -72,10 +72,10 @@ devDependencies:
     version: 3.20.0(eslint@10.7.0)(svelte@5.56.5)
   kysely-codegen:
     specifier: 0.20.0
-    version: 0.20.0(kysely@0.29.3)(mysql2@3.22.6)(typescript@7.0.2)
+    version: 0.20.0(kysely@0.29.3)(mysql2@3.23.0)(typescript@7.0.2)
   mysql2:
-    specifier: 3.22.6
-    version: 3.22.6(@types/node@25.3.0)
+    specifier: 3.23.0
+    version: 3.23.0(@types/node@25.3.0)
   postcss:
     specifier: 8.5.19
     version: 8.5.19
@@ -2546,7 +2546,7 @@ packages:
     resolution: {integrity: sha512-JCDrsP4Z1Sb9JwG0aJ8Eo2r7k4Ou5MwmThS/6lcIe1ICyb7UBJKGRIUUdqc2ASdE/42lgz6zFUnzAIhtXnBVrQ==}
     dev: true
 
-  /kysely-codegen@0.20.0(kysely@0.29.3)(mysql2@3.22.6)(typescript@7.0.2):
+  /kysely-codegen@0.20.0(kysely@0.29.3)(mysql2@3.23.0)(typescript@7.0.2):
     resolution: {integrity: sha512-LSi2KBG7uDmNCZ+XurLSA9LH7XFyyoQ6xb5DLJSInPTSYLVApjOP2KwO8mSaREWTtoX+C2AG2GTlYR0DLjTbcA==}
     engines: {node: '>=20.0.0'}
     hasBin: true
@@ -2589,7 +2589,7 @@ packages:
       kysely: 0.29.3
       micromatch: 4.0.8
       minimist: 1.2.8
-      mysql2: 3.22.6(@types/node@25.3.0)
+      mysql2: 3.23.0(@types/node@25.3.0)
       pluralize: 8.0.0
       zod: 4.4.3
     transitivePeerDependencies:
@@ -2841,8 +2841,8 @@ packages:
       sqlstring: 2.3.3
     dev: true
 
-  /mysql2@3.22.6(@types/node@25.3.0):
-    resolution: {integrity: sha512-fPKmeDGUzvFP7bMD5SASlJ5zIgvCC4hbanTmhbUlEmhyrY1hR4Hi3xLOWgTd3luYjLVifx6uGvMNJ2m/LlqEpg==}
+  /mysql2@3.23.0(@types/node@25.3.0):
+    resolution: {integrity: sha512-ZwyGLoG9BRlL7hKNDcIy7q18hA6WTWGEpLAerGHXj5Xahemia4msZdwjIOUIzesjK3B5z5gWLktf+2tYSLAyTA==}
     engines: {node: '>= 8.0'}
     peerDependencies:
       '@types/node': '>= 8'
@@ -2855,7 +2855,7 @@ packages:
       long: 5.3.2
       lru.min: 1.1.4
       named-placeholders: 1.1.6
-      sql-escaper: 1.4.0
+      sql-escaper: 1.5.1
     dev: true
 
   /named-placeholders@1.1.6:
@@ -3381,8 +3381,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /sql-escaper@1.4.0:
-    resolution: {integrity: sha512-Ti/Zx9J3aITMYUMFhCKbkplQjyi7Kk2SyYXp+rzrkyKZetIy19XbQtVZ+0ZR5aVm/178tIJ6+aVvBqXkH+Xs7w==}
+  /sql-escaper@1.5.1:
+    resolution: {integrity: sha512-4toX5E1fQbBrpfXidaHnF0669nkAdETeIPTs2SUjxxD7RRIs9ICG4gtpmfc68JCEKehsdwLFqBu9VlQqZ1P1gg==}
     engines: {bun: '>=1.0.0', deno: '>=2.0.0', node: '>=12.0.0'}
     dev: true
 
