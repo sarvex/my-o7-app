@@ -46,7 +46,7 @@
     "mysql2": "3.23.0",
     "@typescript-eslint/parser": "8.64.0",
     "autoprefixer": "10.5.3",
-    "prettier-plugin-tailwindcss": "0.8.0",
+    "prettier-plugin-tailwindcss": "0.8.1",
     "@typescript-eslint/eslint-plugin": "8.64.0"
   }
 }
