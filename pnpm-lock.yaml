@@ -72,10 +72,10 @@ devDependencies:
     version: 3.22.0(eslint@10.8.0)(svelte@5.56.8)
   kysely-codegen:
     specifier: 0.20.0
-    version: 0.20.0(kysely@0.29.4)(mysql2@3.23.1)(typescript@7.0.2)
+    version: 0.20.0(kysely@0.29.4)(mysql2@3.23.2)(typescript@7.0.2)
   mysql2:
-    specifier: 3.23.1
-    version: 3.23.1(@types/node@25.3.0)
+    specifier: 3.23.2
+    version: 3.23.2(@types/node@25.3.0)
   postcss:
     specifier: 8.5.23
     version: 8.5.23
@@ -92,11 +92,11 @@ devDependencies:
     specifier: 0.8.1
     version: 0.8.1(prettier-plugin-svelte@4.1.1)(prettier@3.9.6)
   prisma:
-    specifier: 7.9.0
-    version: 7.9.0(@types/react@19.2.6)(react-dom@19.2.0)(react@19.2.0)(typescript@7.0.2)
+    specifier: 7.9.1
+    version: 7.9.1(@types/react@19.2.6)(react-dom@19.2.0)(react@19.2.0)(typescript@7.0.2)
   svelte-check:
-    specifier: 4.7.3
-    version: 4.7.3(svelte@5.56.8)(typescript@7.0.2)
+    specifier: 4.7.4
+    version: 4.7.4(svelte@5.56.8)(typescript@7.0.2)
   svelte-preprocess:
     specifier: 6.0.5
     version: 6.0.5(postcss-load-config@6.0.1)(postcss@8.5.23)(svelte@5.56.8)(typescript@7.0.2)
@@ -826,8 +826,8 @@ packages:
   /@polka/url@1.0.0-next.24:
     resolution: {integrity: sha512-2LuNTFBIO0m7kKIQvvPHN6UE63VjpmL9rnEEaOOaiSPbZK+zUOYIzBAWcED+3XYzhYsd/0mD57VdxAEqqV52CQ==}
 
-  /@prisma/config@7.9.0:
-    resolution: {integrity: sha512-CsoK2mhl0u+N4/8V+XroQMOUNIic4isqD+E2HBG8l1yGEKo62CFDu3FHo0FdwItjl6XkW+omA1STSzeN1DAXlg==}
+  /@prisma/config@7.9.1:
+    resolution: {integrity: sha512-4znKhxTmXmuPye9Z6pbIyYb5VZlkZ05qG1L6Dr4g+7oTwc6V50Bs9XirFBDdjWt+H/AabMn9aUnxBcvj8z05aA==}
     dependencies:
       c12: 3.3.4
       deepmerge-ts: 7.1.5
@@ -841,12 +841,12 @@ packages:
     resolution: {integrity: sha512-YSGTiSlBAVJPzX4ONZmMotL+ozJwQjRmZweQNIq/ER0tQJKJynNkRB3kyvt37eOfsbMCXk3gnLF6J9OJ4QWftw==}
     dev: true
 
-  /@prisma/debug@7.9.0:
-    resolution: {integrity: sha512-i0KdVQuKUE6N9NloHs+sUNAk2c9svR3myBndQbA3BoeoArsSpwtNgTdHZL+wBtCLCcdS2OOC/PKhgTe36jkF5A==}
+  /@prisma/debug@7.9.1:
+    resolution: {integrity: sha512-/cpVZ4itxtcgB8GHBvZtcmuEjq+lWsLrRJxFMbwZrT1RIdtuKmUm7PPGo/wzfbYpBrk+9WmmBE8CHJw2rybKDQ==}
     dev: true
 
-  /@prisma/dev@0.24.14(typescript@7.0.2):
-    resolution: {integrity: sha512-NhFO49O2JPTdzYiLHvceQn/HiwmcKF/iGV39ko3CpYsoGqS3rz3ko6gzuxFSIeHNwNJeuNcDexyyGeTO3DW80A==}
+  /@prisma/dev@0.24.17(typescript@7.0.2):
+    resolution: {integrity: sha512-UvdZzmpFwknnfreh6Jije84ekkYGPYEJhXG1tFzCsCfQyzJifrOo38eZc0qajzvaC6OLUOrN9ML5XfCnEZL9DA==}
     dependencies:
       '@electric-sql/pglite': 0.4.3
       '@electric-sql/pglite-socket': 0.1.3(@electric-sql/pglite@0.4.3)
@@ -854,14 +854,14 @@ packages:
       '@prisma/get-platform': 7.2.0
       '@prisma/query-plan-executor': 7.2.0
       '@prisma/streams-local': 0.1.11
-      find-my-way: 9.6.0
+      find-my-way: 9.7.0
       foreground-child: 3.3.1
       get-port-please: 3.2.0
       pathe: 2.0.3
       proper-lockfile: 4.1.2
       remeda: 2.33.4
       std-env: 3.10.0
-      valibot: 1.2.0(typescript@7.0.2)
+      valibot: 1.4.2(typescript@7.0.2)
       zeptomatch: 2.1.0
     transitivePeerDependencies:
       - typescript
@@ -871,22 +871,22 @@ packages:
     resolution: {integrity: sha512-2BsPPFksz3CQUXG6af3rVCtJKg6+JJGJTtfgu2fU8DdXhOfkBjulCq8mwybCd6ge0/jhZq2kOtLAbmUDMyI1nA==}
     dev: true
 
-  /@prisma/engines@7.9.0:
-    resolution: {integrity: sha512-lDWJp/pgSWCLfYsupmmNo96jfsbQnH1yjia8XVM2Kh8nRZhD0bQU2jCHuy3ZTPMLR3apRD3k145ybENalAYjYw==}
+  /@prisma/engines@7.9.1:
+    resolution: {integrity: sha512-UprXSMNXx2NF5ow4pqaQtE8OuBz6K78B0wc0tn2L28G5r933iWp1DR9Do2qWrsNvvFIP3x6mpEWnQtckMO0Uhg==}
     requiresBuild: true
     dependencies:
-      '@prisma/debug': 7.9.0
+      '@prisma/debug': 7.9.1
       '@prisma/engines-version': 7.9.0-1.e922089b7d7502aff4249d5da3420f6fa55fc6ad
-      '@prisma/fetch-engine': 7.9.0
-      '@prisma/get-platform': 7.9.0
+      '@prisma/fetch-engine': 7.9.1
+      '@prisma/get-platform': 7.9.1
     dev: true
 
-  /@prisma/fetch-engine@7.9.0:
-    resolution: {integrity: sha512-F0XlIgjbE3EywRVR/HpCerNI/dxo40vK66tHcWpsWYwH/Jk9+FsICEzATeMsZ7bdnpZz93hkD4sAb5rKLsCCpA==}
+  /@prisma/fetch-engine@7.9.1:
+    resolution: {integrity: sha512-9DwxrNTeT25Orbu9CWh0CZvVlyY1lmscpbaeLZcOnuR7zcuFrt91YSmmOfIm7zJ08YOZ6mVzURKwLoMwEBcK8w==}
     dependencies:
-      '@prisma/debug': 7.9.0
+      '@prisma/debug': 7.9.1
       '@prisma/engines-version': 7.9.0-1.e922089b7d7502aff4249d5da3420f6fa55fc6ad
-      '@prisma/get-platform': 7.9.0
+      '@prisma/get-platform': 7.9.1
     dev: true
 
   /@prisma/get-platform@7.2.0:
@@ -895,10 +895,10 @@ packages:
       '@prisma/debug': 7.2.0
     dev: true
 
-  /@prisma/get-platform@7.9.0:
-    resolution: {integrity: sha512-4awv6ATdgrHdLms0XKikCyfArn8BrUHZfqg0mtCKrI4+WJe24nmpsdwsypM9ozd03wa846AngY+zSbnngkMrXQ==}
+  /@prisma/get-platform@7.9.1:
+    resolution: {integrity: sha512-PK8R60YZRQvYxBrGG9i7l2/rFyzy+2MuI1dKtmtrCqPH8YpiJx/MfiC7LRzX5786rZDEv7BngcjfIJW4/9ADuw==}
     dependencies:
-      '@prisma/debug': 7.9.0
+      '@prisma/debug': 7.9.1
     dev: true
 
   /@prisma/query-plan-executor@7.2.0:
@@ -1235,8 +1235,8 @@ packages:
       typescript: 7.0.2
       vite: 8.1.5(@types/node@25.3.0)
 
-  /@sveltejs/load-config@0.2.0:
-    resolution: {integrity: sha512-1LgZ/qUqSoq+QorD83lk2hka79Px0wXNW2q5V1nZlxGhQgw1jrsIbVz5YiCeucVLo4XvFLjXukUaQjIiqowkcg==}
+  /@sveltejs/load-config@0.2.1:
+    resolution: {integrity: sha512-5m3B2cbqQ4TbwW6Xkh66Ntw6dD7gNc77cCxABTTesWcq9jxIzMgTk97pZx5vEtvQx8iokgi7GIphqZe+PGwcZA==}
     engines: {node: '>= 18.0.0'}
     dev: true
 
@@ -2586,8 +2586,8 @@ packages:
       to-regex-range: 5.0.1
     dev: true
 
-  /find-my-way@9.6.0:
-    resolution: {integrity: sha512-Zf4Xve4RymLl7NgaavNebZ01joJ8MfVerOG43wy7SHLO+r+K0C6d/SE0BiR7AV5V1VOCFlOP7ecdo+I4qmiHrQ==}
+  /find-my-way@9.7.0:
+    resolution: {integrity: sha512-f2JHn75x2JlwUwLenZypgczR7YWMb/uO9BvUXtus+JMgkbIkLADd38cI4EiV+OQqrGo1Zlq6V8wnqMJ8e62wUQ==}
     engines: {node: '>=20'}
     dependencies:
       fast-deep-equal: 3.1.3
@@ -2814,7 +2814,7 @@ packages:
     resolution: {integrity: sha512-JCDrsP4Z1Sb9JwG0aJ8Eo2r7k4Ou5MwmThS/6lcIe1ICyb7UBJKGRIUUdqc2ASdE/42lgz6zFUnzAIhtXnBVrQ==}
     dev: true
 
-  /kysely-codegen@0.20.0(kysely@0.29.4)(mysql2@3.23.1)(typescript@7.0.2):
+  /kysely-codegen@0.20.0(kysely@0.29.4)(mysql2@3.23.2)(typescript@7.0.2):
     resolution: {integrity: sha512-LSi2KBG7uDmNCZ+XurLSA9LH7XFyyoQ6xb5DLJSInPTSYLVApjOP2KwO8mSaREWTtoX+C2AG2GTlYR0DLjTbcA==}
     engines: {node: '>=20.0.0'}
     hasBin: true
@@ -2857,7 +2857,7 @@ packages:
       kysely: 0.29.4
       micromatch: 4.0.8
       minimist: 1.2.8
-      mysql2: 3.23.1(@types/node@25.3.0)
+      mysql2: 3.23.2(@types/node@25.3.0)
       pluralize: 8.0.0
       zod: 4.4.3
     transitivePeerDependencies:
@@ -3120,8 +3120,8 @@ packages:
       sqlstring: 2.3.3
     dev: true
 
-  /mysql2@3.23.1(@types/node@25.3.0):
-    resolution: {integrity: sha512-tTuRnC7qCet2IOfSNMYZ5SwXuBnfvBPAcIA28P0gtruXyZlU1LMxA6uha32kYypoFgyYklMqhLWwt4laYwXR/Q==}
+  /mysql2@3.23.2(@types/node@25.3.0):
+    resolution: {integrity: sha512-fxh3HpQ8vJtu/Mmnd4Xsur19jGjHGzRLMxptiDtOkbX7EVBgnafGSGDx1WGGVmJLClVh2LeeBMMo24IFv8wCyQ==}
     engines: {node: '>= 8.0'}
     peerDependencies:
       '@types/node': '>= 8'
@@ -3426,8 +3426,8 @@ packages:
     resolution: {integrity: sha512-dKp+C4iXWK4vVYZmYSd0KBH5F/h1HoZRsbJ82AVKRO3PEo8L4lBS/vLwhVtpwwuYcoIsVY+1JYKR268yn480uQ==}
     dev: true
 
-  /prisma@7.9.0(@types/react@19.2.6)(react-dom@19.2.0)(react@19.2.0)(typescript@7.0.2):
-    resolution: {integrity: sha512-isQTJEK4pyOlAVzm6kBUDjzgdsgs0A/snpB38ycTHeOHW34qfepP+ClQltgDXqjZBnXALhEtE4duh9L3tN5fHw==}
+  /prisma@7.9.1(@types/react@19.2.6)(react-dom@19.2.0)(react@19.2.0)(typescript@7.0.2):
+    resolution: {integrity: sha512-aPqePoZIqwlAchbgbFDO/wHqGB+7H1nj9gaM+OsL9h77S5S3TnLd9BgD3LnoeDikULo7cl2HSUrEyQ55Z7DYbg==}
     engines: {node: ^20.19 || ^22.12 || >=24.0}
     hasBin: true
     requiresBuild: true
@@ -3440,9 +3440,9 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@prisma/config': 7.9.0
-      '@prisma/dev': 0.24.14(typescript@7.0.2)
-      '@prisma/engines': 7.9.0
+      '@prisma/config': 7.9.1
+      '@prisma/dev': 0.24.17(typescript@7.0.2)
+      '@prisma/engines': 7.9.1
       '@prisma/studio-core': 0.33.0(@types/react@19.2.6)(react-dom@19.2.0)(react@19.2.0)
       mysql2: 3.15.3
       postgres: 3.4.7
@@ -3709,16 +3709,16 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /svelte-check@4.7.3(svelte@5.56.8)(typescript@7.0.2):
-    resolution: {integrity: sha512-DHdTCGX62R0fCxBEaT+USdASAnoaRBaaNczkRJl0K7o3WyoCeVUbVxo6fKqpOll/B+WMWCsiFK0eFrJSNBKZIg==}
+  /svelte-check@4.7.4(svelte@5.56.8)(typescript@7.0.2):
+    resolution: {integrity: sha512-IW9ot9YqAoyv8FvyN+eb4ZTe8zgcKZrJLNYU6dzSKkGwEBsSPc4K7lmQ8bKn8W2YMXM6WDfZSSVOaGtekyUfOQ==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
-      typescript: '>=5.0.0'
+      typescript: ^5.0.0 || ^6.0.0
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
-      '@sveltejs/load-config': 0.2.0
+      '@sveltejs/load-config': 0.2.1
       chokidar: 4.0.3
       fdir: 6.5.0(picomatch@4.0.5)
       picocolors: 1.1.1
@@ -3960,8 +3960,8 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /valibot@1.2.0(typescript@7.0.2):
-    resolution: {integrity: sha512-mm1rxUsmOxzrwnX5arGS+U4T25RdvpPjPN4yR0u9pUBov9+zGVtO84tif1eY4r6zWxVxu3KzIyknJy3rxfRZZg==}
+  /valibot@1.4.2(typescript@7.0.2):
+    resolution: {integrity: sha512-gjdCvJ6d3RyHAneqxMYMW9QMCwYMb3jpOO0IyHZV1bnRHFBHrX3VkIILt5XYR0WhwHiH7Mty8ovuPZ/O3gamrg==}
     peerDependencies:
       typescript: '>=5'
     peerDependenciesMeta:
