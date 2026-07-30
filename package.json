@@ -37,7 +37,7 @@
     "postcss": "8.5.25",
     "tailwindcss": "4.3.3",
     "prisma": "7.9.1",
-    "vite": "8.1.5",
+    "vite": "8.2.0",
     "prettier-plugin-svelte": "4.1.1",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-svelte": "3.22.0",
