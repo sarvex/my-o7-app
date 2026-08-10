@@ -72,10 +72,10 @@ devDependencies:
     version: 3.22.0(eslint@10.8.1)(svelte@5.56.8)
   kysely-codegen:
     specifier: 0.20.0
-    version: 0.20.0(kysely@0.29.5)(mysql2@3.23.2)(typescript@7.0.2)
+    version: 0.20.0(kysely@0.29.5)(mysql2@3.23.3)(typescript@7.0.2)
   mysql2:
-    specifier: 3.23.2
-    version: 3.23.2(@types/node@25.3.0)
+    specifier: 3.23.3
+    version: 3.23.3(@types/node@25.3.0)
   postcss:
     specifier: 8.5.26
     version: 8.5.26
@@ -2697,6 +2697,13 @@ packages:
       safer-buffer: 2.1.2
     dev: true
 
+  /iconv-lite@0.7.3:
+    resolution: {integrity: sha512-IKXpvIzjnC9XTAUbVBcMfGS0EPaIXtW6v+zr+RRp+hqULEpo0owZax6wyRwPOJbWbzjYspQwusTsfVr0ifh4uQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      safer-buffer: 2.1.2
+    dev: true
+
   /ignore@5.3.1:
     resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
     engines: {node: '>= 4'}
@@ -2815,7 +2822,7 @@ packages:
     resolution: {integrity: sha512-JCDrsP4Z1Sb9JwG0aJ8Eo2r7k4Ou5MwmThS/6lcIe1ICyb7UBJKGRIUUdqc2ASdE/42lgz6zFUnzAIhtXnBVrQ==}
     dev: true
 
-  /kysely-codegen@0.20.0(kysely@0.29.5)(mysql2@3.23.2)(typescript@7.0.2):
+  /kysely-codegen@0.20.0(kysely@0.29.5)(mysql2@3.23.3)(typescript@7.0.2):
     resolution: {integrity: sha512-LSi2KBG7uDmNCZ+XurLSA9LH7XFyyoQ6xb5DLJSInPTSYLVApjOP2KwO8mSaREWTtoX+C2AG2GTlYR0DLjTbcA==}
     engines: {node: '>=20.0.0'}
     hasBin: true
@@ -2858,7 +2865,7 @@ packages:
       kysely: 0.29.5
       micromatch: 4.0.8
       minimist: 1.2.8
-      mysql2: 3.23.2(@types/node@25.3.0)
+      mysql2: 3.23.3(@types/node@25.3.0)
       pluralize: 8.0.0
       zod: 4.4.3
     transitivePeerDependencies:
@@ -3114,17 +3121,16 @@ packages:
       sqlstring: 2.3.3
     dev: true
 
-  /mysql2@3.23.2(@types/node@25.3.0):
-    resolution: {integrity: sha512-fxh3HpQ8vJtu/Mmnd4Xsur19jGjHGzRLMxptiDtOkbX7EVBgnafGSGDx1WGGVmJLClVh2LeeBMMo24IFv8wCyQ==}
+  /mysql2@3.23.3(@types/node@25.3.0):
+    resolution: {integrity: sha512-ehp9HEKr4wVJaBOUVxNFa+CNrsCCCZ6363/jbGhb7WpEmSRNIXjHBjFs5K2s2cXn7j/RhDieejsQJ6nfUwD6vQ==}
     engines: {node: '>= 8.0'}
     peerDependencies:
       '@types/node': '>= 8'
     dependencies:
       '@types/node': 25.3.0
       aws-ssl-profiles: 1.1.2
-      denque: 2.1.0
       generate-function: 2.3.1
-      iconv-lite: 0.7.2
+      iconv-lite: 0.7.3
       long: 5.3.2
       lru.min: 1.1.4
       named-placeholders: 1.1.6
