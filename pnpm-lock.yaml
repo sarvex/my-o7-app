@@ -27,11 +27,11 @@ dependencies:
     specifier: 17.4.2
     version: 17.4.2
   kysely:
-    specifier: 0.29.5
-    version: 0.29.5
+    specifier: 0.29.6
+    version: 0.29.6
   kysely-planetscale:
     specifier: 1.7.1
-    version: 1.7.1(@planetscale/database@1.20.1)(kysely@0.29.5)
+    version: 1.7.1(@planetscale/database@1.20.1)(kysely@0.29.6)
   svelte:
     specifier: 5.57.0
     version: 5.57.0
@@ -56,8 +56,8 @@ devDependencies:
     specifier: 8.70.0
     version: 8.70.0(eslint@10.10.0)(typescript@7.0.2)
   autoprefixer:
-    specifier: 10.6.0
-    version: 10.6.0(postcss@8.5.28)
+    specifier: 10.6.1
+    version: 10.6.1(postcss@8.5.28)
   eslint:
     specifier: 10.10.0
     version: 10.10.0
@@ -72,7 +72,7 @@ devDependencies:
     version: 3.23.0(eslint@10.10.0)(svelte@5.57.0)
   kysely-codegen:
     specifier: 0.20.0
-    version: 0.20.0(kysely@0.29.5)(mysql2@3.24.4)(typescript@7.0.2)
+    version: 0.20.0(kysely@0.29.6)(mysql2@3.24.4)(typescript@7.0.2)
   mysql2:
     specifier: 3.24.4
     version: 3.24.4(@types/node@25.3.0)
@@ -1860,8 +1860,8 @@ packages:
       printable-characters: 1.0.42
     dev: true
 
-  /autoprefixer@10.6.0(postcss@8.5.28):
-    resolution: {integrity: sha512-A26d6qs9kqGgkmImIXMYvXTzqb4Qv7AVgpY1NXzr9Y659J8qHHnLOO/zE8ewIGFMprOolAoRAQYDgNryXIJKBw==}
+  /autoprefixer@10.6.1(postcss@8.5.28):
+    resolution: {integrity: sha512-cL1Qz6ADZhcEbny/8HPfe99J6HhNoYtpX2LFLIbhgGE7Q1hlQVkYFdetDN7Id3KiQxhDrHwzlHr/YQCnZ8+xSA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -2819,7 +2819,7 @@ packages:
     resolution: {integrity: sha512-JCDrsP4Z1Sb9JwG0aJ8Eo2r7k4Ou5MwmThS/6lcIe1ICyb7UBJKGRIUUdqc2ASdE/42lgz6zFUnzAIhtXnBVrQ==}
     dev: true
 
-  /kysely-codegen@0.20.0(kysely@0.29.5)(mysql2@3.24.4)(typescript@7.0.2):
+  /kysely-codegen@0.20.0(kysely@0.29.6)(mysql2@3.24.4)(typescript@7.0.2):
     resolution: {integrity: sha512-LSi2KBG7uDmNCZ+XurLSA9LH7XFyyoQ6xb5DLJSInPTSYLVApjOP2KwO8mSaREWTtoX+C2AG2GTlYR0DLjTbcA==}
     engines: {node: '>=20.0.0'}
     hasBin: true
@@ -2859,7 +2859,7 @@ packages:
       diff: 8.0.3
       dotenv: 17.4.2
       dotenv-expand: 12.0.3
-      kysely: 0.29.5
+      kysely: 0.29.6
       micromatch: 4.0.8
       minimist: 1.2.8
       mysql2: 3.24.4(@types/node@25.3.0)
@@ -2869,7 +2869,7 @@ packages:
       - typescript
     dev: true
 
-  /kysely-planetscale@1.7.1(@planetscale/database@1.20.1)(kysely@0.29.5):
+  /kysely-planetscale@1.7.1(@planetscale/database@1.20.1)(kysely@0.29.6):
     resolution: {integrity: sha512-raPGGTp9uMRWFMiFzL5VDqk/QAtmhQxj4klgXUzkefOtCjyB0rYgEYsW0YODbGLQ43+IcOTU/kzBXohpK/IQJg==}
     peerDependencies:
       '@planetscale/database': '*'
@@ -2877,11 +2877,11 @@ packages:
     dependencies:
       '@planetscale/database': 1.20.1
       date-fns: 3.6.0
-      kysely: 0.29.5
+      kysely: 0.29.6
     dev: false
 
-  /kysely@0.29.5:
-    resolution: {integrity: sha512-ooa+eSbBNPTo3MycPEuW5jdrxQdQwdtB3LC3h43FiXQbIry5tR0C5lDG7eealK0E4D7XjrnOP5DIUg/LyjRMYQ==}
+  /kysely@0.29.6:
+    resolution: {integrity: sha512-hHaB8C/rfzDDtr/t8YZwxAuPJTT0zHyaPoVzcXwDYhYNAgH/4sIfVhi/XLLIY+bL/FqaIJnjATDbi8ObSELmxg==}
     engines: {node: '>=22.0.0'}
 
   /levn@0.4.1:
