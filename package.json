@@ -23,7 +23,7 @@
     "trpc-svelte-query": "3.0.3",
     "devalue": "5.9.2",
     "@tanstack/svelte-query": "6.2.1",
-    "dotenv": "17.4.2"
+    "dotenv": "18.0.0"
   },
   "devDependencies": {
     "@sveltejs/adapter-cloudflare": "7.2.9",
