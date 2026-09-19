@@ -21,8 +21,8 @@ dependencies:
     specifier: 11.19.0
     version: 11.19.0(typescript@7.0.2)
   devalue:
-    specifier: 5.9.4
-    version: 5.9.4
+    specifier: 6.0.0
+    version: 6.0.0
   dotenv:
     specifier: 18.0.1
     version: 18.0.1
@@ -2240,6 +2240,11 @@ packages:
 
   /devalue@5.9.4:
     resolution: {integrity: sha512-sPAT4pztbu6586/hrhOnMKS17IJrvg12mXiSPSS3W5qDeN2RGgvZ0diZCm31dBbnevfVmujNO3IM2wrS4Y2Rhg==}
+
+  /devalue@6.0.0:
+    resolution: {integrity: sha512-jITRGmc7d+UInNVsQxcz3zsbDwP1MvvVzlNto94FAeieVO5oAk3lupptFvTVBcB+rM2BAagsKtTjgVKFsddCkA==}
+    engines: {node: '>=22.17'}
+    dev: false
 
   /diff@8.0.3:
     resolution: {integrity: sha512-qejHi7bcSD4hQAZE0tNAawRK1ZtafHDmMTMkrrIGgSLl7hTnQHmKCeB45xAcbfTqK2zowkM3j3bHt/4b/ARbYQ==}
