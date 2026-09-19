@@ -14,16 +14,16 @@
   "dependencies": {
     "kysely-planetscale": "1.7.1",
     "kysely": "0.29.6",
-    "svelte": "5.57.0",
+    "svelte": "5.57.1",
     "@trpc/server": "11.19.0",
     "@sveltejs/kit": "2.70.3",
     "zod": "4.6.5",
     "@trpc/client": "11.19.0",
     "@planetscale/database": "1.20.1",
     "trpc-svelte-query": "3.0.3",
-    "devalue": "5.9.2",
+    "devalue": "5.9.4",
     "@tanstack/svelte-query": "6.2.1",
-    "dotenv": "18.0.0"
+    "dotenv": "18.0.1"
   },
   "devDependencies": {
     "@sveltejs/adapter-cloudflare": "7.2.9",
