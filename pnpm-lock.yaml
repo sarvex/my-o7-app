@@ -10,7 +10,7 @@ dependencies:
     version: 2.0.0
   '@sveltejs/kit':
     specifier: 2.70.3
-    version: 2.70.3(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.57.1)(typescript@7.0.2)(vite@8.3.1)
+    version: 2.70.3(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.57.1)(typescript@7.0.2)(vite@8.3.2)
   '@tanstack/svelte-query':
     specifier: 6.3.0
     version: 6.3.0(svelte@5.57.1)
@@ -24,8 +24,8 @@ dependencies:
     specifier: 6.0.2
     version: 6.0.2
   dotenv:
-    specifier: 18.0.4
-    version: 18.0.4
+    specifier: 18.0.5
+    version: 18.0.5
   kysely:
     specifier: 0.29.6
     version: 0.29.6
@@ -107,8 +107,8 @@ devDependencies:
     specifier: 7.0.2
     version: 7.0.2
   vite:
-    specifier: 8.3.1
-    version: 8.3.1(@types/node@25.3.0)
+    specifier: 8.3.2
+    version: 8.3.2(@types/node@25.3.0)
 
 packages:
 
@@ -1209,12 +1209,12 @@ packages:
       wrangler: ^4.0.0
     dependencies:
       '@cloudflare/workers-types': 4.20260702.1
-      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.57.1)(typescript@7.0.2)(vite@8.3.1)
+      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.57.1)(typescript@7.0.2)(vite@8.3.2)
       worktop: 0.8.0-next.18
       wrangler: 4.6.0(@cloudflare/workers-types@5.20260929.1)
     dev: true
 
-  /@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.57.1)(typescript@7.0.2)(vite@8.3.1):
+  /@sveltejs/kit@2.70.3(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.57.1)(typescript@7.0.2)(vite@8.3.2):
     resolution: {integrity: sha512-UDvEYuZqAMbfB/oXIoqKvbKcb7YczK5zYrzmsGV1zRJk03jntwp8dXiYoIJotxAndsKvcPFtx9H1GRSKFdSHgg==}
     engines: {node: '>=18.13'}
     hasBin: true
@@ -1232,7 +1232,7 @@ packages:
     dependencies:
       '@standard-schema/spec': 1.0.0
       '@sveltejs/acorn-typescript': 1.0.10(acorn@8.16.0)
-      '@sveltejs/vite-plugin-svelte': 3.0.1(svelte@5.57.1)(vite@8.3.1)
+      '@sveltejs/vite-plugin-svelte': 3.0.1(svelte@5.57.1)(vite@8.3.2)
       '@types/cookie': 0.6.0
       acorn: 8.16.0
       cookie: 0.6.0
@@ -1245,14 +1245,14 @@ packages:
       sirv: 3.0.1
       svelte: 5.57.1
       typescript: 7.0.2
-      vite: 8.3.1(@types/node@25.3.0)
+      vite: 8.3.2(@types/node@25.3.0)
 
   /@sveltejs/load-config@0.2.3:
     resolution: {integrity: sha512-VT3qmUb8pRV2QrZjd8iAmtg8lf4W0TIjZbvXtz5MKei/q96teWZgGJyyidJzOjzZzvdq616eSRVeMYIQChUTAQ==}
     engines: {node: '>= 18.0.0'}
     dev: true
 
-  /@sveltejs/vite-plugin-svelte-inspector@2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.57.1)(vite@8.3.1):
+  /@sveltejs/vite-plugin-svelte-inspector@2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.57.1)(vite@8.3.2):
     resolution: {integrity: sha512-gjr9ZFg1BSlIpfZ4PRewigrvYmHWbDrq2uvvPB1AmTWKuM+dI1JXQSUu2pIrYLb/QncyiIGkFDFKTwJ0XqQZZg==}
     engines: {node: ^18.0.0 || >=20}
     peerDependencies:
@@ -1260,29 +1260,29 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.0.1(svelte@5.57.1)(vite@8.3.1)
+      '@sveltejs/vite-plugin-svelte': 3.0.1(svelte@5.57.1)(vite@8.3.2)
       debug: 4.4.3
       svelte: 5.57.1
-      vite: 8.3.1(@types/node@25.3.0)
+      vite: 8.3.2(@types/node@25.3.0)
     transitivePeerDependencies:
       - supports-color
 
-  /@sveltejs/vite-plugin-svelte@3.0.1(svelte@5.57.1)(vite@8.3.1):
+  /@sveltejs/vite-plugin-svelte@3.0.1(svelte@5.57.1)(vite@8.3.2):
     resolution: {integrity: sha512-CGURX6Ps+TkOovK6xV+Y2rn8JKa8ZPUHPZ/NKgCxAmgBrXReavzFl8aOSCj3kQ1xqT7yGJj53hjcV/gqwDAaWA==}
     engines: {node: ^18.0.0 || >=20}
     peerDependencies:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.57.1)(vite@8.3.1)
+      '@sveltejs/vite-plugin-svelte-inspector': 2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.57.1)(vite@8.3.2)
       debug: 4.4.3
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.17
       svelte: 5.57.1
       svelte-hmr: 0.15.3(svelte@5.57.1)
-      vite: 8.3.1(@types/node@25.3.0)
-      vitefu: 0.2.5(vite@8.3.1)
+      vite: 8.3.2(@types/node@25.3.0)
+      vitefu: 0.2.5(vite@8.3.2)
     transitivePeerDependencies:
       - supports-color
 
@@ -2268,8 +2268,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /dotenv@18.0.4:
-    resolution: {integrity: sha512-jGt9uI5BIxpVO15kvy+iEFqNAwxYClKWnkptLjSNPnFLC003Imd0ofr3aEVsbpHdSBdSsbcApNIlz4nbyGMwdA==}
+  /dotenv@18.0.5:
+    resolution: {integrity: sha512-aBrGvt6KhjxbEnatqMWOMidftwsrCiCvqh1yNIGB9QyF0J+VcWkKDMsvYOEm7ZS82oiV+BT1sTOtIlAmUlTpwQ==}
     engines: {node: '>=12'}
     hasBin: true
     dev: false
@@ -3895,7 +3895,7 @@ packages:
       '@trpc/server': ^11.0.0
       svelte: '>=5 <6'
     dependencies:
-      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.57.1)(typescript@7.0.2)(vite@8.3.1)
+      '@sveltejs/kit': 2.70.3(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@5.57.1)(typescript@7.0.2)(vite@8.3.2)
       '@tanstack/svelte-query': 6.3.0(svelte@5.57.1)
       '@trpc/client': 11.19.0(@trpc/server@11.19.0)(typescript@7.0.2)
       '@trpc/server': 11.19.0(typescript@7.0.2)
@@ -4006,8 +4006,8 @@ packages:
       typescript: 7.0.2
     dev: true
 
-  /vite@8.3.1(@types/node@25.3.0):
-    resolution: {integrity: sha512-/bvH9E9tmCXRGp2uXY3WbOldqpTwFkbha/8ANaEQ6VkxhH60KyqLwgZq6lG2y+4uT55x9+9eUHMpQ7uGnOCKjA==}
+  /vite@8.3.2(@types/node@25.3.0):
+    resolution: {integrity: sha512-SQr1x6W5vVSbROg7vsyXIaxK9b0G7zsT68acdWWRmnBUsgDieLCRG+Rep9WdZgcposvv/GSnr4GUUBqB3vXq6w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -4058,7 +4058,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vitefu@0.2.5(vite@8.3.1):
+  /vitefu@0.2.5(vite@8.3.2):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -4066,7 +4066,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 8.3.1(@types/node@25.3.0)
+      vite: 8.3.2(@types/node@25.3.0)
 
   /which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
