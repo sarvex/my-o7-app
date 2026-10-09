@@ -24,8 +24,8 @@ dependencies:
     specifier: 6.0.2
     version: 6.0.2
   dotenv:
-    specifier: 18.0.6
-    version: 18.0.6
+    specifier: 18.0.7
+    version: 18.0.7
   kysely:
     specifier: 0.29.6
     version: 0.29.6
@@ -2281,8 +2281,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /dotenv@18.0.6:
-    resolution: {integrity: sha512-ZMVmohV6CvAJtj++pZNyggluUt6hbRdQAxc2+Z635RL6/AG/ruXv5lHnybUFoxMPL/yrTL/tsF4paZu2l7RA6Q==}
+  /dotenv@18.0.7:
+    resolution: {integrity: sha512-QEvMEF8ca3GNZJJnAbOgxpj5ULhBvnMcURp+XKrtvqFNPgjBvYoswQ0Jl2cO7JzCjxZjJhr9ZuIEhlrRxMft/Q==}
     engines: {node: '>=12'}
     hasBin: true
     dev: false
