@@ -68,8 +68,8 @@ devDependencies:
     specifier: 5.5.6
     version: 5.5.6(eslint-config-prettier@10.1.8)(eslint@10.12.0)(prettier@3.9.9)
   eslint-plugin-svelte:
-    specifier: 3.23.0
-    version: 3.23.0(eslint@10.12.0)(svelte@5.57.2)
+    specifier: 3.23.1
+    version: 3.23.1(eslint@10.12.0)(svelte@5.57.2)
   kysely-codegen:
     specifier: 0.20.0
     version: 0.20.0(kysely@0.29.6)(mysql2@3.24.5)(typescript@7.0.2)
@@ -2401,8 +2401,8 @@ packages:
       synckit: 0.11.13
     dev: true
 
-  /eslint-plugin-svelte@3.23.0(eslint@10.12.0)(svelte@5.57.2):
-    resolution: {integrity: sha512-n9jRklDqy0+W834568a4ZIZTK7DHXxvvHHxxGP8nNq7N//pOZMubttskHOquyGgfTR4Z05q2NdGNlsTpIEA48w==}
+  /eslint-plugin-svelte@3.23.1(eslint@10.12.0)(svelte@5.57.2):
+    resolution: {integrity: sha512-+w86Jlx4IRUuuvtqD6j4njql+akx+81JnpvbN5de3AV5iq2SexvST/Jr51CiTlKeY0i+vhoKjPO/ywFKIP75sA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^8.57.1 || ^9.0.0 || ^10.0.0
@@ -2412,7 +2412,7 @@ packages:
         optional: true
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.12.0)
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.6.0
       eslint: 10.12.0
       esutils: 2.0.3
       globals: 16.1.0
@@ -2420,7 +2420,7 @@ packages:
       postcss: 8.5.29
       postcss-load-config: 3.1.4(postcss@8.5.29)
       postcss-safe-parser: 7.0.1(postcss@8.5.29)
-      semver: 7.7.3
+      semver: 7.8.5
       svelte: 5.57.2
       svelte-eslint-parser: 1.7.0(svelte@5.57.2)
     transitivePeerDependencies:
@@ -3599,12 +3599,6 @@ packages:
     resolution: {integrity: sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==}
     dev: true
 
-  /semver@7.7.3:
-    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dev: true
-
   /semver@7.8.5:
     resolution: {integrity: sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==}
     engines: {node: '>=10'}
@@ -3754,7 +3748,7 @@ packages:
       postcss: 8.5.29
       postcss-scss: 4.0.9(postcss@8.5.29)
       postcss-selector-parser: 7.1.0
-      semver: 7.7.3
+      semver: 7.8.5
       svelte: 5.57.2
     dev: true
 
