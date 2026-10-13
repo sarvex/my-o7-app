@@ -21,8 +21,8 @@ dependencies:
     specifier: 11.19.0
     version: 11.19.0(typescript@7.0.2)
   devalue:
-    specifier: 6.0.2
-    version: 6.0.2
+    specifier: 6.0.3
+    version: 6.0.3
   dotenv:
     specifier: 18.0.7
     version: 18.0.7
@@ -65,17 +65,17 @@ devDependencies:
     specifier: 10.1.8
     version: 10.1.8(eslint@10.12.0)
   eslint-plugin-prettier:
-    specifier: 5.5.6
-    version: 5.5.6(eslint-config-prettier@10.1.8)(eslint@10.12.0)(prettier@3.9.10)
+    specifier: 5.5.7
+    version: 5.5.7(eslint-config-prettier@10.1.8)(eslint@10.12.0)(prettier@3.9.10)
   eslint-plugin-svelte:
     specifier: 3.23.1
     version: 3.23.1(eslint@10.12.0)(svelte@5.57.2)
   kysely-codegen:
     specifier: 0.20.0
-    version: 0.20.0(kysely@0.29.6)(mysql2@3.24.5)(typescript@7.0.2)
+    version: 0.20.0(kysely@0.29.6)(mysql2@3.24.6)(typescript@7.0.2)
   mysql2:
-    specifier: 3.24.5
-    version: 3.24.5(@types/node@25.3.0)
+    specifier: 3.24.6
+    version: 3.24.6(@types/node@25.3.0)
   postcss:
     specifier: 8.5.30
     version: 8.5.30
@@ -234,6 +234,10 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
+    dev: true
+
+  /@dual-bundle/import-meta-resolve@4.2.1:
+    resolution: {integrity: sha512-id+7YRUgoUX6CgV0DtuhirQWodeeA7Lf4i2x71JS/vtA5pRb/hIGWlw+G6MeXvsM+MXrz0VAydTGElX1rAfgPg==}
     dev: true
 
   /@electric-sql/pglite-socket@0.1.3(@electric-sql/pglite@0.4.3):
@@ -2254,9 +2258,9 @@ packages:
   /devalue@5.9.4:
     resolution: {integrity: sha512-sPAT4pztbu6586/hrhOnMKS17IJrvg12mXiSPSS3W5qDeN2RGgvZ0diZCm31dBbnevfVmujNO3IM2wrS4Y2Rhg==}
 
-  /devalue@6.0.2:
-    resolution: {integrity: sha512-6V1HzU4to74skg//ScZR2mp9bdz+rESC9jQzVIIG/ha0HYgymHcXIQQCjH0+ivRaSuY82fa9fZ7Ro6QZT4s4uw==}
-    engines: {node: '>=22.17'}
+  /devalue@6.0.3:
+    resolution: {integrity: sha512-3woMEITftG1wKeO/4d/QXH1DVKctTSZg3jNGPpjp9hNr5Hos8MCFF5McTML5ZtgKDObm2R591B0spRp2IVernA==}
+    engines: {node: '>=18'}
     dev: false
 
   /diff@8.0.3:
@@ -2380,8 +2384,8 @@ packages:
       eslint: 10.12.0
     dev: true
 
-  /eslint-plugin-prettier@5.5.6(eslint-config-prettier@10.1.8)(eslint@10.12.0)(prettier@3.9.10):
-    resolution: {integrity: sha512-ifetmTcxWfz+4qRW3pH/ujdTq2jQIj59AxJMIN26K5avYgU8dxycUETQonWiW+wPrYXA0j3Try0l1CnwVQtDqQ==}
+  /eslint-plugin-prettier@5.5.7(eslint-config-prettier@10.1.8)(eslint@10.12.0)(prettier@3.9.10):
+    resolution: {integrity: sha512-WjHyn3GrFd+ZR0rzsLiM4zJZ35PZMOE0SUIxzGmnWNG0126yNfJKJzObmmkYDwHJfGlkz3PSlzyG9ez/LJntwg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
@@ -2398,7 +2402,7 @@ packages:
       eslint-config-prettier: 10.1.8(eslint@10.12.0)
       prettier: 3.9.10
       prettier-linter-helpers: 1.0.1
-      synckit: 0.11.13
+      synckit: 0.12.3
     dev: true
 
   /eslint-plugin-svelte@3.23.1(eslint@10.12.0)(svelte@5.57.2):
@@ -2847,7 +2851,7 @@ packages:
     resolution: {integrity: sha512-JCDrsP4Z1Sb9JwG0aJ8Eo2r7k4Ou5MwmThS/6lcIe1ICyb7UBJKGRIUUdqc2ASdE/42lgz6zFUnzAIhtXnBVrQ==}
     dev: true
 
-  /kysely-codegen@0.20.0(kysely@0.29.6)(mysql2@3.24.5)(typescript@7.0.2):
+  /kysely-codegen@0.20.0(kysely@0.29.6)(mysql2@3.24.6)(typescript@7.0.2):
     resolution: {integrity: sha512-LSi2KBG7uDmNCZ+XurLSA9LH7XFyyoQ6xb5DLJSInPTSYLVApjOP2KwO8mSaREWTtoX+C2AG2GTlYR0DLjTbcA==}
     engines: {node: '>=20.0.0'}
     hasBin: true
@@ -2890,7 +2894,7 @@ packages:
       kysely: 0.29.6
       micromatch: 4.0.8
       minimist: 1.2.8
-      mysql2: 3.24.5(@types/node@25.3.0)
+      mysql2: 3.24.6(@types/node@25.3.0)
       pluralize: 8.0.0
       zod: 4.6.7
     transitivePeerDependencies:
@@ -3136,8 +3140,8 @@ packages:
       sqlstring: 2.3.3
     dev: true
 
-  /mysql2@3.24.5(@types/node@25.3.0):
-    resolution: {integrity: sha512-X6Ujsr2QSkkLpkQGjxzpKRAPn9nu4axpR63ntBzquFVEvPOArgbUQ1sJjFKI7hnaYtiVZxa17Z7q18KSubW0IQ==}
+  /mysql2@3.24.6(@types/node@25.3.0):
+    resolution: {integrity: sha512-enu73KhbAua2L3dIxjc6qg6ZJ7H3pt1BImZASWNWY5xSsmJ1ZuUPULTDGXgmJbI61vb+nJAG19IZclIq19UidQ==}
     engines: {node: '>= 8.0'}
     peerDependencies:
       '@types/node': '>= 8'
@@ -3818,10 +3822,11 @@ packages:
     transitivePeerDependencies:
       - '@typescript-eslint/types'
 
-  /synckit@0.11.13:
-    resolution: {integrity: sha512-eNRKgb3z66Yp3D2CixVujOUvXLFUTij/zVnV8KRyvFdQwpz7I5DS8UfRkTeLzb64u+dkzDSdelE24izu+zSSUg==}
+  /synckit@0.12.3:
+    resolution: {integrity: sha512-U+/AXT6LWsxnj2vz9HeUuPWBNgdWxjyIEjEPdbJARC9txmgPzo2VEdqnFo4hHaNyMPtycyVJrSaQYeQv/PoyyA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
+      '@dual-bundle/import-meta-resolve': 4.2.1
       '@pkgr/core': 0.3.6
     dev: true
 
