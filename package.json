@@ -32,7 +32,7 @@
     "prettier": "3.9.10",
     "@cloudflare/workers-types": "5.20261016.1",
     "eslint": "10.12.0",
-    "svelte-check": "4.7.6",
+    "svelte-check": "4.7.7",
     "postcss-load-config": "6.0.1",
     "postcss": "8.5.30",
     "tailwindcss": "4.3.3",
