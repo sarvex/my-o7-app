@@ -40,7 +40,7 @@
     "vite": "8.3.6",
     "prettier-plugin-svelte": "4.1.1",
     "eslint-config-prettier": "10.1.8",
-    "eslint-plugin-svelte": "3.23.1",
+    "eslint-plugin-svelte": "3.24.1",
     "kysely-codegen": "0.20.0",
     "eslint-plugin-prettier": "5.5.7",
     "mysql2": "3.24.6",
