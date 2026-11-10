@@ -15,11 +15,11 @@ dependencies:
     specifier: 6.4.1
     version: 6.4.1(svelte@5.57.3)
   '@trpc/client':
-    specifier: 11.22.1
-    version: 11.22.1(@trpc/server@11.22.1)(typescript@7.0.2)
+    specifier: 11.26.0
+    version: 11.26.0(@trpc/server@11.26.0)(typescript@7.0.2)
   '@trpc/server':
-    specifier: 11.22.1
-    version: 11.22.1(typescript@7.0.2)
+    specifier: 11.26.0
+    version: 11.26.0(typescript@7.0.2)
   devalue:
     specifier: 6.0.3
     version: 6.0.3
@@ -37,7 +37,7 @@ dependencies:
     version: 5.57.3
   trpc-svelte-query:
     specifier: 3.0.3
-    version: 3.0.3(@sveltejs/kit@3.1.1)(@tanstack/svelte-query@6.4.1)(@trpc/client@11.22.1)(@trpc/server@11.22.1)(svelte@5.57.3)
+    version: 3.0.3(@sveltejs/kit@3.1.1)(@tanstack/svelte-query@6.4.1)(@trpc/client@11.26.0)(@trpc/server@11.26.0)(svelte@5.57.3)
   zod:
     specifier: 4.6.7
     version: 4.6.7
@@ -1368,22 +1368,36 @@ packages:
       svelte: 5.57.3
     dev: false
 
-  /@trpc/client@11.22.1(@trpc/server@11.22.1)(typescript@7.0.2):
-    resolution: {integrity: sha512-flkAwF8bzzNCVJ5xcTMS+Az6Go/XK30ZIOGT94UJBYAmMq1w2tY7gk7+CIMiRUdvHzOYAVPitX2H+20qcIIomA==}
-    hasBin: true
+  /@trpc/client@11.26.0(@trpc/server@11.26.0)(typescript@7.0.2):
+    resolution: {integrity: sha512-z/vqvt5OLJYmx66xfd5xDAYmz9qpjQbA7DVuASha6g1/QLy42Ik9IOXTLI0lZu3iXFrDjeKLzGFQQgRJISVjMg==}
     peerDependencies:
-      '@trpc/server': 11.22.1
+      '@trpc/server': 11.26.0
       typescript: '>=5.7.2'
     dependencies:
-      '@trpc/server': 11.22.1(typescript@7.0.2)
+      '@trpc/server': 11.26.0(typescript@7.0.2)
       typescript: 7.0.2
     dev: false
 
-  /@trpc/server@11.22.1(typescript@7.0.2):
-    resolution: {integrity: sha512-9SjWTS5iwENHOVPqpTjm0I1Os/CtuT6p8kDlovyEm00pXhpHX55tQM2vszJTEpcQhm/JfUz4ut/7Y9JZZQZo6A==}
-    hasBin: true
+  /@trpc/server@11.26.0(typescript@7.0.2):
+    resolution: {integrity: sha512-DFvyJRXbvk0fmSTkD8qh3wo7aXO1yed2AsELhDN/cvEwL4T+7rmPkSOKjEfZkEf6INBp+nIFZAl/B70DC6bY4A==}
     peerDependencies:
+      '@types/aws-lambda': '*'
+      '@types/express': '*'
+      '@types/ws': '*'
+      fastify: '*'
+      next: '*'
       typescript: '>=5.7.2'
+    peerDependenciesMeta:
+      '@types/aws-lambda':
+        optional: true
+      '@types/express':
+        optional: true
+      '@types/ws':
+        optional: true
+      fastify:
+        optional: true
+      next:
+        optional: true
     dependencies:
       typescript: 7.0.2
     dev: false
@@ -3840,7 +3854,7 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  /trpc-svelte-query@3.0.3(@sveltejs/kit@3.1.1)(@tanstack/svelte-query@6.4.1)(@trpc/client@11.22.1)(@trpc/server@11.22.1)(svelte@5.57.3):
+  /trpc-svelte-query@3.0.3(@sveltejs/kit@3.1.1)(@tanstack/svelte-query@6.4.1)(@trpc/client@11.26.0)(@trpc/server@11.26.0)(svelte@5.57.3):
     resolution: {integrity: sha512-A6qu1f58LMi7wqn+bb0DVuE6qAKhMBgquvpG3kFa88rkFeh6dYdexXZcRsoiKqeX+yJnbxrhb/tzI0xVyn9dUg==}
     peerDependencies:
       '@sveltejs/kit': '>=2.20.0 <3'
@@ -3851,8 +3865,8 @@ packages:
     dependencies:
       '@sveltejs/kit': 3.1.1(@sveltejs/vite-plugin-svelte@7.3.1)(svelte@5.57.3)(typescript@7.0.2)(vite@8.3.7)
       '@tanstack/svelte-query': 6.4.1(svelte@5.57.3)
-      '@trpc/client': 11.22.1(@trpc/server@11.22.1)(typescript@7.0.2)
-      '@trpc/server': 11.22.1(typescript@7.0.2)
+      '@trpc/client': 11.26.0(@trpc/server@11.26.0)(typescript@7.0.2)
+      '@trpc/server': 11.26.0(typescript@7.0.2)
       svelte: 5.57.3
     dev: false
 
