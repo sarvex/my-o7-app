@@ -29,7 +29,7 @@
     "@sveltejs/adapter-cloudflare": "8.0.2",
     "typescript": "7.0.2",
     "svelte-preprocess": "6.0.5",
-    "prettier": "3.9.10",
+    "prettier": "3.10.0",
     "@cloudflare/workers-types": "5.20261110.1",
     "eslint": "10.14.0",
     "svelte-check": "4.7.8",
