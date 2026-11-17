@@ -86,11 +86,11 @@ devDependencies:
     specifier: 3.10.1
     version: 3.10.1
   prettier-plugin-svelte:
-    specifier: 4.1.1
-    version: 4.1.1(prettier@3.10.1)(svelte@5.57.3)
+    specifier: 4.2.0
+    version: 4.2.0(prettier@3.10.1)(svelte@5.57.3)
   prettier-plugin-tailwindcss:
     specifier: 0.8.1
-    version: 0.8.1(prettier-plugin-svelte@4.1.1)(prettier@3.10.1)
+    version: 0.8.1(prettier-plugin-svelte@4.2.0)(prettier@3.10.1)
   prisma:
     specifier: 7.10.1
     version: 7.10.1(@types/node@25.3.0)(@types/react@19.2.6)(react-dom@19.2.0)(react@19.2.0)(typescript@7.0.2)
@@ -3399,8 +3399,8 @@ packages:
       fast-diff: 1.3.0
     dev: true
 
-  /prettier-plugin-svelte@4.1.1(prettier@3.10.1)(svelte@5.57.3):
-    resolution: {integrity: sha512-wXvbXMjSvb4C9ENWTHXyd+ihakKCsJ6rJhLP6/8HFNj4GkZr48jqL9PoKsl2sk7SyCZRTnJ7O2TTowUpOxP/KA==}
+  /prettier-plugin-svelte@4.2.0(prettier@3.10.1)(svelte@5.57.3):
+    resolution: {integrity: sha512-VgUFSR6+7/KLloVSIgKMwY/9OFxaixY/xsOBUCP95ZKaxSa6JBtLKzq6L1L/Tw6Jc1C7K+op7D1Yu5qD+YdPHA==}
     engines: {node: '>=20'}
     peerDependencies:
       prettier: ^3.0.0
@@ -3410,7 +3410,7 @@ packages:
       svelte: 5.57.3
     dev: true
 
-  /prettier-plugin-tailwindcss@0.8.1(prettier-plugin-svelte@4.1.1)(prettier@3.10.1):
+  /prettier-plugin-tailwindcss@0.8.1(prettier-plugin-svelte@4.2.0)(prettier@3.10.1):
     resolution: {integrity: sha512-iaFMYqDsE4ffdDkn5qup0j5f2aCEBFZrdrZnvu9QKTlWx/iGPeQ4HHu7b7fCPMxeo9nwQBiOAh2nSypdFYWJkw==}
     engines: {node: '>=20.19'}
     peerDependencies:
@@ -3466,7 +3466,7 @@ packages:
         optional: true
     dependencies:
       prettier: 3.10.1
-      prettier-plugin-svelte: 4.1.1(prettier@3.10.1)(svelte@5.57.3)
+      prettier-plugin-svelte: 4.2.0(prettier@3.10.1)(svelte@5.57.3)
     dev: true
 
   /prettier@3.10.1:
