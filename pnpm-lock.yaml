@@ -12,8 +12,8 @@ dependencies:
     specifier: 3.4.0
     version: 3.4.0(@sveltejs/vite-plugin-svelte@7.3.1)(svelte@5.58.0)(typescript@7.0.2)(vite@8.3.8)
   '@tanstack/svelte-query':
-    specifier: 6.4.4
-    version: 6.4.4(svelte@5.58.0)
+    specifier: 6.4.5
+    version: 6.4.5(svelte@5.58.0)
   '@trpc/client':
     specifier: 11.28.3
     version: 11.28.3(@trpc/server@11.28.3)(typescript@7.0.2)
@@ -37,7 +37,7 @@ dependencies:
     version: 5.58.0
   trpc-svelte-query:
     specifier: 3.0.3
-    version: 3.0.3(@sveltejs/kit@3.4.0)(@tanstack/svelte-query@6.4.4)(@trpc/client@11.28.3)(@trpc/server@11.28.3)(svelte@5.58.0)
+    version: 3.0.3(@sveltejs/kit@3.4.0)(@tanstack/svelte-query@6.4.5)(@trpc/client@11.28.3)(@trpc/server@11.28.3)(svelte@5.58.0)
   zod:
     specifier: 4.6.7
     version: 4.6.7
@@ -1439,16 +1439,16 @@ packages:
       vite: 8.3.8(@types/node@25.3.0)
       vitefu: 1.1.3(vite@8.3.8)
 
-  /@tanstack/query-core@5.108.1:
-    resolution: {integrity: sha512-GBX6Xsc9E+9eVLLxuM7orQNbssQjpruOCbocBYwT78MjxOWT5I+CWdvEo0N+UM6+oCZEKxuSud1oFLvE3OEmIg==}
+  /@tanstack/query-core@5.108.2:
+    resolution: {integrity: sha512-0l+0xDKqn71hfJBKaAvFP/X7WYM0TbscEk6nK1pHaWQUWUEA+WJD0VlT8wF+HIJANMV9B/DouPWwDnX3w/l9BA==}
     dev: false
 
-  /@tanstack/svelte-query@6.4.4(svelte@5.58.0):
-    resolution: {integrity: sha512-BqLa+1Bv7jtaB1hXlKeNK12DqbFe6GvXZufMkulHlHYw1QiwxLrauDpNjPmn7AZ0BHkzq7TJ2dPmayzvONTZEg==}
+  /@tanstack/svelte-query@6.4.5(svelte@5.58.0):
+    resolution: {integrity: sha512-XpBX5fzIJxfNQFD6O/BBZlsty9UrUn+h4Lr7zM/WM+3PBKV/TpPEatJPorLCm0RNoTx0eJwNhPGq90AKN1ykWw==}
     peerDependencies:
       svelte: ^5.25.0
     dependencies:
-      '@tanstack/query-core': 5.108.1
+      '@tanstack/query-core': 5.108.2
       svelte: 5.58.0
     dev: false
 
@@ -3973,7 +3973,7 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  /trpc-svelte-query@3.0.3(@sveltejs/kit@3.4.0)(@tanstack/svelte-query@6.4.4)(@trpc/client@11.28.3)(@trpc/server@11.28.3)(svelte@5.58.0):
+  /trpc-svelte-query@3.0.3(@sveltejs/kit@3.4.0)(@tanstack/svelte-query@6.4.5)(@trpc/client@11.28.3)(@trpc/server@11.28.3)(svelte@5.58.0):
     resolution: {integrity: sha512-A6qu1f58LMi7wqn+bb0DVuE6qAKhMBgquvpG3kFa88rkFeh6dYdexXZcRsoiKqeX+yJnbxrhb/tzI0xVyn9dUg==}
     peerDependencies:
       '@sveltejs/kit': '>=2.20.0 <3'
@@ -3983,7 +3983,7 @@ packages:
       svelte: '>=5 <6'
     dependencies:
       '@sveltejs/kit': 3.4.0(@sveltejs/vite-plugin-svelte@7.3.1)(svelte@5.58.0)(typescript@7.0.2)(vite@8.3.8)
-      '@tanstack/svelte-query': 6.4.4(svelte@5.58.0)
+      '@tanstack/svelte-query': 6.4.5(svelte@5.58.0)
       '@trpc/client': 11.28.3(@trpc/server@11.28.3)(typescript@7.0.2)
       '@trpc/server': 11.28.3(typescript@7.0.2)
       svelte: 5.58.0
